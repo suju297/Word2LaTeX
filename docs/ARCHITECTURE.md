@@ -114,29 +114,42 @@ flowchart TB
 ## C4 Level 3 - Component Diagram (Conversion Path)
 
 ```mermaid
-flowchart LR
-    request["POST /v1/convert<br/>docx, ref_pdf, options_json"]
+flowchart TB
+    subgraph phase1["Phase 1 - Request and Guardrails"]
+      direction LR
+      request["POST /v1/convert<br/>docx, ref_pdf, options_json"]
+      options["parse_options()<br/>guarded by ALLOW_USER_OPTIONS"]
+      limiter["enforce_rate_limit()"]
+      request --> options --> limiter
+    end
 
-    options["parse_options()<br/>guarded by ALLOW_USER_OPTIONS"]
-    limiter["enforce_rate_limit()"]
+    subgraph phase2["Phase 2 - Orchestration"]
+      direction LR
+      convertSvc["convert_document()<br/>orchestration"]
+    end
 
-    convertSvc["convert_document()<br/>orchestration"]
+    subgraph phase3["Phase 3 - Conversion Pipeline"]
+      direction LR
+      parseDocx["parse_docx()"]
+      refPdf["generate_reference_pdf()<br/>if ref_pdf missing"]
+      analyze["analyze_document()<br/>layout metrics"]
+      applyProfile["apply_profile()<br/>auto, manual, calibrated"]
+      headerFallback["apply_header_image_fallback()"]
+      parseDocx --> refPdf --> analyze --> applyProfile --> headerFallback
+    end
 
-    parseDocx["parse_docx()"]
-    refPdf["generate_reference_pdf()<br/>if ref_pdf missing"]
-    analyze["analyze_document()<br/>layout metrics"]
-    applyProfile["apply_profile()<br/>auto, manual, calibrated"]
-    headerFallback["apply_header_image_fallback()"]
-    assignPolicy["decide_policy() per block"]
-    render["dynamic_generate() or generate_latex()"]
-    package["zip_directory(output)<br/>to wordtolatex_output.zip"]
+    subgraph phase4["Phase 4 - Render and Response"]
+      direction LR
+      assignPolicy["decide_policy() per block"]
+      render["dynamic_generate() or generate_latex()"]
+      package["zip_directory(output)<br/>to wordtolatex_output.zip"]
+      response["ZIP or JSON response"]
+      assignPolicy --> render --> package --> response
+    end
 
-    response["ZIP or JSON response"]
-
-    request --> options --> limiter --> convertSvc
+    limiter --> convertSvc
     convertSvc --> parseDocx
-    parseDocx --> refPdf
-    refPdf --> analyze --> applyProfile --> headerFallback --> assignPolicy --> render --> package --> response
+    headerFallback --> assignPolicy
 
     linkStyle 0 stroke:#F59E0B,stroke-width:3px;
     linkStyle 1 stroke:#D97706,stroke-width:3px;
