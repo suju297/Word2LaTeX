@@ -1,0 +1,33 @@
+{
+  "doc_id": "Resume_1",
+  "ref_pages": 1,
+  "gen_pages": 2,
+  "page_match": false,
+  "avg_similarity": 0.4578,
+  "median_vertical_drift_px": 38.0,
+  "verdict": "FAIL_PAGE_COUNT",
+  "pages": [
+    {
+      "page": 1,
+      "similarity": 0.4578,
+      "method": "ssim",
+      "ref_present": true,
+      "gen_present": true,
+      "content_top_ref": 0.001,
+      "content_top_gen": 0.024,
+      "vertical_drift_px": 38,
+      "density_ratio": 1.0
+    },
+    {
+      "page": 2,
+      "similarity": 0.0,
+      "method": "extra",
+      "ref_present": false,
+      "gen_present": true,
+      "content_top_ref": 0.0,
+      "content_top_gen": 0.0,
+      "vertical_drift_px": 0,
+      "density_ratio": 1.0
+    }
+  ]
+}

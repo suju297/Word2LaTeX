@@ -1,0 +1,39 @@
+{
+  "tables": [
+    {
+      "line_number": 66,
+      "column_count": 4,
+      "row_count": 0,
+      "header_preview": [],
+      "has_borders": true
+    }
+  ],
+  "equations": [
+    {
+      "line_number": 147,
+      "is_numbered": true,
+      "equation_number": 1,
+      "preview": "\\frac{x=-b\\pm\\sqrt{b^{2}-4\\,ac}}{2\\,a}"
+    },
+    {
+      "line_number": 153,
+      "is_numbered": false,
+      "equation_number": null,
+      "preview": "\\frac{x=-b\\pm\\sqrt{b^{2}-4\\,ac}}{2\\,a}"
+    }
+  ],
+  "heading_pattern": "arabic",
+  "list_stats": {
+    "total": 64,
+    "numbered": 31,
+    "bullet": 33
+  },
+  "section_stats": {
+    "count": 27,
+    "avg_length": 1320.0740740740741
+  },
+  "references": {
+    "has_references": false,
+    "count": 0
+  }
+}

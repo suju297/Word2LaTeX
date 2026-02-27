@@ -1,0 +1,407 @@
+{
+  "doc_id": "Resume_1",
+  "case_dir": "Resume_1",
+  "ref_pages": 1,
+  "gen_pages": 1,
+  "page_count_match": true,
+  "page_boxes": [
+    {
+      "page": 0,
+      "ref": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      },
+      "gen": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      }
+    }
+  ],
+  "by_label": {
+    "title": {
+      "count_scored": 5,
+      "avg": 0.14855210483074188,
+      "p50": 0.0323769748210907,
+      "p10": 0.004961938597261906,
+      "min": 0.002286222530528903,
+      "coverage_strict": 1.0,
+      "coverage_effective": 1.0,
+      "stats": {
+        "total": 5,
+        "missing": 0,
+        "tiny": 0,
+        "blank_both": 0
+      },
+      "drift": {
+        "median_dx": -15.0,
+        "median_dy": -25.0,
+        "p25_dx": -15.0,
+        "p75_dx": 55.0,
+        "p25_dy": -42.0,
+        "p75_dy": -16.0,
+        "iqr_dx": 70.0,
+        "iqr_dy": 26.0,
+        "count": 5
+      }
+    },
+    "figure": {
+      "count_scored": 4,
+      "avg": 0.22280731797218323,
+      "p50": 0.20977219939231873,
+      "p10": 0.05995699018239975,
+      "min": 0.016950348392128944,
+      "coverage_strict": 1.0,
+      "coverage_effective": 1.0,
+      "stats": {
+        "total": 4,
+        "missing": 0,
+        "tiny": 0,
+        "blank_both": 0
+      },
+      "drift": {
+        "median_dx": -28.0,
+        "median_dy": -61.5,
+        "p25_dx": -46.0,
+        "p75_dx": -2.0,
+        "p25_dy": -64.0,
+        "p75_dy": -58.25,
+        "iqr_dx": 44.0,
+        "iqr_dy": 5.75,
+        "count": 4
+      }
+    }
+  },
+  "regions": [
+    {
+      "region_id": "p0_title_000",
+      "doc_id": "Resume_1",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.951739490032196,
+      "bbox_norm": [
+        0.06241495169845282,
+        0.10068937359434185,
+        0.428876953125,
+        0.16463312322443183
+      ],
+      "status": "SCORED",
+      "score": 0.0022862224826367683,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.013717898784460645,
+      "drift_x": -15,
+      "drift_y": -16,
+      "search_pad_px": 64,
+      "hit_boundary": false,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_figure_001",
+      "doc_id": "Resume_1",
+      "page": 0,
+      "label": "figure",
+      "source": "ml",
+      "confidence": 0.9471039772033691,
+      "bbox_norm": [
+        0.5996408260569853,
+        0.0022626203479188863,
+        1.0,
+        0.3579842862215909
+      ],
+      "status": "SCORED",
+      "score": 0.16030580828648455,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": true,
+      "aligned_score": 0.20866437663015044,
+      "drift_x": -64,
+      "drift_y": -64,
+      "search_pad_px": 64,
+      "hit_boundary": true,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_title_002",
+      "doc_id": "Resume_1",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.9261322021484375,
+      "bbox_norm": [
+        0.07115886613434436,
+        0.781762177438447,
+        0.3584290268841912,
+        0.8142097241950758
+      ],
+      "status": "SCORED",
+      "score": 0.4515019825048447,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": true,
+      "aligned_score": 0.5426312276931206,
+      "drift_x": 64,
+      "drift_y": -61,
+      "search_pad_px": 64,
+      "hit_boundary": true,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_figure_003",
+      "doc_id": "Resume_1",
+      "page": 0,
+      "label": "figure",
+      "source": "ml",
+      "confidence": 0.9154850840568542,
+      "bbox_norm": [
+        0.029543304443359376,
+        0.010257768341989229,
+        1.0,
+        0.5133091782078598
+      ],
+      "status": "SCORED",
+      "score": 0.2592386022358024,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.31097387147155486,
+      "drift_x": -40,
+      "drift_y": -56,
+      "search_pad_px": 64,
+      "hit_boundary": false,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_title_004",
+      "doc_id": "Resume_1",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.8681806325912476,
+      "bbox_norm": [
+        0.06542001761642156,
+        0.3658539373224432,
+        0.18505933574601716,
+        0.38831110174005684
+      ],
+      "status": "SCORED",
+      "score": 0.03237697647383715,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.2207522747096448,
+      "drift_x": -15,
+      "drift_y": 4,
+      "search_pad_px": 64,
+      "hit_boundary": false,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_title_005",
+      "doc_id": "Resume_1",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.8396189212799072,
+      "bbox_norm": [
+        0.06765544218175551,
+        0.5026246226917613,
+        0.33334434359681375,
+        0.5251383833451705
+      ],
+      "status": "SCORED",
+      "score": 0.008975513634014397,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.17918746010967673,
+      "drift_x": 55,
+      "drift_y": -42,
+      "search_pad_px": 64,
+      "hit_boundary": false,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_title_006",
+      "doc_id": "Resume_1",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.8140601515769958,
+      "bbox_norm": [
+        0.06838092878753063,
+        0.6736534534801136,
+        0.3801495720358456,
+        0.705513583096591
+      ],
+      "status": "SCORED",
+      "score": 0.2476198352429876,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.5460715653690775,
+      "drift_x": -41,
+      "drift_y": -25,
+      "search_pad_px": 64,
+      "hit_boundary": false,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_figure_007",
+      "doc_id": "Resume_1",
+      "page": 0,
+      "label": "figure",
+      "source": "ml",
+      "confidence": 0.7290509939193726,
+      "bbox_norm": [
+        0.03089206770354626,
+        0.008152468710234671,
+        0.7119485294117647,
+        0.33193858753551136
+      ],
+      "status": "SCORED",
+      "score": 0.016950347924755006,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.023582835271517645,
+      "drift_x": -16,
+      "drift_y": -59,
+      "search_pad_px": 64,
+      "hit_boundary": false,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_figure_008",
+      "doc_id": "Resume_1",
+      "page": 0,
+      "label": "figure",
+      "source": "ml",
+      "confidence": 0.5593671798706055,
+      "bbox_norm": [
+        0.033601723465265014,
+        0.0,
+        0.9198573452818627,
+        1.0
+      ],
+      "status": "SCORED",
+      "score": 0.4547344993641855,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.5023144970794808,
+      "drift_x": 40,
+      "drift_y": -64,
+      "search_pad_px": 64,
+      "hit_boundary": true,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    }
+  ]
+}

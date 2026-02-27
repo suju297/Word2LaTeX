@@ -1,0 +1,333 @@
+{
+  "report_version": "1.2",
+  "run_id": "20251230_230019",
+  "doc_id": "Microsoft_Resume_2",
+  "oracle_summary": {
+    "by_label": {
+      "title": 2,
+      "figure": 3
+    },
+    "by_source": {
+      "ml": 5
+    },
+    "regions": [
+      {
+        "label": "title",
+        "source": "ml",
+        "confidence": 0.7221402525901794,
+        "page": 0
+      },
+      {
+        "label": "figure",
+        "source": "ml",
+        "confidence": 0.6943963766098022,
+        "page": 0
+      },
+      {
+        "label": "figure",
+        "source": "ml",
+        "confidence": 0.6771851778030396,
+        "page": 0
+      },
+      {
+        "label": "title",
+        "source": "ml",
+        "confidence": 0.6248525977134705,
+        "page": 0
+      },
+      {
+        "label": "figure",
+        "source": "ml",
+        "confidence": 0.607435405254364,
+        "page": 0
+      }
+    ]
+  },
+  "columns": [
+    {
+      "page": 0,
+      "count": 1,
+      "boundaries": []
+    },
+    {
+      "page": 1,
+      "count": 1,
+      "boundaries": []
+    },
+    {
+      "page": 2,
+      "count": 1,
+      "boundaries": []
+    },
+    {
+      "page": 3,
+      "count": 2,
+      "boundaries": [
+        0.41314643150005104
+      ]
+    },
+    {
+      "page": 4,
+      "count": 2,
+      "boundaries": [
+        0.4243948685577492
+      ]
+    }
+  ],
+  "diff_health": "VALID",
+  "layout_quality": {
+    "warnings": [
+      "WARN_HIGH_DRIFT_117pt",
+      "WARN_AVG_DRIFT_117pt"
+    ],
+    "avg_drift": 117.4730236747048,
+    "max_drift": 117.4730236747048
+  },
+  "match_stats": {
+    "original_blocks": 250,
+    "generated_blocks": 321,
+    "matched_pairs": 56,
+    "match_rate": 0.224
+  },
+  "drift_summary": [
+    {
+      "type": "figure",
+      "count": 44,
+      "avg_shift": 117.4730236747048
+    }
+  ],
+  "policy_trace": [
+    {
+      "block_id": "b0",
+      "type": "table",
+      "decision": "fallback",
+      "reason": "OOXML_COMPLEXITY_HIGH_20",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.0,
+          1.0,
+          0.02
+        ],
+        "overlaps": 5
+      }
+    },
+    {
+      "block_id": "b1",
+      "type": "table",
+      "decision": "semantic",
+      "reason": "OOXML_TRUTHS_TABLE",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.02,
+          1.0,
+          0.04
+        ],
+        "overlaps": 5
+      }
+    },
+    {
+      "block_id": "b2",
+      "type": "table",
+      "decision": "semantic",
+      "reason": "OOXML_TRUTHS_TABLE",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.04,
+          1.0,
+          0.06
+        ],
+        "overlaps": 5
+      }
+    },
+    {
+      "block_id": "b3",
+      "type": "table",
+      "decision": "semantic",
+      "reason": "OOXML_TRUTHS_TABLE",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.06,
+          1.0,
+          0.08
+        ],
+        "overlaps": 5
+      }
+    },
+    {
+      "block_id": "b4",
+      "type": "table",
+      "decision": "semantic",
+      "reason": "OOXML_TRUTHS_TABLE",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.08,
+          1.0,
+          0.1
+        ],
+        "overlaps": 5
+      }
+    },
+    {
+      "block_id": "b5",
+      "type": "table",
+      "decision": "semantic",
+      "reason": "OOXML_TRUTHS_TABLE",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.1,
+          1.0,
+          0.12
+        ],
+        "overlaps": 5
+      }
+    },
+    {
+      "block_id": "b6",
+      "type": "table",
+      "decision": "semantic",
+      "reason": "OOXML_TRUTHS_TABLE",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.12,
+          1.0,
+          0.14
+        ],
+        "overlaps": 5
+      }
+    },
+    {
+      "block_id": "b7",
+      "type": "table",
+      "decision": "semantic",
+      "reason": "OOXML_TRUTHS_TABLE",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.14,
+          1.0,
+          0.16
+        ],
+        "overlaps": 5
+      }
+    },
+    {
+      "block_id": "b8",
+      "type": "table",
+      "decision": "semantic",
+      "reason": "OOXML_TRUTHS_TABLE",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.16,
+          1.0,
+          0.18
+        ],
+        "overlaps": 5
+      }
+    },
+    {
+      "block_id": "b9",
+      "type": "table",
+      "decision": "semantic",
+      "reason": "OOXML_TRUTHS_TABLE",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.18,
+          1.0,
+          0.2
+        ],
+        "overlaps": 5
+      }
+    },
+    {
+      "block_id": "b10",
+      "type": "table",
+      "decision": "semantic",
+      "reason": "OOXML_TRUTHS_TABLE",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.2,
+          1.0,
+          0.22
+        ],
+        "overlaps": 5
+      }
+    },
+    {
+      "block_id": "b11",
+      "type": "table",
+      "decision": "semantic",
+      "reason": "OOXML_TRUTHS_TABLE",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.22,
+          1.0,
+          0.24
+        ],
+        "overlaps": 5
+      }
+    },
+    {
+      "block_id": "b12",
+      "type": "table",
+      "decision": "semantic",
+      "reason": "OOXML_TRUTHS_TABLE",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.24,
+          1.0,
+          0.26
+        ],
+        "overlaps": 5
+      }
+    }
+  ],
+  "policy_stats": {
+    "OOXML_COMPLEXITY_HIGH_20": 1,
+    "OOXML_TRUTHS_TABLE": 12
+  },
+  "image_diff": {
+    "avg_similarity": 0.7515,
+    "method": "ssim",
+    "page_count_match": false,
+    "ref_pages": 5,
+    "gen_pages": 6
+  }
+}

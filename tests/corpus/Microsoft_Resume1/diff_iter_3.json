@@ -1,0 +1,832 @@
+{
+  "ref_path": "tests/corpus/Microsoft_Resume1/ref.pdf",
+  "gen_path": "tests/corpus/Microsoft_Resume1/gen.pdf",
+  "match_rate": 0.24,
+  "ref_page_count": 3,
+  "gen_page_count": 7,
+  "detected_ref_columns": 2,
+  "detected_gen_columns": 1,
+  "missing_count": 19,
+  "extra_count": 13,
+  "shifted_count": 4,
+  "changed_count": 0,
+  "diffs": [
+    {
+      "ref_text": "Design Director \nSenior Designer \nDesigner \nFirst Up Consultants \n20XX - Current\nNod Publishing \n20XX \u2013 20XX\nAdatum Corporation \n20XX \u2013 20XX\nSummarize your key \nresponsibilities and \naccomplishments. Where \nappropriate, use the language and \nwords you find in the specific job \ndescription. Be concise, targeting \n3 5 key areas\nSummarize your key \nresponsibilities and \naccomplishments. Here again, \ntake any opportunity to use words \nyou find in the job description. Be \nbrief. \nSummarize your key \nresponsibilities and \naccomplishments. Where \nappropriate, use the language and \nwords you find in the job \ndescription. Be concise, targeting \n3 5 key areas",
+      "gen_text": "yourself.\nDesign\nDirector\nSenior\nDesigner\nDesigner\nFirst\nUp\nConsultants\n20XX\n-\nCurrent\nNod\nPublishing\n20XX \u2013 20XX\nAdatum\nCorporation\n20XX \u2013 20XX\nSummarize\nyour\nkey\nresponsibilities\nand\naccomplishments.\nWhere\nappropriate,\nuse\nthe\nlanguage\nand\nwords\nyou find in the\nspecific\njob\ndescription.\nBe\nconcise,\ntargeting\n3-5\nkey areas.\nSummarize\nyour\nkey\nresponsibilities\nand\naccomplishments.\nHere\nagain,\ntake\nany\nopportunity to\nuse words you\nfind in the job\ndescription. Be\nbrief.\nSummarize\nyour\nkey\nresponsibilities\nand\naccomplishments\nWhere\nappropriate,\nuse\nthe\nlanguage\nand words you\nfind in the job\ndescription.\nBe\nconcise,\ntargeting\n3-5\nkey areas.\nBachelor of",
+      "ref_bbox": {
+        "x0": 0.2620370184206495,
+        "y0": 0.4119275272253788,
+        "x1": 0.9455319393382353,
+        "y1": 0.6513977420691288
+      },
+      "gen_bbox": {
+        "x0": 0.2718004653033088,
+        "y0": 0.33345895478219695,
+        "x1": 0.5846930051317402,
+        "y1": 0.7356137547348485
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6358288005765174,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        0.009763446882659288,
+        -0.07846857244318184
+      ],
+      "ref_block_type": "Figure",
+      "gen_block_type": "Figure"
+    },
+    {
+      "ref_text": "Design Director \nSenior Designer \nDesigner \nFirst Up Consultants \n20XX - Current\nNod Publishing \n20XX \u2013 20XX\nAdatum Corporation \n20XX \u2013 20XX\nSummarize your key \nresponsibilities and \naccomplishments. Where \nappropriate, use the language and \nwords you find in the specific job \ndescription. Be concise, targeting \n3-5 key areas.\nSummarize your key \nresponsibilities and \naccomplishments. Here again, \ntake any opportunity to use words \nyou find in the job description. Be \nbrief. \nSummarize your key \nresponsibilities and \naccomplishments. Where \nappropriate, use the language and \nwords you find in the job \ndescription. Be concise, targeting \n3-5 key areas. \nBachelor of Arts in Art \n& Design  \nCreativity \n9/10 \nJasper University \n20XX \u2013 20XX \nLeadership \n7/10 \n \nProblem Solving \n10/10",
+      "gen_text": "g\nj\npi\ny\ngi\ng\nBe brief and keep it from sounding generic. Be\nyourself.\nDesign\nDirector\nSenior\nDesigner\nDesigner\nFirst\nUp\nConsultants\n20XX\n-\nCurrent\nNod\nPublishing\n20XX \u2013 20XX\nAdatum\nCorporation\n20XX \u2013 20XX\nSummarize\nyour\nkey\nresponsibilities\nand\naccomplishments.\nWhere\nappropriate,\nuse\nthe\nlanguage\nand\nwords\nyou find in the\nspecific\njob\ndescription.\nBe\nconcise,\ntargeting\n3-5\nkey areas.\nSummarize\nyour\nkey\nresponsibilities\nand\naccomplishments.\nHere\nagain,\ntake\nany\nopportunity to\nuse words you\nfind in the job\ndescription. Be\nbrief.\nSummarize\nyour\nkey\nresponsibilities\nand\naccomplishment\nWhere\nappropriate,\nuse\nthe\nlanguage\nand words you\nfind in the job\ndescription.\nBe\nconcise,\ntargeting\n3-5\nkey areas.\nBachelor of\nArts in Art &\nDesign\nCreativity\n9/10",
+      "ref_bbox": {
+        "x0": 0.2638775754442402,
+        "y0": 0.3986679539535985,
+        "x1": 0.9326487821691176,
+        "y1": 0.8808725437973485
+      },
+      "gen_bbox": {
+        "x0": 0.2720565736060049,
+        "y0": 0.3143249141808712,
+        "x1": 0.5815921798406862,
+        "y1": 0.7816765802556818
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.5693719145645949,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        0.008178998161764706,
+        -0.08434303977272728
+      ],
+      "ref_block_type": "Figure",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "State your career goals and show how they align with the job description you\u2019re \ntargeting. Be brief and keep it from sounding generic. Be yourself.",
+      "gen_text": "State your career goals and show how they\nalign with the job description you\u2019re targeting.\nBe brief and keep it from sounding generic. Be\nyourself.\nD\ni\nS\ni\nD\ni",
+      "ref_bbox": {
+        "x0": 0.2860365445006127,
+        "y0": 0.3535384854403409,
+        "x1": 0.8661113664215686,
+        "y1": 0.38864083954782197
+      },
+      "gen_bbox": {
+        "x0": 0.2681359145220588,
+        "y0": 0.5295651707504735,
+        "x1": 0.5771774471507353,
+        "y1": 0.5882962313565341
+      },
+      "ref_page": 1,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.4307692307692308,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.017900629978553906,
+        0.1760266853101326
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Design Director \nSenior Designer \nDesigner \nFirst Up Consultants \n20XX - Current\nNod Publishing \n20XX \u2013 20XX\nAdatum Corporation \n20XX \u2013 20XX\nSummarize your key \nresponsibilities and \naccomplishments. Where \nappropriate, use the language and \nwords you find in the specific job \ndescription. Be concise, targeting \n3-5 key areas. \nSummarize your key \nresponsibilities and \naccomplishments. Here again, \ntake any opportunity to use words \nyou find in the job description. Be \nbrief. \nSummarize your key \nresponsibilities and \naccomplishments. Where \nappropriate, use the language and \nwords you find in the job \ndescription. Be concise, targeting \n3-5 key areas. \nBachelor of Arts in Art \n& Design  \nCreativity \n9/10 \nJasper University \n20XX \u2013 20XX\nLeadership \n7/10",
+      "gen_text": "yourself.\nDesign\nDirector\nSenior\nDesigner\nDesigner\nFirst\nUp\nConsultants\n20XX\n-\nCurrent\nNod\nPublishing\n20XX \u2013 20XX\nAdatum\nCorporation\n20XX \u2013 20XX\nSummarize\nyour\nkey\nresponsibilities\nand\naccomplishments.\nWhere\nappropriate,\nuse\nthe\nlanguage\nand\nwords\nyou find in the\nspecific\njob\ndescription.\nBe\nconcise,\ntargeting\n3-5\nSummarize\nyour\nkey\nresponsibilities\nand\naccomplishments.\nHere\nagain,\ntake\nany\nopportunity to\nuse words you\nfind in the job\ndescription. Be\nbrief.\nSummarize\nyour\nkey\nresponsibilities\nand\naccomplishments\nWhere\nappropriate,\nuse\nthe\nlanguage\nand words you\nfind in the job\ndescription.\nBe\nconcise,\ntargeting\n3-5\nkey areas.",
+      "ref_bbox": {
+        "x0": 0.2738314759497549,
+        "y0": 0.39346946022727275,
+        "x1": 0.9408657896752451,
+        "y1": 0.8416498727509469
+      },
+      "gen_bbox": {
+        "x0": 0.2706515203737745,
+        "y0": 0.5811963260535038,
+        "x1": 0.5873479626225491,
+        "y1": 0.9359607303503787
+      },
+      "ref_page": 1,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.4646005255597738,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0031799555759803866,
+        0.18772686582623105
+      ],
+      "ref_block_type": "Figure",
+      "gen_block_type": "Figure"
+    },
+    {
+      "ref_text": "Bachelor of Arts in Art \n& Design  \nCreativity \n9/10 \nJasper University \n20XX \u2013 20XX \nLeadership \n7/10 \nProblem Solving \n10/10",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.2915348785998775,
+        "y0": 0.7476719341856061,
+        "x1": 0.945843386182598,
+        "y1": 0.8889612926136363
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Figure",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Taylor\nPhillips",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.2832493202359069,
+        "y0": 0.2005190947561553,
+        "x1": 0.5277848307291667,
+        "y1": 0.3259883996212121
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "targeting. Be brief and keep it from sounding generic. Be yourself.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.28857448203890934,
+        "y0": 0.3759327281605114,
+        "x1": 0.7773762542126226,
+        "y1": 0.3899896425189394
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "of Arts in Art \nCreativity \n9/10 \nrsity \nX\nLeadership \n7/10 \nProblem Solving \n10/10",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.36721655752144605,
+        "y0": 0.7514490116003788,
+        "x1": 0.940744868259804,
+        "y1": 0.8864720200047348
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Figure",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "& Design",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.28734087775735295,
+        "y0": 0.7661617394649621,
+        "x1": 0.35669704063265933,
+        "y1": 0.781064453125
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Bachelor of Arts in Art",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.28760280235140934,
+        "y0": 0.7430371833570075,
+        "x1": 0.46315898820465684,
+        "y1": 0.7597566731770833
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "State your career goals and show how they align with the job description you\u2019re",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.28566001742493874,
+        "y0": 0.3539105779474432,
+        "x1": 0.8709756050857843,
+        "y1": 0.37095902876420456
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Taylor\nPhillips",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.2824151252297794,
+        "y0": 0.2032180323745265,
+        "x1": 0.5329806698069853,
+        "y1": 0.32559525923295457
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Jasper University \n20XX \u2013 20XX",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.2848812088311887,
+        "y0": 0.8054159268465909,
+        "x1": 0.39228501263786764,
+        "y1": 0.8324786191998106
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "State your career goals and show how they align with the job description you\u2019re \ntargeting. Be brief and keep it from sounding generic. Be yourself.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.28603044098498775,
+        "y0": 0.35353319572679925,
+        "x1": 0.8660986328125,
+        "y1": 0.3886385091145833
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "or of Arts in Art \ngn  \nCreativity \n9/10 \niversity \n0XX\nLeadership \n7/10 \nProblem Solving \n10/10",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.3448178040747549,
+        "y0": 0.7504930900804925,
+        "x1": 0.9432913028492647,
+        "y1": 0.8868721886837121
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Figure",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "targeting. Be brief and keep it from sounding generic. Be yourself.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.2885732374004289,
+        "y0": 0.37593213630445077,
+        "x1": 0.7773798445159313,
+        "y1": 0.38998927260890154
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "& Design",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.28734398935355393,
+        "y0": 0.7661805308948864,
+        "x1": 0.3566992905560662,
+        "y1": 0.7810742927320076
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Design Director \nSenior Designer \nDesigner \nFirst Up Consultants \n20XX - Current\nNod Publishing \n20XX \u2013 20XX\nAdatum Corporation \n20XX \u2013 20XX\nSummarize your key \nresponsibilities and \naccomplishments. Where \nappropriate, use the language and \nwords you find in the specific job \ndescription. Be concise, targeting \n3 5 key areas\nSummarize your key \nresponsibilities and \naccomplishments. Here again, \ntake any opportunity to use words \nyou find in the job description. Be \nbrief. \nSummarize your key \nresponsibilities and \naccomplishments. Where \nappropriate, use the language and \nwords you find in the job \ndescription. Be concise, targeting \n3 5 key areas",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.2778362917432598,
+        "y0": 0.42441613399621214,
+        "x1": 0.9450630935968137,
+        "y1": 0.6502473958333334
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Figure",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Bachelor of Arts in Art",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.28760241938572306,
+        "y0": 0.7430361476089015,
+        "x1": 0.46316324869791664,
+        "y1": 0.759757412997159
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "State your career goals and show how they align with the job description you\u2019re",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.2856531001072304,
+        "y0": 0.3539090243252841,
+        "x1": 0.8709793390012255,
+        "y1": 0.3709579190340909
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Taylor\nPhillips",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.2826192459405637,
+        "y0": 0.20320290305397729,
+        "x1": 0.5329268631280637,
+        "y1": 0.3256115352746212
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Jasper University \n20XX \u2013 20XX",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.2850112256816789,
+        "y0": 0.8053733871922348,
+        "x1": 0.39288646024816176,
+        "y1": 0.83248291015625
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Taylor\nPhillips \nState your career goals and show how they align with the job description you\u2019re \ntargeting. Be brief and keep it from sounding generic. Be yourself. \nDesign Director \nSenior Designer \nDesigner \nFirst Up Consultants \n20XX - Current\nNod Publishing \n20XX \u2013 20XX\nAdatum Corporation \n20XX \u2013 20XX\nSummarize your key \nresponsibilities and \naccomplishments. Where \nappropriate, use the language and \nwords you find in the specific job \ndescription. Be concise, targeting \n3-5 key areas. \nSummarize your key \nresponsibilities and \naccomplishments. Here again, \ntake any opportunity to use words \nyou find in the job description. Be \nbrief. \nSummarize your key \nresponsibilities and \naccomplishments. Where \nappropriate, use the language and \nwords you find in the job \ndescription. Be concise, targeting \n3-5 key areas. \nBachelor of Arts in Art \n& Design  \nCreativity \n9/10 \nJasper University \n20XX \u2013 20XX\nLeadership \n7/10 \n \nProblem Solving \n10/10",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.28103549134497546,
+        "y0": 0.20515538071141098,
+        "x1": 0.9384595205269608,
+        "y1": 0.8760087446732955
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Figure",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "",
+      "gen_text": "4567 Main Street\nCity, State 98052\n(718) 555\u20130100\ntaylor@example.com\nTaylor Phillips",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.2733706006816789,
+        "y0": 0.1496557062322443,
+        "x1": 0.41048291973039214,
+        "y1": 0.22747390284682764
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "4567 Main Street\nCity, State 98052\n(718) 555\u20130100\ntaylor@example.com\nTaylor Phillips",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.2739547190946691,
+        "y0": 0.22589153867779357,
+        "x1": 0.40979046989889706,
+        "y1": 0.30413979270241476
+      },
+      "ref_page": 0,
+      "gen_page": 1,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "4567 Main Street",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.28019696403952205,
+        "y0": 0.2286993408203125,
+        "x1": 0.39754870844822304,
+        "y1": 0.24405765417850378
+      },
+      "ref_page": 0,
+      "gen_page": 1,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Summarize\nyour\nkey\nresponsibilities\nand\naccomplishments.\nWhere\nappropriate,\nuse\nthe\nlanguage\nand\nwords\nyou find in the\nspecific\njob\ndescription.\nBe\nconcise,\ntargeting\n3-5\nkey areas\nSummarize\nyour\nkey\nresponsibilities\nand\naccomplishments.\nHere\nagain,\ntake\nany\nopportunity to\nuse words you\nfind in the job\ndescription. Be\nbrief.\nSummarize\nyour\nkey\nresponsibilities\nand\naccomplishments\nWhere\nappropriate,\nuse\nthe\nlanguage\nand words you\nfind in the job\ndescription.\nBe\nconcise,\ntargeting\n3-5\nkey areas.",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.2728073060278799,
+        "y0": 0.6898891009706439,
+        "x1": 0.5835391295189951,
+        "y1": 0.9456137547348484
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "4567 Main Street\nCity, State 98052\n(718) 555\u20130100\ntaylor@example.com\nTaylor Phillips",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.2741620232077206,
+        "y0": 0.3904302793560606,
+        "x1": 0.4179717658547794,
+        "y1": 0.465581572561553
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Problem",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.38045055912990194,
+        "y0": 0.18101201837713068,
+        "x1": 0.43733685661764704,
+        "y1": 0.1954959013967803
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Figure 2: Recovered Figure (Page 1)",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.6640168792126225,
+        "y0": 0.24659778941761365,
+        "x1": 0.9008380246629902,
+        "y1": 0.2610795269590436
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Figure 6: Recovered Figure (Page 3)",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.29563574697457107,
+        "y0": 0.5745291785037879,
+        "x1": 0.9902704695159313,
+        "y1": 0.8955260860558713
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Figure"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Figure 4: Recovered Figure (Page 2)",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.301414794921875,
+        "y0": 0.5583587461529356,
+        "x1": 0.5394721775428921,
+        "y1": 0.5727306019176136
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Figure 7: Recovered Figure (Page 1)\nFigure 10: Recovered Figure (Page 3)",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.27648662492340687,
+        "y0": 0.04783817638050426,
+        "x1": 0.9606350528492648,
+        "y1": 0.5504600941051137
+      },
+      "ref_page": 0,
+      "gen_page": 5,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Figure"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Figure 8: Recovered Figure (Page 2)",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.3068207624846814,
+        "y0": 0.599908632220644,
+        "x1": 0.53910888671875,
+        "y1": 0.6144872676964962
+      },
+      "ref_page": 0,
+      "gen_page": 5,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Figure 7: Recovered Figure (Page 1)",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.3054264562270221,
+        "y0": 0.24640001701586176,
+        "x1": 0.5387732172947304,
+        "y1": 0.2610203783439867
+      },
+      "ref_page": 0,
+      "gen_page": 5,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Figure 11: Recovered Figure (Page 3)",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.3006894579120711,
+        "y0": 0.7973873254024622,
+        "x1": 0.5449687882965686,
+        "y1": 0.8113551284327651
+      },
+      "ref_page": 0,
+      "gen_page": 6,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    }
+  ]
+}

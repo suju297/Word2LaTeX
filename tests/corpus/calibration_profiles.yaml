@@ -1,0 +1,44 @@
+# Corpus Calibration Profiles
+# Per-document calibration overrides for the Word-to-LaTeX converter.
+# These profiles were derived from empirical calibration (session 2026-01-10).
+
+# Academic two-column templates
+ACM_SUBMISSION_TEMPLATE:
+  profile: academic_twocol
+  overrides:
+    font_size: 10.0      # Calibrated: 10pt produces 13 pages (matches ref)
+    line_spacing: 1.1
+    squeeze_factor: 1.0
+
+IEEE_TEMPLATE:
+  profile: academic_twocol
+  overrides:
+    font_size: 9.0       # IEEE uses smaller fonts
+    line_spacing: 1.0
+    squeeze_factor: 0.9
+
+# Resume templates
+Resume_1:
+  profile: resume
+
+Resume_2:
+  profile: resume
+
+Custom_Resume:
+  profile: resume
+
+Microsoft_Resume1:
+  profile: resume
+  overrides:
+    line_spacing: 1.15
+    section_spacing: 1.0
+
+Microsoft_Resume_2:
+  profile: resume
+  overrides:
+    line_spacing: 1.15
+    section_spacing: 1.0
+
+# Default fallback for unknown documents
+_default:
+  profile: default

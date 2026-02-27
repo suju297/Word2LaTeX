@@ -1,0 +1,90 @@
+{
+  "page_scores": [
+    {
+      "page": 0,
+      "similarity": 0.6879,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 1,
+      "similarity": 0.5945,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 2,
+      "similarity": 0.6423,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 3,
+      "similarity": 0.8056,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 4,
+      "similarity": 0.7025,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 5,
+      "similarity": 0.6343,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 6,
+      "similarity": 0.683,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 7,
+      "similarity": 0.758,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 8,
+      "similarity": 0.8108,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 9,
+      "similarity": 0.65,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 10,
+      "similarity": 0.6506,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 11,
+      "similarity": 0.6203,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 12,
+      "similarity": 0.6125,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    }
+  ],
+  "avg_similarity": 0.6809,
+  "page_count_match": false,
+  "ref_pages": 13,
+  "gen_pages": 16,
+  "method": "ssim",
+  "dpi": 100,
+  "gen_empty_pages": [],
+  "has_empty_gen_pages": false
+}

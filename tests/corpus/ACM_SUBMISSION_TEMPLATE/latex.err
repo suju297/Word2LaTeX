@@ -1,0 +1,20 @@
+
+kpathsea: Running mktextfm Carlito
+/usr/local/texlive/2025/texmf-dist/web2c/mktexnam: Could not map source abbreviation C for Carlito.
+/usr/local/texlive/2025/texmf-dist/web2c/mktexnam: Need to update /usr/local/texlive/2025/texmf-dist/fonts/map/fontname/special.map?
+mktextfm: Running mf-nowin -progname=mf \mode:=ljfour; mag:=1; ; nonstopmode; input Carlito
+This is METAFONT, Version 2.71828182 (TeX Live 2025) (preloaded base=mf)
+
+kpathsea: Running mktexmf Carlito
+
+! I can't find file `Carlito'.
+<*> ...jfour; mag:=1; ; nonstopmode; input Carlito
+                                                  
+Please type another input file name
+! Emergency stop.
+<*> ...jfour; mag:=1; ; nonstopmode; input Carlito
+                                                  
+Transcript written on mfput.log.
+grep: Carlito.log: No such file or directory
+mktextfm: `mf-nowin -progname=mf \mode:=ljfour; mag:=1; ; nonstopmode; input Carlito' failed to make Carlito.tfm.
+kpathsea: Appending font creation commands to /Users/sujendragharat/Library/CloudStorage/GoogleDrive-sgharat298@gmail.com/My Drive/MacExternalCloud/Documents/Projects/wordTOlatex/tests/corpus/ACM_SUBMISSION_TEMPLATE/missfont.log.

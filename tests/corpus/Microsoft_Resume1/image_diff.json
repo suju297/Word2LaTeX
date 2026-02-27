@@ -1,0 +1,24 @@
+{
+  "page_scores": [
+    {
+      "page": 0,
+      "similarity": 0.7183,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 1,
+      "similarity": 0.7979,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    }
+  ],
+  "avg_similarity": 0.7581,
+  "page_count_match": false,
+  "ref_pages": 3,
+  "gen_pages": 2,
+  "method": "ssim",
+  "dpi": 100,
+  "gen_empty_pages": [],
+  "has_empty_gen_pages": false
+}

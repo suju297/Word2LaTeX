@@ -1,0 +1,306 @@
+{
+  "doc_id": "Microsoft_Resume1",
+  "case_dir": "Microsoft_Resume1",
+  "ref_pages": 3,
+  "gen_pages": 3,
+  "page_count_match": true,
+  "page_boxes": [
+    {
+      "page": 0,
+      "ref": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      },
+      "gen": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      }
+    },
+    {
+      "page": 1,
+      "ref": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      },
+      "gen": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      }
+    },
+    {
+      "page": 2,
+      "ref": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      },
+      "gen": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      }
+    }
+  ],
+  "by_label": {
+    "figure": {
+      "count_scored": 4,
+      "avg": 0.48724809288978577,
+      "p50": 0.4930156469345093,
+      "p10": 0.34590259194374084,
+      "min": 0.3089810013771057,
+      "coverage_strict": 1.0,
+      "coverage_effective": 1.0,
+      "stats": {
+        "total": 4,
+        "missing": 0,
+        "tiny": 0,
+        "blank_both": 0
+      },
+      "drift": {
+        "median_dx": 11.0,
+        "median_dy": 24.5,
+        "p25_dx": -45.75,
+        "p75_dx": 62.5,
+        "p25_dy": -15.25,
+        "p75_dy": 48.25,
+        "iqr_dx": 108.25,
+        "iqr_dy": 63.5,
+        "count": 4
+      }
+    }
+  },
+  "regions": [
+    {
+      "region_id": "p0_figure_000",
+      "doc_id": "Microsoft_Resume1",
+      "page": 0,
+      "label": "figure",
+      "source": "ml",
+      "confidence": 0.9678751826286316,
+      "bbox_norm": [
+        0.27895830939797794,
+        0.3953972833806818,
+        0.9196998506433823,
+        0.6607176254734849
+      ],
+      "status": "SCORED",
+      "score": 0.4320530032162289,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.5811844814970689,
+      "drift_x": -40,
+      "drift_y": 48,
+      "search_pad_px": 64,
+      "hit_boundary": false,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_figure_001",
+      "doc_id": "Microsoft_Resume1",
+      "page": 0,
+      "label": "figure",
+      "source": "ml",
+      "confidence": 0.865463137626648,
+      "bbox_norm": [
+        0.30331191119025736,
+        0.374122832327178,
+        0.9384613396139706,
+        0.8875932913115531
+      ],
+      "status": "SCORED",
+      "score": 0.5539783368014032,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.6569091392712233,
+      "drift_x": 62,
+      "drift_y": 49,
+      "search_pad_px": 64,
+      "hit_boundary": true,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_figure_002",
+      "doc_id": "Microsoft_Resume1",
+      "page": 0,
+      "label": "figure",
+      "source": "ml",
+      "confidence": 0.8581132292747498,
+      "bbox_norm": [
+        0.28171058804381127,
+        0.20178415009469697,
+        0.53763916015625,
+        0.32854299834280304
+      ],
+      "status": "SCORED",
+      "score": 0.30898098871864704,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.5152449887747469,
+      "drift_x": 64,
+      "drift_y": -64,
+      "search_pad_px": 64,
+      "hit_boundary": true,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_figure_003",
+      "doc_id": "Microsoft_Resume1",
+      "page": 0,
+      "label": "figure",
+      "source": "ml",
+      "confidence": 0.6427536606788635,
+      "bbox_norm": [
+        0.19588691262637867,
+        0.03480377890846946,
+        0.9520040594362745,
+        0.677549345999053
+      ],
+      "status": "SCORED",
+      "score": 0.6539801506287767,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.7247731750364459,
+      "drift_x": -63,
+      "drift_y": 1,
+      "search_pad_px": 64,
+      "hit_boundary": true,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    }
+  ]
+}

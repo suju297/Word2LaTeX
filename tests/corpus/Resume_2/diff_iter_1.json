@@ -1,0 +1,450 @@
+{
+  "ref_path": "tests/corpus/Resume_2/ref.pdf",
+  "gen_path": "tests/corpus/Resume_2/gen.pdf",
+  "match_rate": 0.5806451612903226,
+  "ref_page_count": 1,
+  "gen_page_count": 1,
+  "detected_ref_columns": 2,
+  "detected_gen_columns": 1,
+  "missing_count": 13,
+  "extra_count": 7,
+  "shifted_count": 0,
+  "changed_count": 0,
+  "diffs": [
+    {
+      "ref_text": "PROFESSIONAL EXPERIENCE\nTechnology Intern",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.05798291374655331,
+        "y0": 0.46841404770359846,
+        "x1": 0.2929074754901961,
+        "y1": 0.5018128921046402
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "CLASS PROJECT EXPERIENCE \nSoftware Design and Development",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.057535591873468135,
+        "y0": 0.2849343039772727,
+        "x1": 0.30704613779105394,
+        "y1": 0.31644601532907196
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "May 2024",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.8749693627450981,
+        "y0": 0.1296423524798769,
+        "x1": 0.9417247817095589,
+        "y1": 0.14515810879794033
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Computer Lab Assistant",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.05845393162147672,
+        "y0": 0.5797432824337121,
+        "x1": 0.22933129404105393,
+        "y1": 0.5928728693181818
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Sept 2023-present",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.8218279909620098,
+        "y0": 0.6874367453835227,
+        "x1": 0.9411134727328432,
+        "y1": 0.7031169359611742
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Rutgers University Camden, Camden NJ\n\u2022\nPlanned and conducted weekly meetings for 85 members \n\u2022\nRecruited 30 new members for the 20XX-20XX school year \n\u2022\nOrganized 5 volunteer events to support local non-profit organizations",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.06719837263518688,
+        "y0": 0.7137718986742424,
+        "x1": 0.573589968213848,
+        "y1": 0.7666400331439394
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Aug. 2023",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.8737580422794118,
+        "y0": 0.3007269841974432,
+        "x1": 0.9405330882352941,
+        "y1": 0.3153271484375
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": ",\n(856) 555-1225\u2502creese12@gmail.com | Cynthia-reese@linkedin.com | https://github.com/CRgit",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.18538135004978554,
+        "y0": 0.07965366247928504,
+        "x1": 0.8252271943933823,
+        "y1": 0.10056423302852746
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Sales Associate",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.0601333678002451,
+        "y0": 0.7957334576231061,
+        "x1": 0.20523968864889705,
+        "y1": 0.8104876154119318
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Summer 2024",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.8487128523284314,
+        "y0": 0.4861993223248106,
+        "x1": 0.9412456916360294,
+        "y1": 0.4999656723484848
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Rutgers University-Camden, Camden, NJ\nBachelor of Science in Computer Science\nMinor in Mathematics\nGPA 3.2",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.05530963972503064,
+        "y0": 0.13383744673295456,
+        "x1": 0.3416054639629289,
+        "y1": 0.18919703628077653
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Computer Lab Assistant",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.05972526400696997,
+        "y0": 0.5795906205610796,
+        "x1": 0.22810101677389705,
+        "y1": 0.5931140876538826
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "May 2022-Aug 2023",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.8037875306372549,
+        "y0": 0.7953017726089016,
+        "x1": 0.9426847809436274,
+        "y1": 0.8115297999526515
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Computer Lab Assistant Jan 2022-present",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05401365392348346,
+        "y0": 0.5458416563091856,
+        "x1": 0.4232248104319853,
+        "y1": 0.5606545928030303
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Software Design and Development Aug. 2023",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05021058924057904,
+        "y0": 0.2793835264263731,
+        "x1": 0.43029220281862746,
+        "y1": 0.2960152180989583
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "WORK EXPERIENCE",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.047753544227749696,
+        "y0": 0.7414786783854167,
+        "x1": 0.2451147939644608,
+        "y1": 0.7571178089488636
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "repositories",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.06770062614889706,
+        "y0": 0.3461238236860795,
+        "x1": 0.1466561949486826,
+        "y1": 0.3587146366003788
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Software Design and Development Aug. 2023",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05055141673368566,
+        "y0": 0.2799450498638731,
+        "x1": 0.4283490349264706,
+        "y1": 0.2954048665364583
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "PROFESSIONAL EXPERIENCE",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.0523791384229473,
+        "y0": 0.44307602391098483,
+        "x1": 0.34040027094822306,
+        "y1": 0.45914140181107954
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "EDUCATION\nutgers University-Camden, Camden, NJ\nMay 2024\nachelor of Science in Computer Science\nMinor in Mathematics\nPA 3.2\nCOMPUTER SKILLS",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.06573555142271753,
+        "y0": 0.12039189194187974,
+        "x1": 0.9354092945772059,
+        "y1": 0.20637397534919508
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Table"
+    }
+  ]
+}

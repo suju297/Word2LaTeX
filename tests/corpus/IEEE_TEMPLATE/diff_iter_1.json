@@ -1,0 +1,2843 @@
+{
+  "ref_path": "tests/corpus/IEEE_TEMPLATE/ref.pdf",
+  "gen_path": "tests/corpus/IEEE_TEMPLATE/gen.pdf",
+  "match_rate": 0.4491525423728814,
+  "ref_page_count": 4,
+  "gen_page_count": 4,
+  "detected_ref_columns": 2,
+  "detected_gen_columns": 2,
+  "missing_count": 65,
+  "extra_count": 32,
+  "shifted_count": 26,
+  "changed_count": 0,
+  "diffs": [
+    {
+      "ref_text": "If you choose not to use this document as a template, \nprepare your technical work in single-spaced, double-column \nformat, on paper  21.6\u00d727.9 centimeters  (8.5\u00d711 inches  or \n51\u00d766 picas). Set top and bottom margins to 16.9 millimeters \n(0.67 inch or 4 picas) and left and right margins to about 16.9 \nmillimeters (0.67 inch or 4 picas). Do not violate margins (i.e., \ntext, tables, figures, and equations may not extend into the \nmargins). The column width is 88.9 millimeters (3.5 inches or \n21  picas).  The  space  between  the  two  columns  is  4.2 \nmillimeters (0.17 inch or 1 pica). Paragraph indentation is 4.2 \nmillimeters (0.17 inch or 1 pica). Use full justification. Use \neither one or two spaces between sections, and between text \nand tables or figures, to adjust the column length.",
+      "gen_text": "If you choose not to use this document as a template, prepare\nyour technical work in single-spaced, double-column format,\non paper 21.6\u00d727.9 centimeters (8.5\u00d711 inches or 51\u00d766 picas).\nSet top and bottom margins to 16.9 millimeters (0.67 inch or\n4 picas) and left and right margins to about 16.9 millimeters\n(0.67 inch or 4 picas). Do not violate margins (i.e., text, tables,\nfigures, and equations may not extend into the margins). The\ncolumn width is 88.9 millimeters (3.5 inches or 21 picas). The\nspace between the two columns is 4.2 millimeters (0.17 inch or\n1 pica). Paragraph indentation is 4.2 millimeters (0.17 inch or\n1 pica). Use full justification. Use either one or two spaces\nbetween sections, and between text and tables or figures, to\nadjust the column length.",
+      "ref_bbox": {
+        "x0": 0.5096480545343137,
+        "y0": 0.46158676609848487,
+        "x1": 0.921960688572304,
+        "y1": 0.6572406190814394
+      },
+      "gen_bbox": {
+        "x0": 0.5022129672181372,
+        "y0": 0.251597900390625,
+        "x1": 0.9168745212928922,
+        "y1": 0.44420243696732953
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.007435087316176481,
+        -0.20998886570785985
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Abstract--Basic guidelines for the preparation of a technical\nwork for an IEEE Power & Energy Society Transactions/Journal\nPublication are presented. This document is itself an example of\nthe desired layout (inclusive of this abstract) and can be used as a\ntemplate. It contains information regarding desktop publishing\nformat, type sizes, and typefaces. Style rules are provided that\nexplains  how  to  handle  equations,  units,  figures,  tables,\nabbreviations, and acronyms. Sections are also devoted to the\npreparation  of  acknowledgments,  references,  and  authors'\nbiographies. The abstract is limited to 150\u2013200 words and cannot\ncontain  equations,  figures,  tables,  or  references.  It  should\nconcisely state what was done, how it was done, principal results,\nand their significance.",
+      "gen_text": "C. Author, Member, IEEE\nAbstract\u2013Basic guidelines for the preparation of a technical\nwork for an IEEE Power & Energy Society Transactions/Journal\nPublication are presented. This document is itself an example\nof the desired layout (inclusive of this abstract) and can be\nused as a template. It contains information regarding desktop\npublishing format, type sizes, and typefaces. Style rules are\nprovided that explains how to handle equations, units, figures,\ntables, abbreviations, and acronyms. Sections are also devoted\nto the preparation of acknowledgments, references, and authors\u2019\nbiographies.\nThe abstract is limited to 150\u2013200 words and\ncannot contain equations, figures, tables, or references. It should\nconcisely state what was done, how it was done, principal\nresults, and their significance.\nIndex Terms\u2013The author shall provide up to 10 keywords (in\nalphabetical order) to help identify the major topics of the paper.\nThe thesaurus of IEEE indexing keywords should be referenced\nprior to selecting the keywords to ensure that the words selected\nare acceptable. The thesaurus is posted at https://www.ieee.org/",
+      "ref_bbox": {
+        "x0": 0.07752179912492341,
+        "y0": 0.2651455041133996,
+        "x1": 0.49014021331188723,
+        "y1": 0.4403223026160038
+      },
+      "gen_bbox": {
+        "x0": 0.07050544888365502,
+        "y0": 0.1759634676846591,
+        "x1": 0.4889019416360294,
+        "y1": 0.4482214725378788
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6751805710846732,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.007016350241268385,
+        -0.08918203642874051
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Please use automatic hyphenation and check your spelling. \nAdditionally, be sure your sentences are complete and that \nthere  is  continuity  within  your  paragraphs.  Check  the \nnumbering of your graphics (figures and tables) and make sure \nthat all appropriate references are included.",
+      "gen_text": "Please use automatic hyphenation and check your spelling.\nAdditionally, be sure your sentences are complete and that there\nis continuity within your paragraphs.\nCheck the numbering",
+      "ref_bbox": {
+        "x0": 0.5077494542738971,
+        "y0": 0.26893327192826705,
+        "x1": 0.9230682253370098,
+        "y1": 0.345614716500947
+      },
+      "gen_bbox": {
+        "x0": 0.07215452306410845,
+        "y0": 0.687735928622159,
+        "x1": 0.48731512331495097,
+        "y1": 0.7336190518465909
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.42580645161290326,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.4355949312097886,
+        0.418802656693892
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Index Terms--The author shall provide up to 10 keywords (in\nalphabetical order) to help identify the major topics of the paper.\nThe thesaurus of IEEE indexing keywords should be referenced\nprior to selecting the keywords to ensure that the words selected\nare acceptable. The thesaurus is posted at https://www.ieee.org/\npublications/services/thesaurus-access-page.html.",
+      "gen_text": ",\ng\nIndex Terms\u2013The author shall provide up to 10 keywords (in\nalphabetical order) to help identify the major topics of the paper.\nThe thesaurus of IEEE indexing keywords should be referenced\nprior to selecting the keywords to ensure that the words selected\nare acceptable. The thesaurus is posted at https://www.ieee.org/\npublications/services/thesaurus-access-page.html.\n\u2022 Nomenclature",
+      "ref_bbox": {
+        "x0": 0.0776194553749234,
+        "y0": 0.4514916622277462,
+        "x1": 0.48989846622242644,
+        "y1": 0.5321495842211175
+      },
+      "gen_bbox": {
+        "x0": 0.07078206978592218,
+        "y0": 0.3739394309303977,
+        "x1": 0.48978295419730394,
+        "y1": 0.48230631510416666
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.5933010398938536,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.006837385589001224,
+        -0.0775522312973485
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Preparation of a Formatted Technical Work\nfor an IEEE Power & Energy Society \nTransactions/Journal Publication",
+      "gen_text": "I. Preparation of a Formatted Technical Work\nII. for an IEEE Power & Energy Society\nIII. Transactions/Journal Publication",
+      "ref_bbox": {
+        "x0": 0.17024487065333946,
+        "y0": 0.1367990389737216,
+        "x1": 0.8274592141544118,
+        "y1": 0.23426201097892993
+      },
+      "gen_bbox": {
+        "x0": 0.08061860926011029,
+        "y0": 0.09049894390684185,
+        "x1": 0.4788217103247549,
+        "y1": 0.14226744680693656
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.5081340241760669,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.08962626139322917,
+        -0.04630009506687974
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "HIS document is an example of the desired layout for a\nPES Transactions/Journal paper. It contains information\nregarding  desktop  publishing  format,  type  sizes,  and\ntypefaces. Style rules are provided that explain how to handle\nequations, units, figures, tables, abbreviations, and acronyms.\nSections  are  also  devoted  to  the  preparation  of\nacknowledgments, references, and authors\u2019 biographies.\nT",
+      "gen_text": "HIS document is an example of the desired layout for a PES\nTransactions/Journal paper. It contains information regarding\ndesktop publishing format, type sizes, and typefaces. Style rules\nare provided that explain how to handle equations, units, figures,\ntables, abbreviations, and acronyms. Sections are also devoted\nto the preparation of acknowledgments, references, and authors\u2019\nbiographies.",
+      "ref_bbox": {
+        "x0": 0.072352294921875,
+        "y0": 0.6301900597774621,
+        "x1": 0.49000871246936273,
+        "y1": 0.7346616802793561
+      },
+      "gen_bbox": {
+        "x0": 0.07072946585860906,
+        "y0": 0.5553211928858901,
+        "x1": 0.48379365808823527,
+        "y1": 0.6620222981770834
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6579709078458319,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0016228290632659403,
+        -0.07486886689157202
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Use a proportional serif typeface such as Times Roman or \nTimes New Roman and embed all fonts. Table I provides \nsamples of the appropriate type sizes and styles to use.",
+      "gen_text": "Use a proportional serif typeface such as Times Roman or Times\nNew Roman and embed all fonts. Table I provides samples of\nthe appropriate type sizes and styles to use.",
+      "ref_bbox": {
+        "x0": 0.5083455882352941,
+        "y0": 0.6845289565577651,
+        "x1": 0.9255346200980392,
+        "y1": 0.7294045188210228
+      },
+      "gen_bbox": {
+        "x0": 0.5063510071997549,
+        "y0": 0.5117588852391098,
+        "x1": 0.9198196231617647,
+        "y1": 0.55574951171875
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.001994581035539178,
+        -0.1727700713186553
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "A  nomenclature  list,  if  needed,  should  precede  the \nIntroduction.",
+      "gen_text": "A nomenclature list, if needed, should precede the Introduction.",
+      "ref_bbox": {
+        "x0": 0.07673530728209252,
+        "y0": 0.5642789713541667,
+        "x1": 0.49119284237132355,
+        "y1": 0.5938837964607008
+      },
+      "gen_bbox": {
+        "x0": 0.07284372367110907,
+        "y0": 0.48639078776041667,
+        "x1": 0.48553476371017157,
+        "y1": 0.5005068507339016
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0038915836109834484,
+        -0.07788818359375005
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "C.  Typefaces and Sizes",
+      "gen_text": "C. Typefaces and Sizes",
+      "ref_bbox": {
+        "x0": 0.5114100796568627,
+        "y0": 0.6662469667376894,
+        "x1": 0.6652372951133578,
+        "y1": 0.6806447531960227
+      },
+      "gen_bbox": {
+        "x0": 0.5036285520067402,
+        "y0": 0.4830775035511364,
+        "x1": 0.6768126723345588,
+        "y1": 0.4994487230705492
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": [
+        -0.007781527650122522,
+        -0.18316946318655297
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "B.  Format",
+      "gen_text": "B. Format",
+      "ref_bbox": {
+        "x0": 0.5091209501378676,
+        "y0": 0.44287464488636363,
+        "x1": 0.5827063706341912,
+        "y1": 0.4556304746685606
+      },
+      "gen_bbox": {
+        "x0": 0.5034333352481618,
+        "y0": 0.22132892030658144,
+        "x1": 0.5873806583180147,
+        "y1": 0.23511824174360796
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": [
+        -0.0056876148897058165,
+        -0.2215457245797822
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "A.  Template",
+      "gen_text": "A. Template",
+      "ref_bbox": {
+        "x0": 0.5081100643382352,
+        "y0": 0.3552588260535038,
+        "x1": 0.5950115847120098,
+        "y1": 0.3690579131155303
+      },
+      "gen_bbox": {
+        "x0": 0.5038033279718137,
+        "y0": 0.10876859722715436,
+        "x1": 0.5987227615655637,
+        "y1": 0.12463495427911932
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": [
+        -0.0043067363664215375,
+        -0.2464902288263494
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "This document may be used as a template for preparing \nyour Transactions/Journal paper. You may type over sections \nof the document, cut and paste into it, and/or use markup \nstyles.",
+      "gen_text": "This document may be used as a template for preparing your\nTransactions/Journal paper. You may type over sections of the\ndocument, cut and paste into it, and/or use markup styles.",
+      "ref_bbox": {
+        "x0": 0.5056944125306373,
+        "y0": 0.3714911443536932,
+        "x1": 0.9244220090379902,
+        "y1": 0.4359212239583333
+      },
+      "gen_bbox": {
+        "x0": 0.5055822993259804,
+        "y0": 0.1382445271809896,
+        "x1": 0.9190330116421569,
+        "y1": 0.18108786843039773
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0001121132046568718,
+        -0.2332466171727036
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "D.  Section Headings",
+      "gen_text": "D. Section Headings",
+      "ref_bbox": {
+        "x0": 0.5090273150275735,
+        "y0": 0.7378255208333333,
+        "x1": 0.6473239315257353,
+        "y1": 0.7514157936789773
+      },
+      "gen_bbox": {
+        "x0": 0.5043824678308824,
+        "y0": 0.5943037183357007,
+        "x1": 0.6624475815716911,
+        "y1": 0.6099272017045455
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": [
+        -0.004644847196691115,
+        -0.14352180249763258
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Samples of Times Roman Type Sizes and Styles",
+      "gen_text": "Samples of Times Roman Type Sizes and Styles",
+      "ref_bbox": {
+        "x0": 0.13566610897288603,
+        "y0": 0.14858321681167141,
+        "x1": 0.46158586090686277,
+        "y1": 0.16417014382102274
+      },
+      "gen_bbox": {
+        "x0": 0.5530979051776961,
+        "y0": 0.906442353219697,
+        "x1": 0.868756223192402,
+        "y1": 0.9209191524621212
+      },
+      "ref_page": 1,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.5,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        0.4174317962048101,
+        0.7578591364080256
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "E.  Figures and Tables",
+      "gen_text": "E. Figures and Tables",
+      "ref_bbox": {
+        "x0": 0.0784193510167739,
+        "y0": 0.37453816731770834,
+        "x1": 0.22858872357536764,
+        "y1": 0.3879925352154356
+      },
+      "gen_bbox": {
+        "x0": 0.07476716284658394,
+        "y0": 0.32129468513257575,
+        "x1": 0.24156884286917893,
+        "y1": 0.3382427793560606
+      },
+      "ref_page": 1,
+      "gen_page": 1,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": [
+        -0.00365218817018996,
+        -0.053243482185132585
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "References  are  important  to  the  reader;  therefore,  each \ncitation must be complete and correct. There is no editorial \ncheck  on  references;  therefore,  an  incomplete  or  wrong \nreference will be published unless caught by a reviewer or \ndiscusser and will detract from the authority and value of the \npaper. References should be readily available publications.",
+      "gen_text": "References are important to the reader\u037e therefore, each citation\nmust be complete and correct. There is no editorial check on\nreferences\u037e therefore, an incomplete or wrong reference will\nbe published unless caught by a reviewer or discusser and will\ndetract from the authority and value of the paper. References\nshould be readily available publications.\nList only one reference per reference number. If a reference is\navailable from two sources, each should be listed as a separate\nreference. Give all authors\u2019 names\u037e do not use et al.\nSamples of the correct formats for various types of references\nare given below.\nBasic format for books:",
+      "ref_bbox": {
+        "x0": 0.0793277157054228,
+        "y0": 0.5093202163233902,
+        "x1": 0.49097024356617647,
+        "y1": 0.6002553858901515
+      },
+      "gen_bbox": {
+        "x0": 0.07127353443818933,
+        "y0": 0.42067216352982956,
+        "x1": 0.491079771752451,
+        "y1": 0.5985700017755682
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.5180398469046678,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.008054181267233465,
+        -0.08864805279356064
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Use \u201c(1),\u201d not \u201cEq. (1)\u201d or \u201cequation (1),\u201d except at the \nbeginning of a sentence: \u201cEquation (1) is .\u2026\u201d",
+      "gen_text": "Use \u201c(1),\u201d not \u201cEq.\n(1)\u201d or \u201cequation (1),\u201d except at the\nbeginning of a sentence: \u201cEquation (1) is .\u2026\u201d",
+      "ref_bbox": {
+        "x0": 0.08095134660309436,
+        "y0": 0.26830423990885416,
+        "x1": 0.49273820465686274,
+        "y1": 0.29623734907670457
+      },
+      "gen_bbox": {
+        "x0": 0.07287369073606005,
+        "y0": 0.20644775390625,
+        "x1": 0.4866043390012255,
+        "y1": 0.23486925529711175
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.008077655867034308,
+        -0.061856486002604155
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Basic format for books:\n[1]\nJ. K. Author, \u201cTitle of chapter in the book,\u201d in Title of His Published \nBook, xth  ed.  City  of  Publisher,  Country  if  not  USA:  Abbrev.  of \nPublisher, year, ch. x, sec. x, pp. xxx\u2013xxx.\nExamples:\n[2]\nG. O. Young, \u201cSynthetic structure of industrial plastics,\u201d in Plastics, 2nd \ned., vol. 3, J. Peters, Ed. New York: McGraw-Hill, 1964, pp. 15\u201364.\n[3]\nW.-K. Chen, Linear Networks and Systems. Belmont, CA: Wadsworth, \n1993, pp. 123\u2013135.",
+      "gen_text": "Published Book, xth ed. City of Publisher, Country if not\nUSA: Abbrev. of Publisher, year, ch. x, sec. x, pp. xxx\u2013xxx.\nExamples:\n1. G. O. Young, \u201cSynthetic structure of industrial plastics,\u201d\nin Plastics, 2nd ed., vol.\n3, J. Peters, Ed.\nNew York:\nMcGraw-Hill, 1964, pp. 15\u201364.\n2. W.-K. Chen, Linear Networks and Systems. Belmont, CA:\nWadsworth, 1993, pp. 123\u2013135.\nBasic format for periodicals:\n1 J K Author \u201cName of paper \u201d Abbrev Title of Periodical",
+      "ref_bbox": {
+        "x0": 0.0792649631874234,
+        "y0": 0.7007882782907197,
+        "x1": 0.49139662798713235,
+        "y1": 0.8056068004261364
+      },
+      "gen_bbox": {
+        "x0": 0.07030313529220282,
+        "y0": 0.6146523955374052,
+        "x1": 0.48855980966605395,
+        "y1": 0.7638835375236742
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.5502396292085318,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.008961827895220584,
+        -0.08613588275331441
+      ],
+      "ref_block_type": "List",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "Appendixes, if needed, appear before the acknowledgment.",
+      "gen_text": "Appendixes, if needed, appear before the acknowledgment.",
+      "ref_bbox": {
+        "x0": 0.09737030029296875,
+        "y0": 0.332985321969697,
+        "x1": 0.4851815257352941,
+        "y1": 0.3467602908972538
+      },
+      "gen_bbox": {
+        "x0": 0.07242725447112439,
+        "y0": 0.26117076526988636,
+        "x1": 0.4585279277726716,
+        "y1": 0.2758351828835227
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.024943045821844367,
+        -0.07181455669981063
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "where IF is the fault current.",
+      "gen_text": "where IF is the fault current.",
+      "ref_bbox": {
+        "x0": 0.07666006050857843,
+        "y0": 0.24588175455729167,
+        "x1": 0.26028832529105395,
+        "y1": 0.2595809289180871
+      },
+      "gen_bbox": {
+        "x0": 0.07284168318206188,
+        "y0": 0.18427173961292614,
+        "x1": 0.26025409773284314,
+        "y1": 0.19754161487926136
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0038183773265165477,
+        -0.06161001494436552
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "[8]\nJ. K. Author, \u201cTitle of report,\u201d Abbrev. Name of Co., City of Co.,\nAbbrev. State, Rep. xxx, year.\nExamples:",
+      "gen_text": "1. J. K. Author, \u201cTitle of report,\u201d Abbrev. Name of Co., City of\nCo., Abbrev. State, Rep. xxx, year.\nExamples:",
+      "ref_bbox": {
+        "x0": 0.5059880035998775,
+        "y0": 0.11432193640506629,
+        "x1": 0.920885129442402,
+        "y1": 0.15139328465317234
+      },
+      "gen_bbox": {
+        "x0": 0.5030787090226716,
+        "y0": 0.05401653405391809,
+        "x1": 0.9186341528799019,
+        "y1": 0.09860608649976325
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.5294117647058824,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.002909294577205901,
+        -0.060305402351148195
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "Basic  format  for  computer  programs  and  electronic\ndocuments  (when  available  online): ISO  recommends  that\ncapitalization follow the accepted practice for the language or\nscript in which the information is given.\nExample:\n[22] A.  Harriman.  (1993,  June).  Compendium  of  genealogical  software\nHumanist. [Online].  Available  e-mail:  HUMANIST@NYVM.ORG\nMessage: get GENEALOGY REPORT",
+      "gen_text": "f\nf\np\n(\nonline):\n1. Author.\n(year, month).\nTitle.\nCompany.\nCity, State or\nCountry. [Type of medium]. Available: site/path/file\nExample:\n1. S.\nL.\nTalleen.\n(1996,\nApr.).\nThe\nIntranet\nArchitecture:\nManaging\ninformation\nin\nthe\nnew\nparadigm.\nAmdahl Corp., CA. [Online].\nAvailable:\nhttp://www.amdahl.com/doc/products/bsg/intra/infra/html\nBasic format for computer programs and electronic documents\n(when available online): ISO recommends that capitalization\nfollow the accepted practice for the language or script in which\nthe information is given.\nExample:",
+      "ref_bbox": {
+        "x0": 0.5083639227175245,
+        "y0": 0.7928856682054924,
+        "x1": 0.9178664024203431,
+        "y1": 0.9057435191761364
+      },
+      "gen_bbox": {
+        "x0": 0.5064644129136029,
+        "y0": 0.6963478042140151,
+        "x1": 0.9209878599877451,
+        "y1": 0.9032564660274621
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.44831296593228553,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0018995098039216174,
+        -0.09653786399147735
+      ],
+      "ref_block_type": "List",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "Basic format for books:",
+      "gen_text": "Basic format for books",
+      "ref_bbox": {
+        "x0": 0.0777127135033701,
+        "y0": 0.6933401396780303,
+        "x1": 0.23017834233302695,
+        "y1": 0.7066182084517045
+      },
+      "gen_bbox": {
+        "x0": 0.07683432186351102,
+        "y0": 0.5842587002840909,
+        "x1": 0.22308036056219363,
+        "y1": 0.5977115515506629
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.5739130434782609,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0008783916398590746,
+        -0.10908143939393944
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Dr.  Tesla  received  honorary  degrees  from \ninstitutions  of  higher  learning  including  Columbia  University,  Yale \nUniversity, University of Belgrade, and the University of Zagreb. He received \nthe Elliott Cresson Medal of the Franklin Institute and the Edison Medal of \nthe IEEE. In 1956, the term \u201ctesla\u201d (T) was adopted as the unit of magnetic \nflux density in the MKSA system. In 1975, the Power Engineering Society \nestablished the Nikola Tesla Award in his honor. He died on January 7, 1943.",
+      "gen_text": "fields of interest included high frequency.\nDr. Tesla received honorary degrees from institutions of higher\nlearning including Columbia University,\nYale University,\nUniversity of Belgrade, and the University of Zagreb.\nHe\nreceived the Elliott Cresson Medal of the Franklin Institute and\nthe Edison Medal of the IEEE. In 1956, the term \u201ctesla\u201d (T)\nwas adopted as the unit of magnetic flux density in the MKSA\nsystem. In 1975, the Power Engineering Society established the\nNikola Tesla Award in his honor. He died on January 7, 1943.",
+      "ref_bbox": {
+        "x0": 0.5107467830882353,
+        "y0": 0.5083582652698864,
+        "x1": 0.9226830575980393,
+        "y1": 0.5828236342921401
+      },
+      "gen_bbox": {
+        "x0": 0.5066506778492647,
+        "y0": 0.6461385830965909,
+        "x1": 0.9189568014705882,
+        "y1": 0.7715576911695076
+      },
+      "ref_page": 3,
+      "gen_page": 3,
+      "diff_type": "shifted",
+      "confidence": 0.5499999999999999,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.004096105238970638,
+        0.13778031782670452
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Basic  format  for  the  most  common  types  of  unpublish\nreferences:",
+      "gen_text": "Basic format for the most common types of unpublished\nreferences:",
+      "ref_bbox": {
+        "x0": 0.07704078823912378,
+        "y0": 0.5636998771898675,
+        "x1": 0.4737716854319853,
+        "y1": 0.5893319424715909
+      },
+      "gen_bbox": {
+        "x0": 0.06895683138978248,
+        "y0": 0.6668022017045454,
+        "x1": 0.4959359681372549,
+        "y1": 0.6951800722064394
+      },
+      "ref_page": 3,
+      "gen_page": 3,
+      "diff_type": "shifted",
+      "confidence": 0.4909090909090909,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.008083956849341295,
+        0.10310232451467793
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "29] G. Brandli and M. Dick, \u201cAlternating current fed power supply,\u201d U.S. \nPatent 4 084 217, Nov. 4, 1978.",
+      "gen_text": "1. G. Brandli and M. Dick, \u201cAlternating current fed power\nsupply,\u201d U.S. Patent 4 084 217, Nov. 4, 1978.",
+      "ref_bbox": {
+        "x0": 0.08579774744370404,
+        "y0": 0.371696259469697,
+        "x1": 0.4931433823529412,
+        "y1": 0.39564068418560605
+      },
+      "gen_bbox": {
+        "x0": 0.0728592098460478,
+        "y0": 0.4502299360795455,
+        "x1": 0.4913879633884804,
+        "y1": 0.4777561996922349
+      },
+      "ref_page": 3,
+      "gen_page": 3,
+      "diff_type": "shifted",
+      "confidence": 0.54,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.012938537597656244,
+        0.0785336766098485
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "A primary  section heading is  enumerated by a  Roman \nnumeral followed by a period and is centered above the text. A \nprimary heading should be in capital letters.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5060633999693628,
+        "y0": 0.7578359522964015,
+        "x1": 0.9235673253676471,
+        "y1": 0.8011651426373106
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "T. C. Author is with the Electrical Engineering Department, University of\nColorado, Boulder, CO 80309 USA, on leave from the National Research\nInstitute for Metals, Tsukuba, Japan (e-mail: author@nrim.go.jp).",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07964029349532782,
+        "y0": 0.905570401278409,
+        "x1": 0.4884033203125,
+        "y1": 0.94089599609375
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "II.  TRANSACTIONS/JOURNAL PAPER PREPARATION",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5497193340226716,
+        "y0": 0.2509691273082386,
+        "x1": 0.8828816253063726,
+        "y1": 0.2639139441287879
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "\uf020Financial support should be acknowledged here. Example: This work was\nupported in part by the U.S. Department of Commerce under Grant BS123.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.08486564486634497,
+        "y0": 0.7664997632575757,
+        "x1": 0.4902051738664216,
+        "y1": 0.789666933001894
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "A  tertiary  section  heading  is  enumerated  by  an  arabic \nnumeral  followed  by  a  parenthesis.  It  is  indented  and  is \nfollowed by a colon. The first letter of each important word is \ncapitalized and the heading is italicized.\nA quaternary section heading is rarely necessary but is",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5074971756280637,
+        "y0": 0.8626339074337122,
+        "x1": 0.9221036305147059,
+        "y1": 0.9308263050426137
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "(\n@\ng\n)\nS. B. Author, Jr., was with Rice University, Houston, TX 77005 USA. He\nis now with the Department of Physics, Colorado State University, Fort\nCollins, CO 80523 USA (e-mail: author@lamar.colostate.edu).",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.0793050967945772,
+        "y0": 0.86880126953125,
+        "x1": 0.4877224551930147,
+        "y1": 0.9061809008049242
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "pp\nF. A. Author is with the National Institute of Standards and Technology\nBoulder, CO 80305 USA (e-mail: author@boulder.nist.gov).",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.08129806219362745,
+        "y0": 0.8459737511837121,
+        "x1": 0.48654435700061277,
+        "y1": 0.869792998342803
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "The title should be in uppercase and lowercase letters, not all uppercase.\nThe name and affiliation (including city and country) of each author must \nappear on the paper. Full names are preferred in the author line, but are not \nrequired. Initials are used in the affiliation footnotes (see below). Put a space \nbetween authors' initials. Do not use all uppercase for authors' surnames.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07621135636871937,
+        "y0": 0.7940474816524621,
+        "x1": 0.4906231330422794,
+        "y1": 0.8442572206439394
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "A quaternary section heading is rarely necessary, but is",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5155424230238971,
+        "y0": 0.9252223899147727,
+        "x1": 0.9211266850490196,
+        "y1": 0.9387444513494319
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "required. Initials are used in the affiliation footnotes (see below). Put a space\nbetween authors' initials. Do not use all uppercase for authors' surnames.\nF. A. Author is with the National Institute of Standards and Technology,\nBoulder, CO 80305 USA (e-mail: author@boulder.nist.gov). \nS. B. Author, Jr., was with Rice University, Houston, TX 77005 USA. He\nis now with the Department of Physics, Colorado State University, Fort\nCollins, CO 80523 USA (e-mail: author@lamar.colostate.edu).\nT C A h\ni\ni h h El\ni\nl E\ni\ni\nD\nU i\ni\nf",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07910951502182904,
+        "y0": 0.8241847182765152,
+        "x1": 0.4872940123314951,
+        "y1": 0.9074942294034091
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "I.  INTRODUCTION",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.2258865894990809,
+        "y0": 0.6105767637310606,
+        "x1": 0.34380332797181373,
+        "y1": 0.6240987511837122
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "NOMENCLATURE",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.22537123736213235,
+        "y0": 0.5460390772964016,
+        "x1": 0.3378293504901961,
+        "y1": 0.5592269250118371
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Fig. 1.  Magnetization as a function of applied field. (Note that \u201cFig.\u201d is \nabbreviated and there is a period after the figure number followed by two \nspaces.)",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5054286822150735,
+        "y0": 0.31661824544270833,
+        "x1": 0.9218958716299019,
+        "y1": 0.3515224017518939
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "The IEEE Graphics Analyzer Tool enables authors to pre-\nscreen their graphics for compliance with IEEE Transactions\nand Journals standards before submission. The online tool is\nlocated at http://graphicsqc.ieee.org/.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.08097160189759497,
+        "y0": 0.5295497824928977,
+        "x1": 0.4888648418351716,
+        "y1": 0.5901392341382575
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "To make your equations more compact, you may use the\nsolidus  (  /  ),  the  exp  function,  or  appropriate  exponents.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5074295821844362,
+        "y0": 0.9048387192234848,
+        "x1": 0.9213428691789216,
+        "y1": 0.9341987008759469
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "See  Appendix  A  of  the  Author\u2019s  Kit for  additional \ninformation and standard abbreviations.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.507052121629902,
+        "y0": 0.8014436848958333,
+        "x1": 0.9274501187193628,
+        "y1": 0.8305316347064394
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Appendix  figures  and  tables  should  be  numbered \nconsecutively with the figures and tables appearing in the rest \nof the paper. They should not have  their own numbering \nsystem.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5073885569852942,
+        "y0": 0.47439412434895833,
+        "x1": 0.9225988051470588,
+        "y1": 0.5414889248934659
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Number footnotes separately with superscripts (References \n| Insert Footnote). Place the actual footnote at the bottom of \nthe column in which it is cited. Do not put footnotes in the \nreference list. Use letters for table footnotes.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5112518669577206,
+        "y0": 0.36826981977982953,
+        "x1": 0.9226844937193628,
+        "y1": 0.42624260179924245
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Check that all figures and tables are numbered correctly.\nUse  arabic  numerals  for figures  and Roman numerals  for\ntables",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.504454896216299,
+        "y0": 0.42973285097064395,
+        "x1": 0.9208265356924019,
+        "y1": 0.46737411961410985
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "perfectly  acceptable  if  required.  It  is  enumerated  by  a\nlowercase letter followed by a parenthesis. It is indented and is\nfollowed by a colon. Only the first letter of the heading is\ncapitalized and the heading is italicized.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07793653301164216,
+        "y0": 0.06180609500769413,
+        "x1": 0.4885973881740196,
+        "y1": 0.12161538788766572
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Use either the Microsoft Equation Editor or the MathType \ncommercial add-on for MS Word for all math objects in your \npaper (Insert | Equation or MathType Equation).\nTo make your equations more compact, you may use the",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5059638767616421,
+        "y0": 0.855913973721591,
+        "x1": 0.9241311465992647,
+        "y1": 0.9173334665009469
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "E.  Figures and Tables",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07702684589460784,
+        "y0": 0.37472086588541664,
+        "x1": 0.2263924871706495,
+        "y1": 0.38753669507575755
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "[22] A.  Harriman.  (1993,  June).  Compendium  of  genealogical  software. \nHumanist. [Online].  Available  e-mail:  HUMANIST@NYVM.ORG \nMessage: get GENEALOGY REPORT",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5137812595741421,
+        "y0": 0.8759912109375,
+        "x1": 0.9227446193321078,
+        "y1": 0.9119388464725379
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "List only one reference per reference number. If a reference\nis available from two sources, each should be listed as a\nseparate reference. Give all authors' names; do not use et al.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07445625454771752,
+        "y0": 0.603083311138731,
+        "x1": 0.4860498046875,
+        "y1": 0.6473135653409091
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "The authors gratefully acknowledge the contributions of I.\nX. Austan, A. H. Burgmeyer, C. J. Essel, and S. H. Gold for\ntheir work on the original version of this document.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07637069402956495,
+        "y0": 0.429890839547822,
+        "x1": 0.4886297487745098,
+        "y1": 0.47282885002367425
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "9] PROCESS Corp., MA. Intranets: Internet technologies deployed behind\nthe firewall for corporate productivity. Presented at INET96 Annua\nMeeting. [Online]. Available: http://home.process.com/Intranets/wp2.htp",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5259909237132353,
+        "y0": 0.6305536073626894,
+        "x1": 0.9170852481617647,
+        "y1": 0.6661279296875
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "The  following  is  an  example  of  an  acknowledgment.\n(Please note that financial support should be acknowledged in\nthe unnumbered footnote on the title page.)",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.0806390380859375,
+        "y0": 0.38407589074337123,
+        "x1": 0.48927595549938724,
+        "y1": 0.42497210878314395
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "[7]\nE.  H.  Miller,  \u201cA  note  on  reflector  arrays,\u201d  IEEE  Trans.  Antennas \nPropagat., to be published.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5132986270680147,
+        "y0": 0.06168552745472301,
+        "x1": 0.9234680415134804,
+        "y1": 0.08675379897608901
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "V.  REFERENCES",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.23128863166360294,
+        "y0": 0.48998668323863637,
+        "x1": 0.3386556228936887,
+        "y1": 0.5038143643465909
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "[21] S.  L.  Talleen.  (1996,  Apr.).  The  Intranet  Architecture:  Managing \ninformation  in  the  new  paradigm.  Amdahl  Corp.,  CA.  [Online]. \nAvailable: http://www.amdahl.com/doc/products/bsg/intra/infra/html",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5103667375153186,
+        "y0": 0.7506839636600379,
+        "x1": 0.922991823682598,
+        "y1": 0.7850575580018939
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "III.  APPENDIX",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.23537743661917893,
+        "y0": 0.3141153601444129,
+        "x1": 0.33438285079656865,
+        "y1": 0.3267205625591856
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "I F=I B=\u2212IC=A2 I A 1+ AI A 2+I A 0=\nJ \u221a3 E A\nZ1+Z2",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.09026712455001532,
+        "y0": 0.20432598691998105,
+        "x1": 0.455079896216299,
+        "y1": 0.23607048265861744
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Basic format for reports:",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5111529660692402,
+        "y0": 0.10032460530598958,
+        "x1": 0.6708182540594363,
+        "y1": 0.11346780487985322
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Basic format for books (when available online): \n[14] Author. (year, month day).  Title. (edition) [Type of medium].  volume\n(issue). Available: site/path/file\nExample:\n[15] J J\n(1991 M\n10)\nN\nk\n(2 d\nd ) [O li\n] A\nil bl",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5051169002757353,
+        "y0": 0.35582719282670455,
+        "x1": 0.9207748353247549,
+        "y1": 0.4100020714962121
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Basic format for journals (when available online):\n[16] Author. (year, month). Title. Journal. [Type of medium]. volume (issue),\npages. Available: site/path/file\nExample:",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5062274050245098,
+        "y0": 0.4472059585108902,
+        "x1": 0.9194068818933824,
+        "y1": 0.496032012014678
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "separate reference. Give all authors' names; do not use et al. \nSamples  of  the  correct  formats  for  various  types  of\nreferences are given below.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07652744068818934,
+        "y0": 0.6350465346827652,
+        "x1": 0.489376771216299,
+        "y1": 0.6727751390861743
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "[11] Name of Manual/Handbook, x ed., Abbrev. Name of Co., City of Co.\nAbbrev. State, year, pp. xxx\u2013xxx.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5050566310508579,
+        "y0": 0.25355516838304926,
+        "x1": 0.9176847809436275,
+        "y1": 0.2785566295276989
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "IV.  ACKNOWLEDGMENT",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.20324139763327206,
+        "y0": 0.3633340361624053,
+        "x1": 0.3632296453737745,
+        "y1": 0.37669074781013256
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "I F=I B=\u2212IC=A2 I A 1+ AI A 2+I A 0=\u2212J \u221a3 E A\nZ1+Z2",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.08343652463426778,
+        "y0": 0.1967101865826231,
+        "x1": 0.46338086894914216,
+        "y1": 0.24029768510298297
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Basic format for journals (when available online):\n[16] Author. (year, month). Title. Journal. [Type of medium]. volume (issue)\npages. Available: site/path/file\nE\nl",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.4995297181372549,
+        "y0": 0.4476314290364583,
+        "x1": 0.9179811006433823,
+        "y1": 0.4892584043560606
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Basic  format  for  reports  and  handbooks  (when  available \nonline):\n[20] Author. (year, month). Title. Company. City, State or Country. [Type of",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5076192459405637,
+        "y0": 0.6817095762310607,
+        "x1": 0.9239194623161765,
+        "y1": 0.7236384351325758
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Basic  format  for  reports  and  handbooks  (when  available\nonline):\n[20] A h\n(\nh) Ti l\nC\nCi\nS\nC\n[T\nf",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5059216069240197,
+        "y0": 0.6818543590198863,
+        "x1": 0.9174539483762255,
+        "y1": 0.7136928858901516
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Basic  format  for  papers  presented  at  conferences  (when\navailable online): \n[18] Author. (year, month). Title. Presented at Conference title. [Type of\nmedium]. Available: site/path/file\nExample:\n[19] PROCESS Corp., MA. Intranets: Internet technologies deployed behind",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5072818053002451,
+        "y0": 0.5661227139559659,
+        "x1": 0.9215560853247549,
+        "y1": 0.6388919714725378
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "The second paragraph uses the pronoun of the person (he or \nshe) and not the author\u2019s last name. It lists military and work \nexperience, including summer and fellowship jobs. Job titles \nare capitalized. The current job must have a location; previous \npositions may be listed without one. Information concerning \nprevious publications may be included. Try not to list more \nthan three books or published articles. The format for listing \npublishers of a book within the biography is: title of book \n(city,  state:  publisher  name,  year)  similar  to  a  reference. \nCurrent and previous research interests end the paragraph.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5090884937959559,
+        "y0": 0.13620280872691762,
+        "x1": 0.9235184015012254,
+        "y1": 0.27904957164417615
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "p\np\ng p\nThe third paragraph begins with the author\u2019s title and last\nname (e.g., Dr. Smith, Prof. Jones, Mr. Kajor, Ms. Hunter).\nList any memberships in professional societies other than the\nIEEE. Finally, list any awards and work for IEEE committees\nand publications.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.51140625,
+        "y0": 0.2780197051077178,
+        "x1": 0.918682981004902,
+        "y1": 0.3539368045691288
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "The first paragraph should begin with the author\u2019s name (a\nit appears in the byline) and IEEE membership history. A\nplace and/or date of birth may be included (list place, then",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.0775013942344516,
+        "y0": 0.8921533203125,
+        "x1": 0.4839863376991422,
+        "y1": 0.9367112778172348
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "A technical biography and photograph for each author may \nbe included. The photo should be 2.54 centimeters (1 inch) \nwide by 3.18 centimeters (1.25 inches) high. The head and \nshoulders should be centered, and the photo should be flush \nwith the left margin. Please note that biographies and photos \nare included in the page count.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07872289919385723,
+        "y0": 0.8046519886363637,
+        "x1": 0.49097641888786764,
+        "y1": 0.8923111979166667
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "The  following  is  a  biography  of  Nikola  Tesla  as  an\nexample.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5052513212316176,
+        "y0": 0.35247787937973485,
+        "x1": 0.9216596775428921,
+        "y1": 0.3817136452414773
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "date). Next, the author\u2019s educational background is listed. The \ndegrees should be listed with type of degree in what field, \nwhich institution, city, state, and country, and year the degree \nwas earned. The author\u2019s major field of study should be lower-\ncased.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5099487783394608,
+        "y0": 0.06245491721413352,
+        "x1": 0.9220490579044117,
+        "y1": 0.13478999282374526
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": ",\ny\ng\nHis  employment  experience  included  the \nAmerican  Telephone  Company,  Budapest,  the \nEdison  Machine  Works,  Westinghouse  Electric \nCompany,  and  Nikola  Tesla  Laboratories.  His \nspecial fields of interest included high frequency.\nD\nT\nl\ni\nd\nh\nd\nf",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.6481617168351715,
+        "y0": 0.4409130859375,
+        "x1": 0.9230121208639706,
+        "y1": 0.5053128329190341
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Nikola Tesla (M\u20191888, F\u201917) was born in Smiljan \nin the Austro-Hungarian Empire, on July 9, 1856. \nHe graduated from the Austrian Polytechnic School, \nGraz, and studied at the University of Prague.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.6446372836243872,
+        "y0": 0.39767285896070076,
+        "x1": 0.9232508999693627,
+        "y1": 0.44367808948863635
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Basic format for patents (when available online):\n[23] Name of the invention, by inventor\u2019s name. (year, month day). Patent \nNumber [Type of medium]. Available: site/path/file\nExample:\n[24] Musical  toothbrush  with  adjustable  neck  and  mirror,  by  L.  M.  R. \nBrooks (1992 May 19) Patent D 326 189 [Online] Available: NEXIS",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07300878786573223,
+        "y0": 0.06707857074159565,
+        "x1": 0.4911730238970588,
+        "y1": 0.1311110340465199
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Basic format for patents:\n[28] J. K. Author, \u201cTitle of patent,\u201d U.S. Patent x xxx xxx, Abbrev. Month,\nday, year.\nExample:\n[29] G. Brandli and M. Dick, \u201cAlternating current fed power supply,\u201d U.S.\nPatent 4 084 217 Nov 4 1978",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07576784021714154,
+        "y0": 0.32436512340198864,
+        "x1": 0.4892886412377451,
+        "y1": 0.39047836766098487
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Basic format for conference proceedings (published):\n[25] J. K. Author, \u201cTitle of paper,\u201d in Abbreviated Name of Conf., City of \nConf., Abbrev. State (if given), year, pp. xxx\u2013xxx.\nExample:\n[26] D. B. Payne and J. R. Stern, \u201cWavelength-switched passively coupled \nsingle-mode optical network,\u201d in  Proc. IOOC-ECOC, 1985, pp. 585\u2013\n590.\nExample for papers presented at conferences (unpublished):\n[27] D.  Ebehard  and  E.  Voges,  \u201cDigital  single  sideband  detection  for \ninterferometric sensors,\u201d presented at the 2nd Int. Conf. Optical Fiber",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07514471315870098,
+        "y0": 0.16527974446614582,
+        "x1": 0.49083031747855393,
+        "y1": 0.29015730424360797
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "[41] IEEE Criteria for Class IE Electric Systems, IEEE Standard 308, 1969.\n[42] Letter Symbols for Quantities, ANSI Standard Y10.5-1968.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07959695853439032,
+        "y0": 0.7453457919034091,
+        "x1": 0.4794703105851716,
+        "y1": 0.7705613014914773
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "VI.  BIOGRAPHIES",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.22395436006433825,
+        "y0": 0.7858521987452651,
+        "x1": 0.3438185987285539,
+        "y1": 0.7983202385179924
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Example:\n[24] Musical  toothbrush  with  adjustable  neck  and  mirror,  by  L.  M.  R\nBrooks. (1992, May 19). Patent D 326 189 [Online]. Available: NEXIS\nLibrary: LEXPAT File: DESIGN",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.0802978515625,
+        "y0": 0.10442541873816288,
+        "x1": 0.48743302887561274,
+        "y1": 0.14823038736979166
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "[26] D. B. Payne and J. R. Stern, \u201cWavelength-switched passively coupled\nsingle-mode optical network,\u201d in  Proc. IOOC-ECOC, 1985, pp. 585\u2013",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07988269880706189,
+        "y0": 0.21849977435487689,
+        "x1": 0.4902704216452206,
+        "y1": 0.24277671120383523
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Basic format for standards:",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.08050500009574142,
+        "y0": 0.7048985706676136,
+        "x1": 0.2641537894454657,
+        "y1": 0.7184249230587121
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Example for papers presented at conferences (unpublished):\n[27] D.  Ebehard  and  E.  Voges,  \u201cDigital  single  sideband  detection  for\ninterferometric sensors,\u201d presented at the 2nd Int. Conf. Optical Fiber\nSensors, Stuttgart, Germany, Jan. 2\u20135, 1984.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07542472689759498,
+        "y0": 0.25201636112097536,
+        "x1": 0.48858384076286765,
+        "y1": 0.3032659727154356
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Basic format for patents:",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07896209716796875,
+        "y0": 0.31946226177793563,
+        "x1": 0.24224106732536765,
+        "y1": 0.3327516497987689
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Basic format for standards:\n[40] Title of Standard, Standard number, date.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07860291724111519,
+        "y0": 0.7051839932528409,
+        "x1": 0.32269057329963236,
+        "y1": 0.7321547999526515
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "4] Musical  toothbrush  with  adjustable  neck  and  mirror,  by  L.  M.  R.\nBrooks. (1992, May 19). Patent D 326 189 [Online]. Available: NEXIS\nLibrary: LEXPAT File: DESIGN",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.0921093390969669,
+        "y0": 0.1146353426846591,
+        "x1": 0.48871074601715686,
+        "y1": 0.14867648037997158
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Basic format for conference proceedings (published):\n[25] J. K. Author, \u201cTitle of paper,\u201d in Abbreviated Name of Conf., City of \nConf., Abbrev. State (if given), year, pp. xxx\u2013xxx.\nExample:\n[26] D. B. Payne and J. R. Stern, \u201cWavelength-switched passively coupled",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07754724240770527,
+        "y0": 0.16874069676254735,
+        "x1": 0.4954623353247549,
+        "y1": 0.22938041918205493
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Basic format for standards:\n[40] Title of Standard, Standard number, date.\nExamples:\n[41] IEEE Criteria for Class IE Electric Systems, IEEE Standard 308, 1969.\n[42] Letter Symbols for Quantities, ANSI Standard Y10.5-1968.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07529028200635723,
+        "y0": 0.7050397283380682,
+        "x1": 0.486783997778799,
+        "y1": 0.771885801373106
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "",
+      "gen_text": "V. Transactions/Journal Paper Preparation",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.08619096942976409,
+        "y0": 0.669168516216856,
+        "x1": 0.4643013748468137,
+        "y1": 0.6844966264204545
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "IV. Introduction",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.20970703125,
+        "y0": 0.5079988976680871,
+        "x1": 0.3498310163909314,
+        "y1": 0.5232844682173295
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "A primary section heading is enumerated by a Roman numeral\nollowed by a period and is centered above the text. A primary\nheading should be in capital letters.\nA secondary section heading is enumerated by a capital letter\nollowed by a period and is flush left above the section. The\nirst letter of each important word is capitalized and the heading\ns italicized.\nA tertiary section heading is enumerated by an arabic numeral\nollowed by a parenthesis. It is indented and is followed by a\ncolon. The first letter of each important word is capitalized and\nhe heading is italicized.\nA quaternary section heading is rarely necessary, but is perfectly\nacceptable if required. It is enumerated by a lowercase letter\nollowed by a parenthesis. It is indented and is followed by a\ncolon. Only the first letter of the heading is capitalized and the\nheading is italicized.\nTABLE I",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.5105358168658088,
+        "y0": 0.6235548354640151,
+        "x1": 0.9156156173406863,
+        "y1": 0.8826441909327651
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "First A. Author, Fellow, IEEE, Second B. Author, Jr., and Third\nC. Author, Member, IEEE",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.06956155814376531,
+        "y0": 0.1520865145596591,
+        "x1": 0.48913162530637255,
+        "y1": 0.17984338008996212
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "A tertiary section heading is enumerated by an arabic numeral\nfollowed by a parenthesis. It is indented and is followed by a\ncolon. The first letter of each important word is capitalized and\nthe heading is italicized.\nA\nt\nti\nh\ndi\ni\nl\nb t i\nf\ntl",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.5039354511335784,
+        "y0": 0.7302630800189394,
+        "x1": 0.9195759612438725,
+        "y1": 0.7931787849195076
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "A primary section heading is enumerated by a Roman numera\nfollowed by a period and is centered above the text. A primary\nheading should be in capital letters.\nA secondary section heading is enumerated by a capital letter\nfollowed by a period and is flush left above the section. The\nfirst letter of each important word is capitalized and the heading\nis italicized.\nA tertiary section heading is enumerated by an arabic numera\nfollowed by a parenthesis. It is indented and is followed by a\ncolon. The first letter of each important word is capitalized and\nthe heading is italicized.\nA quaternary section heading is rarely necessary, but is perfectly\nacceptable if required. It is enumerated by a lowercase letter\nfollowed by a parenthesis. It is indented and is followed by a\ncolon. Only the first letter of the heading is capitalized and the\nheading is italicized.\nTABLE I",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.5064696786917892,
+        "y0": 0.6225966944839015,
+        "x1": 0.9121096622242647,
+        "y1": 0.8811922940340909
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "III. Transactions/Journal Publication\nFirst A. Author, Fellow, IEEE, Second B. Author, Jr., and Third\nC. Author, Member, IEEE\nAbstract\u2013Basic guidelines for the preparation of a technical\nwork for an IEEE Power & Energy Society Transactions/Journal\nPublication are presented. This document is itself an example\nof the desired layout (inclusive of this abstract) and can be\nused as a template. It contains information regarding desktop\npublishing format, type sizes, and typefaces. Style rules are\nprovided that explains how to handle equations, units, figures,\ntables, abbreviations, and acronyms. Sections are also devoted\nto the preparation of acknowledgments, references, and authors\u2019\nbiographies.\nThe abstract is limited to 150\u2013200 words and\ncannot contain equations, figures, tables, or references. It should\nconcisely state what was done, how it was done, principal\nresults, and their significance.\nIndex Terms\u2013The author shall provide up to 10 keywords (in\nalphabetical order) to help identify the major topics of the paper.\nThe thesaurus of IEEE indexing keywords should be referenced\nprior to selecting the keywords to ensure that the words selected\nare acceptable. The thesaurus is posted at https://www.ieee.org/\npublications/services/thesaurus-access-page.html.\n\u2022 Nomenclature\nA\nl\nli\nif\nd d\nh\nld\nd\nh I\nd\ni",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.07141183890548407,
+        "y0": 0.13421648430101799,
+        "x1": 0.48591873468137253,
+        "y1": 0.4887173369436553
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Fig. 1. Magnetization as a function of applied field. (Note\nthat \u201cFig.\u201d is abbreviated and there is a period after the figure\nnumber followed by two spaces.)\nNumber footnotes separately with superscripts (References\nInsert Footnote). Place the actual footnote at the bottom of the\ncolumn in which it is cited. Do not put footnotes in the reference\nlist. Use letters for table footnotes.\nCheck that all figures and tables are numbered correctly. Use\narabic numerals for figures and Roman numerals for tables.\nAppendix figures and tables should be numbered consecutively\nwith the figures and tables appearing in the rest of the paper\nThey should not have their own numbering system.",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.5047558115042892,
+        "y0": 0.3169222005208333,
+        "x1": 0.9118107575061275,
+        "y1": 0.4938151041666667
+      },
+      "ref_page": 0,
+      "gen_page": 1,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Figure axis labels are often a source of confusion. Try to use\nwords rather than symbols. As an example, write the quantity\n\u201cMagnetization,\u201d or \u201cMagnetization, M,\u201d not just \u201cM.\u201d Put\nunits in parentheses. Do not label axes only with units. As\nin Fig.\n1, write \u201cMagnetization (kA/m)\u201d or \u201cMagnetization\n(kA\u00b7m-1),\u201d not just \u201ckA/m.\u201d Do not label axes with a ratio\nof quantities and units.\nFor example, write \u201cTemperature\n(K),\u201d not \u201cTemperature/K.\u201d Figure labels should be legible,\napproximately 8- to 10-point type.\nThe IEEE Graphics Analyzer Tool enables authors to pre-screen\ntheir graphics for compliance with IEEE Transactions and\nJournals standards before submission. The online tool is located\nat http://graphicsqc.ieee.org/.\nTo insert images in Microsoft Word, position the cursor at the\ninsertion point and either use Insert | Picture | Insert Picture from\nFile or copy the image to the Windows clipboard and then use\nHome | Paste | Paste Special | Picture. All figures and tables\nmust be in place in the text near, but not before, where they are\nfirst mentioned.\nLarge figures and tables may span both columns, but may not\nextend into the page margins. Figure captions should be below\nthe figures\u037e table captions should be above the tables. Do not put\ncaptions in \u201ctext boxes\u201d linked to the figures. Do not put borders\naround your figures. Use the abbreviation \u201cFig. 1,\u201d even at the\nbeginning of a sentence.",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.07058328665939032,
+        "y0": 0.3541678133877841,
+        "x1": 0.4902594113817402,
+        "y1": 0.7300912198153409
+      },
+      "ref_page": 0,
+      "gen_page": 1,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Define less common abbreviations and acronyms the first time\nthey are used in the text, even after they have been defined in\nthe abstract. Abbreviations such as IEEE, SI, MKS, CGS, ac,\ndc, and rms do not have to be defined. Do not use abbreviations\nin the title unless they are unavoidable.\nSee Appendix A of the Author\u2019s Kit for additional information\nand standard abbreviations.",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.5055339499080882,
+        "y0": 0.7232762932054925,
+        "x1": 0.9198240272671568,
+        "y1": 0.8294859730113636
+      },
+      "ref_page": 0,
+      "gen_page": 1,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Figure axis labels are often a source of confusion. Try to use\nwords rather than symbols. As an example, write the quantity\n\u201cMagnetization,\u201d or \u201cMagnetization, M,\u201d not just \u201cM.\u201d Put\nunits in parentheses. Do not label axes only with units. As\nin Fig.\n1, write \u201cMagnetization (kA/m)\u201d or \u201cMagnetization\n(kA\u00b7m-1),\u201d not just \u201ckA/m.\u201d Do not label axes with a ratio\nof quantities and units.\nFor example, write \u201cTemperature\n(K),\u201d not \u201cTemperature/K.\u201d Figure labels should be legible,\napproximately 8- to 10-point type.\nThe IEEE Graphics Analyzer Tool enables authors to pre-screen\ntheir graphics for compliance with IEEE Transactions and\nJournals standards before submission. The online tool is located\nat http://graphicsqc.ieee.org/.\nTo insert images in Microsoft Word, position the cursor at the\ninsertion point and either use Insert | Picture | Insert Picture from\nFile or copy the image to the Windows clipboard and then use\nHome | Paste | Paste Special | Picture. All figures and tables\nmust be in place in the text near, but not before, where they are\nfirst mentioned.\nLarge figures and tables may span both columns, but may not\nextend into the page margins. Figure captions should be below\nthe figures\u037e table captions should be above the tables. Do not put\ncaptions in \u201ctext boxes\u201d linked to the figures. Do not put borders\naround your figures. Use the abbreviation \u201cFig. 1,\u201d even at the\nbeginning of a sentence.",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.07492386163449755,
+        "y0": 0.33696300159801135,
+        "x1": 0.4865319106158088,
+        "y1": 0.7432922733191288
+      },
+      "ref_page": 0,
+      "gen_page": 1,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "VIII. References",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.20666432100183824,
+        "y0": 0.398883056640625,
+        "x1": 0.35306942210477943,
+        "y1": 0.41444683652935604
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "The following is an example of an acknowledgment. (Please\nnote that financial support should be acknowledged in the\nunnumbered footnote on the title page.)\nThe authors gratefully acknowledge the contributions of I. X.\nAustan, A. H. Burgmeyer, C. J. Essel, and S. H. Gold for their\nwork on the original version of this document.",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.0716226375804228,
+        "y0": 0.308099716648911,
+        "x1": 0.4874434646905637,
+        "y1": 0.39121533942945075
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Co., Abbrev. State, Rep. xxx, year.\nExamples:\n1. E. E. Reber, R. L. Michell, and C. J. Carter, \u201cOxygen\nabsorption in the earth\u2019s atmosphere,\u201d Aerospace Corp., Los\nAngeles, CA, Tech. Rep. TR-0200 (4230-46)-3, Nov. 1988.\n2. J. H. Davis and J. R. Cogdell, \u201cCalibration program for the\n16-foot antenna,\u201d Elect.\nEng.\nRes.\nLab., Univ.\nTexas,\nAustin, Tech. Memo. NGL-006-69-3, Nov. 15, 1987.\nBasic format for handbooks:\n1. Name of Manual/Handbook, x ed., Abbrev. Name of Co.,\nCity of Co., Abbrev. State, year, pp. xxx\u2013xxx.\nExamples:\n1. Transmission Systems for Communications, 3rd ed., Western\nElectric Co., Winston-Salem, NC, 1985, pp. 44\u201360.\n2. Motorola\nSemiconductor\nData\nManual,\nMotorola\nSemiconductor Products Inc., Phoenix, AZ, 1989.\nBasic format for books (when available online):\n1. Author.\n(year, month day).\nTitle.\n(edition) [Type of\nmedium]. volume (issue). Available: site/path/file\nExample:\n1. J. Jones. (1991, May 10). Networks. (2nd ed.) [Online].\nAvailable: http://www.atm.com\nBasic format for journals (when available online):\n1. Author. (year, month). Title. Journal. [Type of medium].\nvolume (issue), pages. Available: site/path/file\nExample:\n1. R. J. Vidmar.\n(1992, Aug.).\nOn the use of atmospheric\nplasmas as electromagnetic reflectors. IEEE Trans. Plasma\nSci.\n[Online].\n21(3),\npp.\n876\u2013880.\nAvailable:\nhttp://www.halcyon.com/pub/journals/21ps03-vidmar\nBasic format for papers presented at conferences (when\navailable online):\n1 A th\n(\nth) Titl\nP\nt d t C\nf\ntitl",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.49533289292279414,
+        "y0": 0.08018869111032197,
+        "x1": 0.9153182444852941,
+        "y1": 0.5789817856297349
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "References are important to the reader\u037e therefore, each citation\nmust be complete and correct. There is no editorial check on\nreferences\u037e therefore, an incomplete or wrong reference wil\nbe published unless caught by a reviewer or discusser and wil\ndetract from the authority and value of the paper. References\nshould be readily available publications.\nList only one reference per reference number. If a reference is\navailable from two sources, each should be listed as a separate\nreference. Give all authors\u2019 names\u037e do not use et al.\nSamples of the correct formats for various types of references\nare given below.\nBasic format for books:\n1. J. K. Author, \u201cTitle of chapter in the book,\u201d in Title of His\nPublished Book, xth ed. City of Publisher, Country if no\nUSA: Abbrev. of Publisher, year, ch. x, sec. x, pp. xxx\u2013xxx\nExamples:\n1. G. O. Young, \u201cSynthetic structure of industrial plastics,\u201d\nin Plastics, 2nd ed., vol.\n3, J. Peters, Ed.\nNew York\nMcGraw-Hill, 1964, pp. 15\u201364.\n2. W.-K. Chen, Linear Networks and Systems. Belmont, CA\nWadsworth, 1993, pp. 123\u2013135.\nBasic format for periodicals:\n1. J. K. Author, \u201cName of paper,\u201d Abbrev. Title of Periodical\nvol. x, no. x, pp. xxx\u2013xxx, Abbrev. Month, year.\nExamples:\n1. J.\nU.\nDuncombe,\n\u201cInfrared\nnavigation\u2014Part\nI:\nAn\nassessment of feasibility,\u201d IEEE Trans. Electron Devices\nvol. ED-11, no. 1, pp. 34\u201339, Jan. 1959.\n2. E. P. Wigner, \u201cTheory of traveling-wave optical laser,\u201d Phys\nRev., vol. 134, pp. A635\u2013A646, Dec. 1965.\n3. E. H. Miller, \u201cA note on reflector arrays,\u201d IEEE Trans\nAntennas Propagat., to be published.",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.06872142716950061,
+        "y0": 0.42573534416429926,
+        "x1": 0.4806640146292892,
+        "y1": 0.9109090909090909
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "1. PROCESS Corp., MA. Intranets:\nInternet technologies\ndeployed behind the firewall for corporate productivity.\nPresented at INET96 Annual Meeting. [Online]. Available:\nhttp://home.process.com/Intranets/wp2.htp\nBasic format for reports and handbooks (when available\nonline):\n1. Author.\n(year, month).\nTitle.\nCompany.\nCity, State or\nCountry. [Type of medium]. Available: site/path/file\nExample:\n1. S.\nL.\nTalleen.\n(1996,\nApr.).\nThe\nIntranet\nArchitecture:\nManaging\ninformation\nin\nthe\nnew\nparadigm.\nAmdahl Corp., CA. [Online].\nAvailable:\nh\n//\nd hl\n/d\n/\nd\n/b\n/i\n/i f /h\nl",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.501275945925245,
+        "y0": 0.6215295040246213,
+        "x1": 0.9212261603860294,
+        "y1": 0.8106744939630682
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "1. A. Harriman. (1993, June). Compendium of genealogical",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.49728654450061277,
+        "y0": 0.9019369969223485,
+        "x1": 0.9193478094362745,
+        "y1": 0.9159907670454546
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "VI. Appendix",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.21694314395680148,
+        "y0": 0.24282568729285037,
+        "x1": 0.34103829178155637,
+        "y1": 0.2587189460523201
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "VII. Acknowledgment",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.1855651496438419,
+        "y0": 0.2835436271898674,
+        "x1": 0.37600751091452206,
+        "y1": 0.2991403660629735
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "1. J. K. Author, \u201cTitle of chapter in the book,\u201d in Title of His\nPublished Book, xth ed. City of Publisher, Country if not\nUSA: Abbrev. of Publisher, year, ch. x, sec. x, pp. xxx\u2013xxx.",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.06919073366651347,
+        "y0": 0.5998779666785038,
+        "x1": 0.48692186542585786,
+        "y1": 0.6454851000236742
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "References are important to the reader\u037e therefore, each citation\nmust be complete and correct. There is no editorial check on\nreferences\u037e therefore, an incomplete or wrong reference will\nbe published unless caught by a reviewer or discusser and will\ndetract from the authority and value of the paper. References\nshould be readily available publications.\nList only one reference per reference number. If a reference is\navailable from two sources, each should be listed as a separate\nreference. Give all authors\u2019 names\u037e do not use et al.\nSamples of the correct formats for various types of references\nare given below.\nBasic format for books:\n1 J K Author \u201cTitle of chapter in the book \u201d in Title of His",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.07673808976715686,
+        "y0": 0.4167825224905303,
+        "x1": 0.4861941827512255,
+        "y1": 0.6054057173295454
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Basic format for handbooks:\n1. Name of Manual/Handbook, x ed., Abbrev. Name of Co.,\nCity of Co., Abbrev. State, year, pp. xxx\u2013xxx.\nExamples:\n1. Transmission Systems for Communications, 3rd ed., Western\nElectric Co., Winston-Salem, NC, 1985, pp. 44\u201360.\n2. Motorola\nSemiconductor\nData\nManual,\nMotorola\nSemiconductor Products Inc., Phoenix, AZ, 1989.\nBasic format for books (when available online):\n1. Author.\n(year, month day).\nTitle.\n(edition) [Type of\nmedium]. volume (issue). Available: site/path/file\nExample:\n1. J. Jones. (1991, May 10). Networks. (2nd ed.) [Online].\nAvailable: http://www.atm.com\nBasic format for journals (when available online):",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.4943094649969363,
+        "y0": 0.20152031176017993,
+        "x1": 0.9211339613970588,
+        "y1": 0.4302094060724432
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "1. J. K. Author, \u201cName of paper,\u201d Abbrev. Title of Periodical,\nvol. x, no. x, pp. xxx\u2013xxx, Abbrev. Month, year.\nExamples:",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.06931352802351409,
+        "y0": 0.7547227154356061,
+        "x1": 0.48844496783088237,
+        "y1": 0.7984362423058712
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "IX. Biographies",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.6407156192555147,
+        "y0": 0.07744520245176373,
+        "x1": 0.7804374904258579,
+        "y1": 0.09349609375
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "software.\nHumanist.\n[Online].\nAvailable e-mail:\nHUMANIST@NYVM.ORG Message: get GENEALOGY\nREPORT\nBasic format for patents (when available online):\n1. Name of the invention, by inventor\u2019s name. (year, month\nday).\nPatent Number [Type of medium].\nAvailable:\nsite/path/file\nExample:\n1. Musical toothbrush with adjustable neck and mirror, by L.\nM. R. Brooks. (1992, May 19). Patent D 326 189 [Online].\nAvailable: NEXIS Library: LEXPAT File: DESIGN\nBasic format for conference proceedings (published):\n1. J. K. Author, \u201cTitle of paper,\u201d in Abbreviated Name of Conf.,\nCity of Conf., Abbrev. State (if given), year, pp. xxx\u2013xxx.\nExample:\n1. D. B. Payne and J. R. Stern,\n\u201cWavelength-switched\npassively coupled single-mode optical network,\u201d in Proc.\nIOOC-ECOC, 1985, pp. 585\u2013590.\nExample for papers presented at conferences (unpublished):\n1. D. Ebehard and E. Voges, \u201cDigital single sideband detection\nfor interferometric sensors,\u201d presented at the 2nd Int. Conf.\nOptical Fiber Sensors, Stuttgart, Germany, Jan. 2\u20135, 1984.\nBasic format for patents:\n1. J. K. Author, \u201cTitle of patent,\u201d U.S. Patent x xxx xxx, Abbrev.\nMonth, day, year.\nExample:\n1. G. Brandli and M. Dick, \u201cAlternating current fed power\nsupply,\u201d U.S. Patent 4 084 217, Nov. 4, 1978.\nBasic format for theses (M.S.) and dissertations (Ph.D.):\n1. J. K. Author, \u201cTitle of thesis,\u201d M.S. thesis, Abbrev. Dept.,\nAbbrev. Univ., City of Univ., Abbrev. State, year.\n2. J. K. Author, \u201cTitle of dissertation,\u201d Ph.D. dissertation,\nAbbrev. Dept., Abbrev. Univ., City of Univ., Abbrev. State,\nyear.\nExamples:\n1. J. O. Williams, \u201cNarrow-band analyzer,\u201d Ph.D. dissertation,\nDept. Elect. Eng., Harvard Univ., Cambridge, MA, 1993.\n2. N. Kawasaki, \u201cParametric study of thermal and chemical\nnonequilibrium nozzle flow,\u201d M.S. thesis, Dept. Electron.\nEng., Osaka Univ., Osaka, Japan, 1993.\nBasic format for the most common types of unpublished\nreferences:\n1. J. K. Author, private communication, Abbrev. Month, year.\n2. J. K. Author, \u201cTitle of paper,\u201d unpublished.\n3. J. K. Author, \u201cTitle of paper,\u201d to be published.\nExamples:\n1. A. Harrison, private communication, May 1995.\n2. B. Smith, \u201cAn approach to graphs of linear forms,\u201d\nunpublished.\n3. A. Brahms, \u201cRepresentation error for real numbers in binary\ncomputer arithmetic,\u201d IEEE Computer Group Repository,\nPaper R-67-85.\nBasic format for standards:\n1. Title of Standard, Standard number, date.\nExamples:\n1. IEEE Criteria for Class IE Electric Systems, IEEE Standard\nTable Scan",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.034750994514016545,
+        "y0": 0.0,
+        "x1": 0.48895890778186274,
+        "y1": 0.9164260771780303
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "software.\nHumanist.\n[Online].\nAvailable e-mail:\nHUMANIST@NYVM.ORG Message: get GENEALOGY\nREPORT\nBasic format for patents (when available online):\n1. Name of the invention, by inventor\u2019s name. (year, month\nday).\nPatent Number [Type of medium].\nAvailable:\nsite/path/file\nExample:\n1. Musical toothbrush with adjustable neck and mirror, by L.\nM. R. Brooks. (1992, May 19). Patent D 326 189 [Online].\nAvailable: NEXIS Library: LEXPAT File: DESIGN\nBasic format for conference proceedings (published):\n1. J. K. Author, \u201cTitle of paper,\u201d in Abbreviated Name of Conf.,\nCity of Conf., Abbrev. State (if given), year, pp. xxx\u2013xxx.\nExample:\n1. D. B. Payne and J. R. Stern,\n\u201cWavelength-switched\npassively coupled single-mode optical network,\u201d in Proc.\nIOOC-ECOC, 1985, pp. 585\u2013590.\nExample for papers presented at conferences (unpublished):\n1. D. Ebehard and E. Voges, \u201cDigital single sideband detection\nfor interferometric sensors,\u201d presented at the 2nd Int. Conf.\nOptical Fiber Sensors, Stuttgart, Germany, Jan. 2\u20135, 1984.\nBasic format for patents:\n1. J. K. Author, \u201cTitle of patent,\u201d U.S. Patent x xxx xxx, Abbrev.\nMonth, day, year.\nExample:\n1. G. Brandli and M. Dick, \u201cAlternating current fed power\nsupply \u201d U S Patent 4 084 217 Nov 4 1978\n2\nA\ni\nb\ns\nm\nt\nT\ni\np\nd\nd\ni\ne\nT\ns\ne\na\np\np\nt\np\ns\np\nT\n(\nsla\nnt Table Scan\nsla",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.015741520301968445,
+        "y0": 0.012910778161251184,
+        "x1": 0.5074381031709558,
+        "y1": 0.47329501065340907
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Figure"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "1. IEEE Criteria for Class IE Electric Systems, IEEE Standard",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.06976152607038909,
+        "y0": 0.9022567471590909,
+        "x1": 0.48623305376838233,
+        "y1": 0.9167570726799242
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "included. The photo should be 2.54 centimeters (1 inch) wide\nby 3.18 centimeters (1.25 inches) high. The head and shoulders\nshould be centered, and the photo should be flush with the left\nmargin. Please note that biographies and photos are included in\nthe page count.\nThe first paragraph should begin with the author\u2019s name (as\nit appears in the byline) and IEEE membership history.\nA\nplace and/or date of birth may be included (list place, then\ndate). Next, the author\u2019s educational background is listed. The\ndegrees should be listed with type of degree in what field, which\ninstitution, city, state, and country, and year the degree was\nearned. The author\u2019s major field of study should be lower-cased.\nThe second paragraph uses the pronoun of the person (he or\nshe) and not the author\u2019s last name. It lists military and work\nexperience, including summer and fellowship jobs. Job titles\nare capitalized. The current job must have a location\u037e previous\npositions may be listed without one. Information concerning\nprevious publications may be included. Try not to list more\nthan three books or published articles. The format for listing\npublishers of a book within the biography is: title of book (city,\nstate: publisher name, year) similar to a reference. Current and\nprevious research interests end the paragraph.\nThe third paragraph begins with the author\u2019s title and last name\n(e.g., Dr. Smith, Prof. Jones, Mr. Kajor, Ms. Hunter). List\nany memberships in professional societies other than the IEEE.\nFinally, list any awards and work for IEEE committees and\npublications.\nThe following is a biography of Nikola Tesla as an example.\nNikola Tesla (M\u20191888\nF\u201917) was born in Smiljan in the",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.5033264399509804,
+        "y0": 0.10911510120738636,
+        "x1": 0.9206991996017156,
+        "y1": 0.5421138509114584
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "xamples\n1. A. Harrison, private communication, May 1995.\n2. B. Smith, \u201cAn approach to graphs of linear forms,\u201d\nunpublished.\n3. A. Brahms, \u201cRepresentation error for real numbers in binary\ncomputer arithmetic,\u201d IEEE Computer Group Repository,\nPaper R-67-85.",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.06750648648131127,
+        "y0": 0.7563573478929925,
+        "x1": 0.48473283356311275,
+        "y1": 0.8524419981060606
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "A technical biography and photograph for each author may be\nncluded. The photo should be 2.54 centimeters (1 inch) wide\nby 3.18 centimeters (1.25 inches) high. The head and shoulders\nshould be centered, and the photo should be flush with the left\nmargin. Please note that biographies and photos are included in\nhe page count.\nThe first paragraph should begin with the author\u2019s name (as\nt appears in the byline) and IEEE membership history.\nA\nplace and/or date of birth may be included (list place, then\ndate). Next, the author\u2019s educational background is listed. The\ndegrees should be listed with type of degree in what field, which\nnstitution, city, state, and country, and year the degree was\nearned. The author\u2019s major field of study should be lower-cased.\nThe second paragraph uses the pronoun of the person (he or\nshe) and not the author\u2019s last name. It lists military and work\nexperience, including summer and fellowship jobs. Job titles\nare capitalized. The current job must have a location\u037e previous\npositions may be listed without one. Information concerning\nprevious publications may be included. Try not to list more\nhan three books or published articles. The format for listing\npublishers of a book within the biography is: title of book (city,\nstate: publisher name, year) similar to a reference. Current and\nprevious research interests end the paragraph.\nThe third paragraph begins with the author\u2019s title and last name\ne.g., Dr. Smith, Prof. Jones, Mr. Kajor, Ms. Hunter). List\nany memberships in professional societies other than the IEEE.\nFinally, list any awards and work for IEEE committees and\npublications.\nThe following is a biography of Nikola Tesla as an example.\nNikola Tesla (M\u20191888, F\u201917) was born in Smiljan in the\nAustro-Hungarian Empire, on July 9, 1856.\nHe graduated\nfrom the Austrian Polytechnic School, Graz, and studied at the\nUniversity of Prague.\nHis employment experience included the American Telephone\nCompany, Budapest, the Edison Machine Works, Westinghouse\nElectric Company, and Nikola Tesla Laboratories. His special\nfields of interest included high frequency.\nDr. Tesla received honorary degrees from institutions of higher\nearning including Columbia University,\nYale University,\nUniversity of Belgrade, and the University of Zagreb.\nHe\nreceived the Elliott Cresson Medal of the Franklin Institute and\nhe Edison Medal of the IEEE. In 1956, the term \u201ctesla\u201d (T)\nwas adopted as the unit of magnetic flux density in the MKSA\nsystem. In 1975, the Power Engineering Society established the\nNikola Tesla Award in his honor He died on January 7 1943",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.5101887063419117,
+        "y0": 0.09653508966619319,
+        "x1": 0.9185240502450981,
+        "y1": 0.7670365027225379
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "1. J. O. Williams, \u201cNarrow-band analyzer,\u201d Ph.D. dissertation,\nDept. Elect. Eng., Harvard Univ., Cambridge, MA, 1993.\n2. N. Kawasaki, \u201cParametric study of thermal and chemical\nnonequilibrium nozzle flow,\u201d M.S. thesis, Dept. Electron.\nEng Osaka Univ Osaka Japan 1993",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.06917566037645527,
+        "y0": 0.5955417702414773,
+        "x1": 0.4903467754289216,
+        "y1": 0.6582527669270833
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": true,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "software.\nHumanist.\n[Online].\nAvailable e-mail:\nHUMANIST@NYVM.ORG Message: get GENEALOGY\nREPORT\nBasic format for patents (when available online):\n1. Name of the invention, by inventor\u2019s name. (year, month\nday).\nPatent Number [Type of medium].\nAvailable:\nsite/path/file\nExample:\n1. Musical toothbrush with adjustable neck and mirror, by L.\nM. R. Brooks. (1992, May 19). Patent D 326 189 [Online].\nAvailable: NEXIS Library: LEXPAT File: DESIGN\nBasic format for conference proceedings (published):\n1. J. K. Author, \u201cTitle of paper,\u201d in Abbreviated Name of Conf.,\nCity of Conf., Abbrev. State (if given), year, pp. xxx\u2013xxx.\nExample:\n1. D. B. Payne and J. R. Stern,\n\u201cWavelength-switched\npassively coupled single-mode optical network,\u201d in Proc.\nIOOC-ECOC, 1985, pp. 585\u2013590.\nExample for papers presented at conferences (unpublished):\n1. D. Ebehard and E. Voges, \u201cDigital single sideband detection\nfor interferometric sensors,\u201d presented at the 2nd Int. Conf.\nOptical Fiber Sensors, Stuttgart, Germany, Jan. 2\u20135, 1984.\nBasic format for patents:\n1. J. K. Author, \u201cTitle of patent,\u201d U.S. Patent x xxx xxx, Abbrev.\nMonth, day, year.\nExample:\n1. G. Brandli and M. Dick, \u201cAlternating current fed power\nsupply,\u201d U.S. Patent 4 084 217, Nov. 4, 1978.\nB\ni f\nt f\nth\n(M S )\nd di\nt ti\n(Ph D )\nTable Scan",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.035487461464077816,
+        "y0": 0.027070728648792612,
+        "x1": 0.4840615904564951,
+        "y1": 0.4862409002130682
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    }
+  ]
+}

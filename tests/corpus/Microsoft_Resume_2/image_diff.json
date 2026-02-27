@@ -1,0 +1,44 @@
+{
+  "page_scores": [
+    {
+      "page": 0,
+      "similarity": 0.8648,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 1,
+      "similarity": 0.6756,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 2,
+      "similarity": 0.6891,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 3,
+      "similarity": 0.783,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    },
+    {
+      "page": 4,
+      "similarity": 0.7452,
+      "ref_dims": "850x1100",
+      "gen_dims": "850x1100"
+    }
+  ],
+  "avg_similarity": 0.7515,
+  "page_count_match": false,
+  "ref_pages": 5,
+  "gen_pages": 6,
+  "method": "ssim",
+  "dpi": 100,
+  "gen_empty_pages": [
+    0
+  ],
+  "has_empty_gen_pages": true
+}

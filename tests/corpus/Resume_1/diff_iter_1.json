@@ -1,0 +1,553 @@
+{
+  "ref_path": "tests/corpus/Resume_1/ref.pdf",
+  "gen_path": "tests/corpus/Resume_1/gen.pdf",
+  "match_rate": 0.8,
+  "ref_page_count": 1,
+  "gen_page_count": 1,
+  "detected_ref_columns": 2,
+  "detected_gen_columns": 2,
+  "missing_count": 4,
+  "extra_count": 6,
+  "shifted_count": 11,
+  "changed_count": 0,
+  "diffs": [
+    {
+      "ref_text": "Managed a diverse patient caseload, led a smoking cessation program\nresulting in a 30% increase in successful quit attempts",
+      "gen_text": "Managed a diverse patient caseload, led a smoking cessation program\nresulting in a 30% increase in successful quit attempts",
+      "ref_bbox": {
+        "x0": 0.0671124267578125,
+        "y0": 0.7158114346590909,
+        "x1": 0.5113710171568627,
+        "y1": 0.7452950402462121
+      },
+      "gen_bbox": {
+        "x0": 0.05225852816712623,
+        "y0": 0.5818592788233902,
+        "x1": 0.5645145909926471,
+        "y1": 0.6094082549124054
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.014853898590686268,
+        -0.13395215583570075
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "HOBBIES",
+      "gen_text": "HOBBIES",
+      "ref_bbox": {
+        "x0": 0.6626114430147059,
+        "y0": 0.7397238251657197,
+        "x1": 0.7806484087775736,
+        "y1": 0.7603176787405304
+      },
+      "gen_bbox": {
+        "x0": 0.6526125919117647,
+        "y0": 0.610213623046875,
+        "x1": 0.7122506893382353,
+        "y1": 0.6255848277698863
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.009998851102941186,
+        -0.12951020211884468
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Provided emergency medical care with a focus on trauma cases,\ncollaborated with specialists to enhance patient outcomes",
+      "gen_text": "Provided emergency medical care with a focus on trauma cases, collaborated\nwith specialists to enhance patient outcomes",
+      "ref_bbox": {
+        "x0": 0.06654478185317096,
+        "y0": 0.8237404563210228,
+        "x1": 0.483999693627451,
+        "y1": 0.853242705374053
+      },
+      "gen_bbox": {
+        "x0": 0.05398267558976716,
+        "y0": 0.6579079367897728,
+        "x1": 0.5615132889093137,
+        "y1": 0.687112852154356
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.012562106263403802,
+        -0.16583251953125
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Implemented evidence-based medicine for accurate diagnosis, \nspearheaded a community health fair, provided free screenings to over 200\nresidents",
+      "gen_text": "Implemented evidence-based medicine for accurate diagnosis, spearheaded\na community health fair, provided free screenings to over 200 residents",
+      "ref_bbox": {
+        "x0": 0.06795097201478248,
+        "y0": 0.5920002515388257,
+        "x1": 0.5556728228400736,
+        "y1": 0.6379627574573864
+      },
+      "gen_bbox": {
+        "x0": 0.05138271556181066,
+        "y0": 0.5048147490530303,
+        "x1": 0.5672282379748774,
+        "y1": 0.5330371833570076
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.016568256452971816,
+        -0.08718550248579549
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "TYLER STEIN MD, FAMILY PHYSICIAN\n20XX \u2013 20XX",
+      "gen_text": "TYLER STEIN MD, FAMILY PHYSICIAN\n20XX \u2013 20XX",
+      "ref_bbox": {
+        "x0": 0.07012657015931373,
+        "y0": 0.672613340435606,
+        "x1": 0.3774697457107843,
+        "y1": 0.704569276751894
+      },
+      "gen_bbox": {
+        "x0": 0.05698744829963235,
+        "y0": 0.5487165971235796,
+        "x1": 0.2959567918964461,
+        "y1": 0.5780200935132576
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.013139121859681378,
+        -0.12389674331202649
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "LAMNA HEALTHCARE, GENERAL PRACTITIONER\n20XX \u2013 PRESENT",
+      "gen_text": "LAMNA HEALTHCARE, GENERAL PRACTITIONER\n20XX \u2013 PRESENT",
+      "ref_bbox": {
+        "x0": 0.07068534701478248,
+        "y0": 0.5491593424479166,
+        "x1": 0.4545276596966912,
+        "y1": 0.5806542228929924
+      },
+      "gen_bbox": {
+        "x0": 0.05890896666283701,
+        "y0": 0.4724899384469697,
+        "x1": 0.3678048406862745,
+        "y1": 0.49897841944839016
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.011776380351945469,
+        -0.07666940400094696
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "SKILLS",
+      "gen_text": "SKILLS",
+      "ref_bbox": {
+        "x0": 0.6632645431219363,
+        "y0": 0.5853022534919508,
+        "x1": 0.7572167011335784,
+        "y1": 0.6066272712476326
+      },
+      "gen_bbox": {
+        "x0": 0.652114928002451,
+        "y0": 0.5118828051017993,
+        "x1": 0.6952202531403187,
+        "y1": 0.5262035762902462
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.011149615119485312,
+        -0.07341944839015146
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "CITY HOSPITAL, MEDICAL OFFICER\n20XX \u2013 20XX",
+      "gen_text": "CITY HOSPITAL, MEDICAL OFFICER",
+      "ref_bbox": {
+        "x0": 0.06570579379212622,
+        "y0": 0.78083984375,
+        "x1": 0.35208445829503676,
+        "y1": 0.8133308179450758
+      },
+      "gen_bbox": {
+        "x0": 0.05487899481081495,
+        "y0": 0.6260577207623106,
+        "x1": 0.2800037339154412,
+        "y1": 0.6436905184659091
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.42857142857142855,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.010826798981311274,
+        -0.15478212298768945
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Running\nPhotography\nTraveling\nCooking",
+      "gen_text": "HOBBIES\nRunning\nPhotography\nTraveling\nCooking",
+      "ref_bbox": {
+        "x0": 0.6618031939338235,
+        "y0": 0.7845050603693182,
+        "x1": 0.748198912377451,
+        "y1": 0.8500520833333334
+      },
+      "gen_bbox": {
+        "x0": 0.6512673770680147,
+        "y0": 0.6100466086647728,
+        "x1": 0.7369407743566176,
+        "y1": 0.6867127574573864
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.4933333333333333,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.010535816865808734,
+        -0.17445845170454544
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "Bachelor of Science in Biology, \nCum Laude, outstanding research thesis",
+      "gen_text": "20XX\n20XX\nBachelor of Science in Biology, Cum Laude,\noutstanding research thesis",
+      "ref_bbox": {
+        "x0": 0.6599339384191176,
+        "y0": 0.5256669477982955,
+        "x1": 0.9258776616115196,
+        "y1": 0.5601363118489583
+      },
+      "gen_bbox": {
+        "x0": 0.6480269607843138,
+        "y0": 0.4673103841145833,
+        "x1": 0.9435072954963235,
+        "y1": 0.5037826260653409
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.5454545454545454,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.011906977634803861,
+        -0.05835656368371217
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Clinical diagnosis\nPatient-centered care\nChronic disease management\nElectronic health records\nHealth promotion",
+      "gen_text": "SKILLS\nClinical diagnosis\nPatient-centered care\nChronic disease management\nElectronic health records\nHealth promotion",
+      "ref_bbox": {
+        "x0": 0.6598866900275735,
+        "y0": 0.6207086736505681,
+        "x1": 0.8530649701286764,
+        "y1": 0.7146292021780303
+      },
+      "gen_bbox": {
+        "x0": 0.6509541111366421,
+        "y0": 0.5222863029711174,
+        "x1": 0.8498666321997549,
+        "y1": 0.6001754483309659
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.5641025641025641,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.008932578890931353,
+        -0.0984223706794507
+      ],
+      "ref_block_type": "List",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "Dean's list, medical research award",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.6608841720281863,
+        "y0": 0.4527982954545455,
+        "x1": 0.8951730047487745,
+        "y1": 0.46714858546401516
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "EDUCATION\nJASPER UNIVERSITY\n20XX \u2013 20XX\nDean's list, medical research award\nBELLOWS COLLEGE\n20XX \u2013 20XX\nBachelor of Science in Biology, \nCum Laude, outstanding research thesis\nSKILLS\nClinical diagnosis\nPatient-centered care\nChronic disease management\nElectronic health records\nHealth promotion\nHOBBIES\nRunning\nPhotography\nTraveling\nCooking",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.5716555606617647,
+        "y0": 0.0,
+        "x1": 0.9904214537377451,
+        "y1": 0.9170253314393939
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Figure",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "JASPER UNIVERSITY\n20XX \u2013 20XX",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.6632360600490196,
+        "y0": 0.4108331853693182,
+        "x1": 0.8363027535232843,
+        "y1": 0.44199962269176135
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "CITY HOSPITAL, MEDICAL OFFICER",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.0679481715782016,
+        "y0": 0.7796941583806818,
+        "x1": 0.3537262800628064,
+        "y1": 0.7964720200047348
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "",
+      "gen_text": "www.lamnahealthcare.com",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.16446430281096813,
+        "y0": 0.28365974195075755,
+        "x1": 0.35644397212009804,
+        "y1": 0.29872155391808713
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "678-555-0103",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.16816570207184436,
+        "y0": 0.2560354336825284,
+        "x1": 0.2613165402879902,
+        "y1": 0.27183858235677083
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "kai@lamnahealthcare.com",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.16823723288143383,
+        "y0": 0.31040900952888256,
+        "x1": 0.35085097369025736,
+        "y1": 0.3249223188920455
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "WEBSITE:",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.06357446408739277,
+        "y0": 0.28309888435132574,
+        "x1": 0.12938135483685662,
+        "y1": 0.2986296497691761
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "EMAIL:",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.06432072658164828,
+        "y0": 0.3099539462002841,
+        "x1": 0.1129375981349571,
+        "y1": 0.32475452769886365
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "CONTACT",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.06418835209865197,
+        "y0": 0.21263649680397728,
+        "x1": 0.12820488424862134,
+        "y1": 0.22833993622750948
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    }
+  ]
+}

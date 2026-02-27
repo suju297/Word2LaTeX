@@ -1,0 +1,111 @@
+\documentclass[10pt]{article}
+
+% --- Packages ---
+\usepackage{fontspec}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{multicol}
+\setlength{\columnsep}{0.2in}
+\usepackage{ragged2e}
+\usepackage{tabto}
+
+% --- Font ---
+\setmainfont{Carlito}[
+    Path=/Users/sujendragharat/Documents/wordTOlatex/fonts/,
+    Extension=.ttf,
+    UprightFont=*-Regular,
+    BoldFont=*-Bold,
+    ItalicFont=*-Italic,
+    BoldItalicFont=*-BoldItalic
+]
+
+% --- Page Geometry ---
+\geometry{
+    paperwidth=8.5in,
+    paperheight=11.0in,
+    top=0.5in,
+    bottom=0.5in,
+    left=0.5in,
+    right=0.5in,
+    headheight=0pt,
+    headsep=0pt,
+    footskip=0pt
+}
+
+% --- Spacing ---
+\setstretch{1.00}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=*, topsep=1pt, itemsep=0pt, parsep=0pt}
+\setlist[enumerate]{leftmargin=*, topsep=1pt, itemsep=0pt, parsep=0pt}
+
+% --- Section Formatting ---
+\titleformat{\section}{\bfseries\fontsize{12}{14}\selectfont}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries\fontsize{11}{13}\selectfont}{}{0em}{}
+\titlespacing*{\section}{0pt}{4pt}{2pt}
+\titlespacing*{\subsection}{0pt}{3pt}{1pt}
+
+% --- Misc ---
+\pagenumbering{gobble}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\sloppy
+
+\begin{document}
+\fontsize{11.2}{13.4}\selectfont
+
+\noindent
+\begin{minipage}[t]{0.30\linewidth}
+\raggedright
+\section*{KAI CARTER}
+\subsection*{GENERAL PRACTITIONER}
+\subsubsection*{CONTACT}
+\paragraph*{PHONE:}
+\paragraph*{WEBSITE:}
+\paragraph*{EMAIL:}
+\section*{PROFILE}
+Experienced and compassionate GP dedicated to delivering excellent patient care. Known for strong diagnostic skills and a patient-centered approach. Committed to promoting health and wellness through personalized treatment plans.
+\section*{WORK EXPERIENCE}
+LAMNA HEALTHCARE, GENERAL PRACTITIONER
+\subparagraph*{20XX – PRESENT}
+Implemented evidence-based medicine for accurate diagnosis, spearheaded a community health fair, provided free screenings to over 200 residents
+TYLER STEIN MD, FAMILY PHYSICIAN
+\subparagraph*{20XX – 20XX}
+Managed a diverse patient caseload, led a smoking cessation program resulting in a 30\% increase in successful quit attempts
+CITY HOSPITAL, MEDICAL OFFICER
+\subparagraph*{20XX – 20XX}
+Provided emergency medical care with a focus on trauma cases, collaborated with specialists to enhance patient outcomes
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\linewidth}
+\subparagraph*{678-555-0103}
+\subparagraph*{www.lamnahealthcare.com}
+\subparagraph*{kai@lamnahealthcare.com }
+\section*{EDUCATION}
+JASPER UNIVERSITY
+\subparagraph*{20XX – 20XX}
+Dean's list, medical research award
+BELLOWS COLLEGE
+\subparagraph*{20XX – 20XX}
+Bachelor of Science in Biology, 
+Cum Laude, outstanding research thesis
+\section*{SKILLS}
+Clinical diagnosis
+Patient-centered care
+Chronic disease management
+Electronic health records
+Health promotion
+\section*{HOBBIES}
+Running
+Photography
+Traveling
+Cooking
+\end{minipage}
+\end{document}

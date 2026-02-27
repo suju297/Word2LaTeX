@@ -1,0 +1,44 @@
+{
+  "doc_id": "ACM_SUBMISSION_TEMPLATE",
+  "ref_pages": 13,
+  "gen_pages": 18,
+  "page_match": false,
+  "avg_similarity": 0.6929,
+  "median_vertical_drift_px": 41.0,
+  "verdict": "FAIL_PAGE_COUNT",
+  "pages": [
+    {
+      "page": 1,
+      "similarity": 0.6876,
+      "method": "ssim",
+      "ref_present": true,
+      "gen_present": true,
+      "content_top_ref": 0.119,
+      "content_top_gen": 0.093,
+      "vertical_drift_px": -43,
+      "density_ratio": 1.334
+    },
+    {
+      "page": 2,
+      "similarity": 0.6644,
+      "method": "ssim",
+      "ref_present": true,
+      "gen_present": true,
+      "content_top_ref": 0.115,
+      "content_top_gen": 0.093,
+      "vertical_drift_px": -36,
+      "density_ratio": 0.655
+    },
+    {
+      "page": 3,
+      "similarity": 0.7266,
+      "method": "ssim",
+      "ref_present": true,
+      "gen_present": true,
+      "content_top_ref": 0.118,
+      "content_top_gen": 0.092,
+      "vertical_drift_px": -41,
+      "density_ratio": 0.58
+    }
+  ]
+}

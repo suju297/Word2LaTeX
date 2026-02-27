@@ -1,0 +1,208 @@
+{
+  "ref_section_count": 27,
+  "gen_section_count": 24,
+  "matched_count": 22,
+  "missing_in_gen": [
+    {
+      "level": 3,
+      "title": "More about the submission template",
+      "content_preview": "This submission version of your paper should not have headers or footers, these will be added when y",
+      "line_number": 43
+    },
+    {
+      "level": 2,
+      "title": "Appendix A Appendetions",
+      "content_preview": "In the appendix section, three levels of Appendix headings are available.",
+      "line_number": 234
+    },
+    {
+      "level": 3,
+      "title": "General Guidelines (AppendixH2)",
+      "content_preview": "1. Save as you go and backup your file regularly. 2. Do not work on files that are saved in a cloud ",
+      "line_number": 238
+    },
+    {
+      "level": 4,
+      "title": "a.1.1 Preparing Graphics (Appendix3)",
+      "content_preview": "1. Accepted image file formats: TIFF (.tif), JPEG (.jpg). 2. Scalable vector formats (i.e., SVG, EPS",
+      "line_number": 253
+    },
+    {
+      "level": 3,
+      "title": "Placeholder Text",
+      "content_preview": "Lorem ipsum dolor sit amet, consecetetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+      "line_number": 262
+    }
+  ],
+  "extra_in_gen": [
+    {
+      "level": 1,
+      "title": "ACM Reference Format:",
+      "content_preview": "First Author\u2019s Name, Initials, and Last Name, Second Author\u2019s Name, Initials, and Last Name, and Thi",
+      "line_number": 146
+    },
+    {
+      "level": 1,
+      "title": "ACKNOWLEDGMENTS",
+      "content_preview": "Acknowledgments are placed before the references. Add information about grants, awards, or other typ",
+      "line_number": 438
+    }
+  ],
+  "heading_mismatches": [
+    {
+      "title": "Submission Template for ACM Papers",
+      "ref_level": 3,
+      "gen_level": 2,
+      "expected": "H3",
+      "actual": "H2"
+    },
+    {
+      "title": "1 Introduction",
+      "ref_level": 2,
+      "gen_level": 1,
+      "expected": "H2",
+      "actual": "H1"
+    },
+    {
+      "title": "Accessibility",
+      "ref_level": 3,
+      "gen_level": 2,
+      "expected": "H3",
+      "actual": "H2"
+    },
+    {
+      "title": "Inserting CCS concepts",
+      "ref_level": 3,
+      "gen_level": 2,
+      "expected": "H3",
+      "actual": "H2"
+    },
+    {
+      "title": "2 Inserting Content Elements",
+      "ref_level": 2,
+      "gen_level": 1,
+      "expected": "H2",
+      "actual": "H1"
+    },
+    {
+      "title": "Tables",
+      "ref_level": 3,
+      "gen_level": 2,
+      "expected": "H3",
+      "actual": "H2"
+    },
+    {
+      "title": "Figures",
+      "ref_level": 3,
+      "gen_level": 2,
+      "expected": "H3",
+      "actual": "H2"
+    },
+    {
+      "title": "2.2.1 Half Width Figures.",
+      "ref_level": 4,
+      "gen_level": 3,
+      "expected": "H4",
+      "actual": "H3"
+    },
+    {
+      "title": "2.2.2 Full Width Figures.",
+      "ref_level": 4,
+      "gen_level": 3,
+      "expected": "H4",
+      "actual": "H3"
+    },
+    {
+      "title": "2.2.3 Multi-part figure.",
+      "ref_level": 4,
+      "gen_level": 3,
+      "expected": "H4",
+      "actual": "H3"
+    },
+    {
+      "title": "2.2.4 Figure Descriptions.",
+      "ref_level": 4,
+      "gen_level": 3,
+      "expected": "H4",
+      "actual": "H3"
+    },
+    {
+      "title": "Quotations and Extracts",
+      "ref_level": 3,
+      "gen_level": 2,
+      "expected": "H3",
+      "actual": "H2"
+    },
+    {
+      "title": "Equations",
+      "ref_level": 3,
+      "gen_level": 2,
+      "expected": "H3",
+      "actual": "H2"
+    },
+    {
+      "title": "2.4.1 DisplayFormula.",
+      "ref_level": 4,
+      "gen_level": 3,
+      "expected": "H4",
+      "actual": "H3"
+    },
+    {
+      "title": "2.4.2 DisplayFormula.Unnum.",
+      "ref_level": 4,
+      "gen_level": 3,
+      "expected": "H4",
+      "actual": "H3"
+    },
+    {
+      "title": "Math statements",
+      "ref_level": 3,
+      "gen_level": 2,
+      "expected": "H3",
+      "actual": "H2"
+    },
+    {
+      "title": "Algorithms",
+      "ref_level": 3,
+      "gen_level": 2,
+      "expected": "H3",
+      "actual": "H2"
+    },
+    {
+      "title": "3 Computer Code",
+      "ref_level": 2,
+      "gen_level": 1,
+      "expected": "H2",
+      "actual": "H1"
+    },
+    {
+      "title": "4 Multi-language papers",
+      "ref_level": 2,
+      "gen_level": 1,
+      "expected": "H2",
+      "actual": "H1"
+    },
+    {
+      "title": "5 Citing Related Work",
+      "ref_level": 2,
+      "gen_level": 1,
+      "expected": "H2",
+      "actual": "H1"
+    },
+    {
+      "title": "6 History Dates",
+      "ref_level": 2,
+      "gen_level": 1,
+      "expected": "H2",
+      "actual": "H1"
+    },
+    {
+      "title": "References",
+      "ref_level": 2,
+      "gen_level": 1,
+      "expected": "H2",
+      "actual": "H1"
+    }
+  ],
+  "structure_similarity": 0.8148148148148148
+}

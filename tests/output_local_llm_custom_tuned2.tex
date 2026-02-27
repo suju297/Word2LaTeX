@@ -1,0 +1,155 @@
+\documentclass[10pt]{article}
+
+% --- Packages ---
+\usepackage{fontspec}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{multicol}
+\setlength{\columnsep}{0.2in}
+\usepackage{ragged2e}
+\usepackage{tabto}
+
+% --- Font ---
+\setmainfont{Carlito}[
+    Path=/Users/sujendragharat/Library/CloudStorage/GoogleDrive-sgharat298@gmail.com/My Drive/MacExternalCloud/Documents/Projects/wordTOlatex/fonts/,
+    Extension=.ttf,
+    UprightFont=*-Regular,
+    BoldFont=*-Bold,
+    ItalicFont=*-Italic,
+    BoldItalicFont=*-BoldItalic
+]
+
+% --- Page Geometry ---
+\geometry{
+    paperwidth=8.268055555555556in,
+    paperheight=11.693055555555556in,
+    top=0.5in,
+    bottom=0.5in,
+    left=0.5in,
+    right=0.5in,
+    headheight=0pt,
+    headsep=0pt,
+    footskip=0pt
+}
+
+% --- Spacing ---
+\setstretch{1.00}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=*, topsep=1pt, itemsep=0pt, parsep=0pt}
+\setlist[enumerate]{leftmargin=*, topsep=1pt, itemsep=0pt, parsep=0pt}
+
+% --- Section Formatting ---
+\titleformat{\section}{\bfseries\fontsize{11.0}{13.2}\selectfont}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries\fontsize{11.0}{13.2}\selectfont}{}{0em}{}
+\titleformat{\subsubsection}{\bfseries\fontsize{10.0}{12.0}\selectfont}{}{0em}{}
+\titlespacing*{\section}{0pt}{4pt}{2pt}
+\titlespacing*{\subsection}{0pt}{3pt}{1pt}
+
+% --- Misc ---
+\pagenumbering{gobble}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\sloppy
+
+\begin{document}
+\fontsize{10.5}{12.6}\selectfont
+
+\section*{{\fontsize{11.0}{13.2}\selectfont \textbf{TECHNICAL SKILLS}}}
+
+{\fontsize{11.0}{13.2}\selectfont \textbf{Languages:}  Python, JavaScript, TypeScript, Bash}
+
+{\fontsize{11.0}{13.2}\selectfont \textbf{Backend \& Frameworks:} FastAPI, Flask, Node.js, gRPC, asyncio}
+
+{\fontsize{11.0}{13.2}\selectfont \textbf{ML \& AI:} PyTorch, TensorFlow, scikit-learn, Transformers (Hugging Face), LangChain, Autogen}
+
+{\fontsize{11.0}{13.2}\selectfont \textbf{GenAI \& LLMs:} Prompt Engineering, RAG Pipelines, Agentic Workflows, Pinecone, OpenAI SDK (GPT-4o, GPT-5), Llama 3}
+
+{\fontsize{11.0}{13.2}\selectfont \textbf{Cloud \& DevOps:} AWS, Docker, Kubernetes, Git, GitHub Actions}
+
+{\fontsize{11.0}{13.2}\selectfont \textbf{Databases}: MySQL, PostgreSQL, SQLite, MongoDB, Redis}
+
+\section*{{\fontsize{11.0}{13.2}\selectfont \textbf{EXPERIENCE}}}
+
+{\fontsize{11.0}{13.2}\selectfont \textbf{Software Engineer Intern (Co-op)}\hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill       Jan 2025 – Aug 2025}
+
+{\fontsize{11.0}{13.2}\selectfont Xellar Biosystems\hfill \hfill \hfill \hfill \hfill \hfill       \hfill \hfill \hfill \hfill \hfill \hfill       \textit{Boston, MA}}
+
+\begin{itemize}
+\item Architected and optimized a \textbf{FastAPI} microservice with \textbf{Redis}-backed caching to convert and persist 16-bit images on first load, enabling a median response time of \textbf{< 0.4 s} for repeat requests
+\item Automated high-throughput S3 ingestion using \textbf{boto3} with concurrent upload orchestration, retry logic, and conflict resolution policy (overwrite, rename, skip) for \textbf{terabyte-scale} datasets
+\item Standardized raw microscopy data into a \textbf{canonical S3 structure} and auto-generated a \textbf{per-file manifest} used by the FastAPI service for Redis lookups and reliable retrieval
+\end{itemize}
+
+\addvspace{4.0pt}
+{\fontsize{11.0}{13.2}\selectfont \textbf{Graduate Research Assistant – AI-CARING}\hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill      Feb 2024 – Aug 2025}
+
+{\fontsize{11.0}{13.2}\selectfont Northeastern University – Khoury College of Computer Sciences \hfill \hfill \hfill \hfill \hfill \hfill       \textit{Boston, MA}}
+
+\begin{itemize}
+\item Deployed a \textbf{multi-stage pipeline} that extracts reminder intent from caregiver conversations and compiles it into AST-validated Python functions
+\item Designed a feasibility checker using the OpenAI \textbf{o4 mini reasoning model} that validates reminders against available sensors and a \textbf{home layout graph} before generation, \textbf{preventing non-feasible reminders}
+\item Orchestrated a low-latency \textbf{AWS IoT Core} to \textbf{gRPC} middleware streaming data from over 120 sensors (about 3,000 events per second) and achieved a 50\% reduction in end-to-end latency
+\end{itemize}
+
+\addvspace{4.0pt}
+{\fontsize{11.0}{13.2}\selectfont \textbf{Senior Software Engineer}\hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill      Feb 2022 – Aug 2023}
+
+{\fontsize{11.0}{13.2}\selectfont Capgemini\hfill              \hfill \hfill \hfill            \hfill \hfill      \hfill \hfill        \hfill        \hfill  \hfill                 \textit{Mumbai, India}}
+
+\begin{itemize}
+\item Engineered a Python/Flask inference gateway for multimodal AI workloads, integrating model endpoints and optimizing request handling for \textbf{40\% lower response latency}
+\item Scaled inference workloads on Kubernetes with autoscaling and monitoring to ensure \textbf{99.9\%} uptime
+\end{itemize}
+
+\addvspace{4.0pt}
+{\fontsize{11.0}{13.2}\selectfont \textbf{Software Engineer}\hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill      Aug 2018 – Feb 2022}
+
+{\fontsize{11.0}{13.2}\selectfont LTIMindtree\hfill \hfill            \hfill \hfill     \hfill \hfill      \hfill        \hfill        \hfill    \hfill \hfill    \hfill \textit{Mumbai, India}}
+
+\begin{itemize}
+\item Integrated 30+ REST/SOA APIs in Node.js with \textbf{async patterns} and \textbf{MongoDB caching}, improving performance by 15\% and cutting API calls by 30\%
+\item Implemented \textbf{graceful shutdowns} and monitoring to reduce recovery time by 50\% and maintain \textbf{99.9\% uptime}
+\end{itemize}
+
+\section*{{\fontsize{11.0}{13.2}\selectfont \textbf{ACADEMIC PROJECTS}}}
+
+{\fontsize{11.0}{13.2}\selectfont Time-Series Forecasting with Market Indicators (TSLA)\hfill \hfill \hfill \hfill \hfill \hfill      Sep 2024 – Dec 2024}
+
+\begin{itemize}
+\item Built a macro-finance dataset and developed a time-series ML pipeline using OLS, ElasticNet, Random Forest, and XGBoost, achieving R2 = 0.88 and 50\% lower RMSE vs baseline models
+\item Applied PCA and K-Means/GMM clustering with a backtesting system to evaluate trading signals (\textbf{945 trades}, \textbf{57\% win rate}) and validate model stability across regimes
+\end{itemize}
+
+\addvspace{4.0pt}
+{\fontsize{11.0}{13.2}\selectfont \textbf{Quant Stack Exchange Chat Assistant}\hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill       Sep 2024 – Oct 2024}
+
+\begin{itemize}
+\item Developed FinRobot, a generative AI chat assistant for quantitative finance using \textbf{AutoGen} with \textbf{RAG}, delivering context-aware answers with approximately \textbf{85\% }response accuracy
+\item Engineered a scalable knowledge layer with a daily Python scraping pipeline that ingests Quant Stack Exchange into \textbf{Neo4j} (knowledge graph) and \textbf{Pinecone} (vector index) to enable fast, entity-aware retrieval
+\end{itemize}
+
+\addvspace{4.0pt}
+{\fontsize{11.0}{13.2}\selectfont \textbf{Cloud Native Web App}\hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill       Jan 2024 – Apr 2024}
+
+\begin{itemize}
+\item Provisioned and deployed a cloud-native web app using pre-configured machine images with \textbf{Packer} and \textbf{Terraform}, achieving a \textbf{75\% faster} setup and integrating a serverless user verification system with \textbf{Cloud Functions} and \textbf{Cloud SQL}
+\end{itemize}
+
+\section*{{\fontsize{11.0}{13.2}\selectfont \textbf{EDUCATION}}}
+
+{\fontsize{11.0}{13.2}\selectfont \textbf{Northeastern University}, Boston, MA\hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill         Expected Dec 2025}
+
+{\fontsize{11.0}{13.2}\selectfont Master of Science in Information Systems\hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill  \textbf{GPA : 3.72/4.0 }}
+
+\addvspace{4.0pt}
+{\fontsize{11.0}{13.2}\selectfont \textbf{University of Mumbai}, Mumbai, India\hfill        \hfill \hfill \hfill \hfill \hfill \hfill \hfill \hfill          May 2018}
+
+{\fontsize{11.0}{13.2}\selectfont Bachelor of Engineering, Electronics Engineering\hfill }
+
+\end{document}

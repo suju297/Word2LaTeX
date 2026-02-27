@@ -1,0 +1,444 @@
+{
+  "doc_id": "IEEE_TEMPLATE",
+  "case_dir": "IEEE_TEMPLATE",
+  "ref_pages": 4,
+  "gen_pages": 4,
+  "page_count_match": true,
+  "page_boxes": [
+    {
+      "page": 0,
+      "ref": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      },
+      "gen": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      }
+    },
+    {
+      "page": 1,
+      "ref": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      },
+      "gen": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      }
+    },
+    {
+      "page": 2,
+      "ref": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      },
+      "gen": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      }
+    },
+    {
+      "page": 3,
+      "ref": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      },
+      "gen": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      }
+    }
+  ],
+  "by_label": {
+    "title": {
+      "count_scored": 2,
+      "avg": 0.12688995897769928,
+      "p50": 0.12688995897769928,
+      "p10": 0.11575517803430557,
+      "min": 0.1129714846611023,
+      "coverage_strict": 0.2857142857142857,
+      "coverage_effective": 1.0,
+      "stats": {
+        "total": 7,
+        "missing": 0,
+        "tiny": 5,
+        "blank_both": 0
+      },
+      "drift": {
+        "median_dx": -63.5,
+        "median_dy": -48.0,
+        "p25_dx": -63.75,
+        "p75_dx": -63.25,
+        "p25_dy": -56.0,
+        "p75_dy": -40.0,
+        "iqr_dx": 0.5,
+        "iqr_dy": 16.0,
+        "count": 2
+      }
+    },
+    "list": {
+      "count_scored": 1,
+      "avg": 0.057055775076150894,
+      "p50": 0.057055775076150894,
+      "p10": 0.057055775076150894,
+      "min": 0.057055775076150894,
+      "coverage_strict": 1.0,
+      "coverage_effective": 1.0,
+      "stats": {
+        "total": 1,
+        "missing": 0,
+        "tiny": 0,
+        "blank_both": 0
+      },
+      "drift": {
+        "median_dx": 55.0,
+        "median_dy": -64.0,
+        "p25_dx": 55.0,
+        "p75_dx": 55.0,
+        "p25_dy": -64.0,
+        "p75_dy": -64.0,
+        "iqr_dx": 0.0,
+        "iqr_dy": 0.0,
+        "count": 1
+      }
+    }
+  },
+  "regions": [
+    {
+      "region_id": "p0_title_000",
+      "doc_id": "IEEE_TEMPLATE",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.9503449201583862,
+      "bbox_norm": [
+        0.5104732019761029,
+        0.35555153586647725,
+        0.5956399356617647,
+        0.36867139411695077
+      ],
+      "status": "SKIPPED_TINY_REGION",
+      "score": null,
+      "method": null,
+      "detail": null,
+      "blank_ref": null,
+      "blank_gen": null
+    },
+    {
+      "region_id": "p0_title_001",
+      "doc_id": "IEEE_TEMPLATE",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.9457648396492004,
+      "bbox_norm": [
+        0.14893715054381126,
+        0.13858179265802556,
+        0.8342681525735294,
+        0.23698980158025568
+      ],
+      "status": "SCORED",
+      "score": 0.14080843628847847,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.2949111017396686,
+      "drift_x": -63,
+      "drift_y": -32,
+      "search_pad_px": 64,
+      "hit_boundary": true,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_title_002",
+      "doc_id": "IEEE_TEMPLATE",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.9373283386230469,
+      "bbox_norm": [
+        0.5089349245557598,
+        0.4431009188565341,
+        0.5828984279258579,
+        0.45649303089488635
+      ],
+      "status": "SKIPPED_TINY_REGION",
+      "score": null,
+      "method": null,
+      "detail": null,
+      "blank_ref": null,
+      "blank_gen": null
+    },
+    {
+      "region_id": "p0_title_003",
+      "doc_id": "IEEE_TEMPLATE",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.9177087545394897,
+      "bbox_norm": [
+        0.5112449735753677,
+        0.6673416045217803,
+        0.6660679476868873,
+        0.6820977598248106
+      ],
+      "status": "SKIPPED_TINY_REGION",
+      "score": null,
+      "method": null,
+      "detail": null,
+      "blank_ref": null,
+      "blank_gen": null
+    },
+    {
+      "region_id": "p0_title_004",
+      "doc_id": "IEEE_TEMPLATE",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.7120394706726074,
+      "bbox_norm": [
+        0.1604412841796875,
+        0.058440935539476796,
+        0.8338748468137255,
+        0.07870083895596591
+      ],
+      "status": "SCORED",
+      "score": 0.11297148532810825,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.3703011084441857,
+      "drift_x": -64,
+      "drift_y": -64,
+      "search_pad_px": 64,
+      "hit_boundary": true,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_title_005",
+      "doc_id": "IEEE_TEMPLATE",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.710783839225769,
+      "bbox_norm": [
+        0.514028990502451,
+        0.7380575284090909,
+        0.6516777248008578,
+        0.7525634765625
+      ],
+      "status": "SKIPPED_TINY_REGION",
+      "score": null,
+      "method": null,
+      "detail": null,
+      "blank_ref": null,
+      "blank_gen": null
+    },
+    {
+      "region_id": "p0_title_006",
+      "doc_id": "IEEE_TEMPLATE",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.5423755049705505,
+      "bbox_norm": [
+        0.2267401003370098,
+        0.6105977006392046,
+        0.3459330001531863,
+        0.6246024946732954
+      ],
+      "status": "SKIPPED_TINY_REGION",
+      "score": null,
+      "method": null,
+      "detail": null,
+      "blank_ref": null,
+      "blank_gen": null
+    },
+    {
+      "region_id": "p0_list_007",
+      "doc_id": "IEEE_TEMPLATE",
+      "page": 0,
+      "label": "list",
+      "source": "ml",
+      "confidence": 0.5298436880111694,
+      "bbox_norm": [
+        0.07269081265318628,
+        0.6237059807054924,
+        0.5019542738970588,
+        0.7530303770123106
+      ],
+      "status": "SCORED",
+      "score": 0.05705577547963125,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.30070054066272517,
+      "drift_x": 55,
+      "drift_y": -64,
+      "search_pad_px": 64,
+      "hit_boundary": true,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    }
+  ]
+}

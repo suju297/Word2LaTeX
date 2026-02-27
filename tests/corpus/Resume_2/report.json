@@ -1,0 +1,899 @@
+{
+  "report_version": "1.2",
+  "run_id": "20251230_230019",
+  "doc_id": "Resume_2",
+  "oracle_summary": {
+    "by_label": {
+      "title": 11,
+      "list": 1
+    },
+    "by_source": {
+      "ml": 12
+    },
+    "regions": [
+      {
+        "label": "title",
+        "source": "ml",
+        "confidence": 0.9341160655021667,
+        "page": 0
+      },
+      {
+        "label": "title",
+        "source": "ml",
+        "confidence": 0.9134193658828735,
+        "page": 0
+      },
+      {
+        "label": "title",
+        "source": "ml",
+        "confidence": 0.8650612831115723,
+        "page": 0
+      },
+      {
+        "label": "title",
+        "source": "ml",
+        "confidence": 0.8552817106246948,
+        "page": 0
+      },
+      {
+        "label": "title",
+        "source": "ml",
+        "confidence": 0.8505797386169434,
+        "page": 0
+      },
+      {
+        "label": "title",
+        "source": "ml",
+        "confidence": 0.8283527493476868,
+        "page": 0
+      },
+      {
+        "label": "title",
+        "source": "ml",
+        "confidence": 0.811822235584259,
+        "page": 0
+      },
+      {
+        "label": "title",
+        "source": "ml",
+        "confidence": 0.7971616983413696,
+        "page": 0
+      },
+      {
+        "label": "title",
+        "source": "ml",
+        "confidence": 0.6751381158828735,
+        "page": 0
+      },
+      {
+        "label": "title",
+        "source": "ml",
+        "confidence": 0.6350101828575134,
+        "page": 0
+      },
+      {
+        "label": "title",
+        "source": "ml",
+        "confidence": 0.6292728781700134,
+        "page": 0
+      },
+      {
+        "label": "list",
+        "source": "ml",
+        "confidence": 0.5405448079109192,
+        "page": 0
+      }
+    ]
+  },
+  "columns": [
+    {
+      "page": 0,
+      "count": 1,
+      "boundaries": []
+    }
+  ],
+  "diff_health": "VALID",
+  "layout_quality": {
+    "warnings": [
+      "WARN_HIGH_DRIFT_238pt",
+      "WARN_AVG_DRIFT_225pt"
+    ],
+    "avg_drift": 225.54594190497147,
+    "max_drift": 238.50430345535278
+  },
+  "match_stats": {
+    "original_blocks": 79,
+    "generated_blocks": 60,
+    "matched_pairs": 39,
+    "match_rate": 0.65
+  },
+  "drift_summary": [
+    {
+      "type": "unknown",
+      "count": 24,
+      "avg_shift": 238.50430345535278
+    },
+    {
+      "type": "title",
+      "count": 14,
+      "avg_shift": 203.33160781860352
+    }
+  ],
+  "policy_trace": [
+    {
+      "block_id": "b0",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.0,
+          1.0,
+          0.02
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b1",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.02,
+          1.0,
+          0.04
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b2",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.04,
+          1.0,
+          0.06
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b3",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.06,
+          1.0,
+          0.08
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b4",
+      "type": "heading",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.08,
+          1.0,
+          0.1
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b5",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.1,
+          1.0,
+          0.12
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b6",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.12,
+          1.0,
+          0.14
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b7",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.14,
+          1.0,
+          0.16
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b8",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.16,
+          1.0,
+          0.18
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b9",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.18,
+          1.0,
+          0.2
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b10",
+      "type": "heading",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.2,
+          1.0,
+          0.22
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b11",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.22,
+          1.0,
+          0.24
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b12",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.24,
+          1.0,
+          0.26
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b13",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.26,
+          1.0,
+          0.28
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b14",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.28,
+          1.0,
+          0.3
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b15",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.3,
+          1.0,
+          0.32
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b16",
+      "type": "heading",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.32,
+          1.0,
+          0.34
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b17",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.34,
+          1.0,
+          0.36
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b18",
+      "type": "list",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.36,
+          1.0,
+          0.38
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b19",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.38,
+          1.0,
+          0.4
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b20",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.4,
+          1.0,
+          0.42
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b21",
+      "type": "list",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.42,
+          1.0,
+          0.44
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b22",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.44,
+          1.0,
+          0.46
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b23",
+      "type": "heading",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.46,
+          1.0,
+          0.48
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b24",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.48,
+          1.0,
+          0.5
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b25",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.5,
+          1.0,
+          0.52
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b26",
+      "type": "list",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.52,
+          1.0,
+          0.54
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b27",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.54,
+          1.0,
+          0.56
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b28",
+      "type": "heading",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.56,
+          1.0,
+          0.58
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b29",
+      "type": "heading",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.58,
+          1.0,
+          0.6
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b30",
+      "type": "list",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.6,
+          1.0,
+          0.62
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b31",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.62,
+          1.0,
+          0.64
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b32",
+      "type": "heading",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.64,
+          1.0,
+          0.66
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b33",
+      "type": "heading",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.66,
+          1.0,
+          0.68
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b34",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.68,
+          1.0,
+          0.7000000000000001
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b35",
+      "type": "list",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.7000000000000001,
+          1.0,
+          0.72
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b36",
+      "type": "heading",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.72,
+          1.0,
+          0.74
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b37",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.74,
+          1.0,
+          0.76
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b38",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.76,
+          1.0,
+          0.78
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b39",
+      "type": "list",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.78,
+          1.0,
+          0.8
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b40",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.8,
+          1.0,
+          0.8200000000000001
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b41",
+      "type": "heading",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.8200000000000001,
+          1.0,
+          0.84
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b42",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.84,
+          1.0,
+          0.86
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b43",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.86,
+          1.0,
+          0.88
+        ],
+        "overlaps": 12
+      }
+    },
+    {
+      "block_id": "b44",
+      "type": "paragraph",
+      "decision": "semantic",
+      "reason": "DEFAULT_SEMANTIC",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.88,
+          1.0,
+          0.9
+        ],
+        "overlaps": 12
+      }
+    }
+  ],
+  "policy_stats": {
+    "DEFAULT_SEMANTIC": 45
+  },
+  "image_diff": {
+    "avg_similarity": 0.6885,
+    "method": "ssim",
+    "page_count_match": false,
+    "ref_pages": 1,
+    "gen_pages": 2
+  }
+}

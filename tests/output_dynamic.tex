@@ -1,0 +1,112 @@
+\documentclass[11pt]{article}
+
+% --- Packages ---
+\usepackage{fontspec}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[absolute,overlay]{textpos}
+\setlength{\TPHorizModule}{1in}
+\setlength{\TPVertModule}{1in}
+\usepackage{multicol}
+\setlength{\columnsep}{0.2in}
+\usepackage{ragged2e}
+\usepackage{tabto}
+
+% --- Font ---
+\setmainfont{Carlito}[
+    Path=/Users/sujendragharat/Library/CloudStorage/GoogleDrive-sgharat298@gmail.com/My Drive/MacExternalCloud/Documents/Projects/wordTOlatex/fonts/,
+    Extension=.ttf,
+    UprightFont=*-Regular,
+    BoldFont=*-Bold,
+    ItalicFont=*-Italic,
+    BoldItalicFont=*-BoldItalic
+]
+
+% --- Page Geometry ---
+\geometry{
+    paperwidth=8.5in,
+    paperheight=11.0in,
+    top=0.5in,
+    bottom=0.5in,
+    left=0.5in,
+    right=0.5in,
+    headheight=0pt,
+    headsep=0pt,
+    footskip=0pt
+}
+
+% --- Spacing ---
+\setstretch{1.00}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=*, topsep=1pt, itemsep=0pt, parsep=0pt}
+\setlist[enumerate]{leftmargin=*, topsep=1pt, itemsep=0pt, parsep=0pt}
+
+% --- Section Formatting ---
+\titleformat{\section}{\bfseries\fontsize{16.0}{19.2}\selectfont}{}{0em}{}
+\titleformat{\subsection}{\bfseries\fontsize{11.0}{13.2}\selectfont}{}{0em}{}
+\titleformat{\subsubsection}{\bfseries\fontsize{10.0}{12.0}\selectfont}{}{0em}{}
+\titlespacing*{\section}{0pt}{4pt}{2pt}
+\titlespacing*{\subsection}{0pt}{3pt}{1pt}
+
+% --- Misc ---
+\pagenumbering{gobble}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\sloppy
+
+\begin{document}
+\fontsize{11.2}{13.4}\selectfont
+
+\begin{textblock*}{\linewidth}(0.0in,0.0in)\noindent
+\includegraphics[width=8.5in]{media/header_fallback_ee70db80.png}
+\end{textblock*}
+\vspace*{3.34in}
+\noindent
+\begin{minipage}[t]{0.64\linewidth}
+\section*{{\fontsize{16.0}{19.2}\selectfont PROFILE}}
+{\fontsize{10.0}{12.0}\selectfont Experienced and compassionate GP dedicated to delivering excellent patient care. Known for strong diagnostic skills and a patient-centered approach. Committed to promoting health and wellness through personalized treatment plans.}
+\section*{{\fontsize{16.0}{19.2}\selectfont WORK EXPERIENCE}}
+{\fontsize{10.0}{12.0}\selectfont LAMNA HEALTHCARE, GENERAL PRACTITIONER}
+\subparagraph*{{\fontsize{10.0}{12.0}\selectfont 20XX – PRESENT}}
+{\fontsize{10.0}{12.0}\selectfont Implemented evidence-based medicine for accurate diagnosis, spearheaded a community health fair, provided free screenings to over 200 residents}
+{\fontsize{10.0}{12.0}\selectfont TYLER STEIN MD, FAMILY PHYSICIAN}
+\subparagraph*{{\fontsize{10.0}{12.0}\selectfont 20XX – 20XX}}
+{\fontsize{10.0}{12.0}\selectfont Managed a diverse patient caseload, led a smoking cessation program resulting in a 30\% increase in successful quit attempts}
+{\fontsize{10.0}{12.0}\selectfont CITY HOSPITAL, MEDICAL OFFICER}
+\subparagraph*{{\fontsize{10.0}{12.0}\selectfont 20XX – 20XX}}
+{\fontsize{10.0}{12.0}\selectfont Provided emergency medical care with a focus on trauma cases, collaborated with specialists to enhance patient outcomes}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.36\linewidth}
+\raggedright
+\section*{{\fontsize{16.0}{19.2}\selectfont EDUCATION}}
+{\fontsize{10.0}{12.0}\selectfont JASPER UNIVERSITY}
+\subparagraph*{{\fontsize{10.0}{12.0}\selectfont 20XX – 20XX}}
+{\fontsize{10.0}{12.0}\selectfont Dean's list, medical research award}
+{\fontsize{10.0}{12.0}\selectfont BELLOWS COLLEGE}
+\subparagraph*{{\fontsize{10.0}{12.0}\selectfont 20XX – 20XX}}
+{\fontsize{10.0}{12.0}\selectfont Bachelor of Science in Biology, 
+Cum Laude, outstanding research thesis}
+\section*{{\fontsize{16.0}{19.2}\selectfont SKILLS}}
+{\fontsize{10.0}{12.0}\selectfont Clinical diagnosis}
+{\fontsize{10.0}{12.0}\selectfont Patient-centered care}
+{\fontsize{10.0}{12.0}\selectfont Chronic disease management}
+{\fontsize{10.0}{12.0}\selectfont Electronic health records}
+{\fontsize{10.0}{12.0}\selectfont Health promotion}
+\section*{{\fontsize{16.0}{19.2}\selectfont HOBBIES}}
+{\fontsize{10.0}{12.0}\selectfont Running}
+{\fontsize{10.0}{12.0}\selectfont Photography}
+{\fontsize{10.0}{12.0}\selectfont Traveling}
+{\fontsize{10.0}{12.0}\selectfont Cooking}
+\end{minipage}
+\end{document}

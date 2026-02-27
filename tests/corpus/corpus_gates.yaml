@@ -1,0 +1,110 @@
+# Corpus Gating Policy Configuration (v2)
+# Strict-by-default. Per-doc exceptions are explicit and reviewable.
+schema_version: 2
+
+defaults:
+  # Minimum fraction of regions that must be scoreable (after excluding SKIPPED_* regions)
+  coverage:
+    min_effective: 0.70
+
+  # Per-label gates (structure + geometry)
+  labels:
+    title:
+      min_regions: 3
+      coverage_min_effective: 0.70
+      structure:
+        hit_boundary_max: 0
+        blank_gen_max: 0
+        missing_page_max: 0
+      geometry:
+        median_abs_dx_max: 15
+        median_abs_dy_max: 15
+
+    list:
+      min_regions: 3
+      coverage_min_effective: 0.70
+      structure:
+        hit_boundary_max: 0
+        blank_gen_max: 0
+        missing_page_max: 0
+      geometry:
+        median_abs_dx_max: 20
+        median_abs_dy_max: 20
+
+    table:
+      min_regions: 2
+      coverage_min_effective: 0.60
+      structure:
+        hit_boundary_max: 0
+        blank_gen_max: 0
+        missing_page_max: 0
+      geometry:
+        median_abs_dx_max: 25
+        median_abs_dy_max: 25
+
+    figure:
+      min_regions: 1
+      coverage_min_effective: 0.50
+      # Figures are allowed to be harder, but still "not missing"
+      structure:
+        hit_boundary_max: 2
+        blank_gen_max: 1
+        missing_page_max: 1
+      geometry:
+        median_abs_dx_max: 64
+        median_abs_dy_max: 64
+
+docs:
+  # Enforced docs MUST meet defaults (unless overridden here)
+  Resume_1:
+    mode: enforce
+    overrides:
+      # Known issue: one title region has hit_boundary/blank_gen due to alignment
+      labels:
+        title:
+          structure:
+            hit_boundary_max: 1
+            blank_gen_max: 1
+          geometry:
+             median_abs_dy_max: 30
+
+  # Everything below is evaluated + reported, but does NOT fail CI yet.
+  # This keeps pressure + visibility without blocking merges.
+  Resume_2:
+    mode: advisory
+    reason: "Not yet stabilized under strict gates; tracked via top_offenders."
+    overrides: {}
+
+  Custom_Resume:
+    mode: advisory
+    reason: "Layout variance still under active tuning; keep visible but non-blocking."
+    overrides: {}
+
+  Microsoft_Resume1:
+    mode: advisory
+    reason: "Layout-heavy template; fidelity improvements still ongoing."
+    overrides:
+      # Example of a *targeted* exception (edit/remove once fixed):
+      labels:
+        figure:
+          structure:
+            blank_gen_max: 2
+
+  Microsoft_Resume_2:
+    mode: advisory
+    reason: "Overflow/ltablex behavior still impacts pagination + regions."
+    overrides:
+      labels:
+        table:
+          geometry:
+            median_abs_dy_max: 35
+
+  ACM_SUBMISSION_TEMPLATE:
+    mode: advisory
+    reason: "Academic template; typography + pagination drift not yet locked."
+    overrides: {}
+
+  IEEE_TEMPLATE:
+    mode: advisory
+    reason: "Academic template; not in strict enforcement set yet."
+    overrides: {}

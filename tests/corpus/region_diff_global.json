@@ -1,0 +1,287 @@
+{
+  "corpus_root": "tests/corpus",
+  "docs_processed": 7,
+  "regions_scored": 27,
+  "worst_regions": [
+    {
+      "case_dir": "Resume_1",
+      "doc_id": "Resume_1",
+      "region_id": "p0_title_000",
+      "label": "title",
+      "page": 0,
+      "score": 0.0022862224826367683,
+      "aligned_score": 0.013717898784460645,
+      "method": "ssim",
+      "drift": [
+        -15,
+        -16
+      ]
+    },
+    {
+      "case_dir": "Resume_1",
+      "doc_id": "Resume_1",
+      "region_id": "p0_title_005",
+      "label": "title",
+      "page": 0,
+      "score": 0.008975513634014397,
+      "aligned_score": 0.17918746010967673,
+      "method": "ssim",
+      "drift": [
+        55,
+        -42
+      ]
+    },
+    {
+      "case_dir": "Resume_1",
+      "doc_id": "Resume_1",
+      "region_id": "p0_figure_007",
+      "label": "figure",
+      "page": 0,
+      "score": 0.016950347924755006,
+      "aligned_score": 0.023582835271517645,
+      "method": "ssim",
+      "drift": [
+        -16,
+        -59
+      ]
+    },
+    {
+      "case_dir": "Resume_1",
+      "doc_id": "Resume_1",
+      "region_id": "p0_title_004",
+      "label": "title",
+      "page": 0,
+      "score": 0.03237697647383715,
+      "aligned_score": 0.2207522747096448,
+      "method": "ssim",
+      "drift": [
+        -15,
+        4
+      ]
+    },
+    {
+      "case_dir": "Resume_2",
+      "doc_id": "Resume_2",
+      "region_id": "p0_title_002",
+      "label": "title",
+      "page": 0,
+      "score": 0.04146951579010852,
+      "aligned_score": 0.38239660661634967,
+      "method": "ssim",
+      "drift": [
+        56,
+        -11
+      ]
+    },
+    {
+      "case_dir": "IEEE_TEMPLATE",
+      "doc_id": "IEEE_TEMPLATE",
+      "region_id": "p0_list_007",
+      "label": "list",
+      "page": 0,
+      "score": 0.05705577547963125,
+      "aligned_score": 0.30070054066272517,
+      "method": "ssim",
+      "drift": [
+        55,
+        -64
+      ]
+    },
+    {
+      "case_dir": "Resume_2",
+      "doc_id": "Resume_2",
+      "region_id": "p0_title_009",
+      "label": "title",
+      "page": 0,
+      "score": 0.08885436663915165,
+      "aligned_score": 0.37096501740319826,
+      "method": "ssim",
+      "drift": [
+        -48,
+        40
+      ]
+    },
+    {
+      "case_dir": "Resume_2",
+      "doc_id": "Resume_2",
+      "region_id": "p0_title_005",
+      "label": "title",
+      "page": 0,
+      "score": 0.08983032738378725,
+      "aligned_score": 0.3700590339572257,
+      "method": "ssim",
+      "drift": [
+        -7,
+        -56
+      ]
+    },
+    {
+      "case_dir": "IEEE_TEMPLATE",
+      "doc_id": "IEEE_TEMPLATE",
+      "region_id": "p0_title_004",
+      "label": "title",
+      "page": 0,
+      "score": 0.11297148532810825,
+      "aligned_score": 0.3703011084441857,
+      "method": "ssim",
+      "drift": [
+        -64,
+        -64
+      ]
+    },
+    {
+      "case_dir": "IEEE_TEMPLATE",
+      "doc_id": "IEEE_TEMPLATE",
+      "region_id": "p0_title_001",
+      "label": "title",
+      "page": 0,
+      "score": 0.14080843628847847,
+      "aligned_score": 0.2949111017396686,
+      "method": "ssim",
+      "drift": [
+        -63,
+        -32
+      ]
+    },
+    {
+      "case_dir": "Microsoft_Resume_2",
+      "doc_id": "Microsoft_Resume_2",
+      "region_id": "p0_title_000",
+      "label": "title",
+      "page": 0,
+      "score": 0.1544430563128622,
+      "aligned_score": 0.2699168165012612,
+      "method": "ssim",
+      "drift": [
+        -64,
+        -64
+      ]
+    },
+    {
+      "case_dir": "Resume_1",
+      "doc_id": "Resume_1",
+      "region_id": "p0_figure_001",
+      "label": "figure",
+      "page": 0,
+      "score": 0.16030580828648455,
+      "aligned_score": 0.20866437663015044,
+      "method": "ssim",
+      "drift": [
+        -64,
+        -64
+      ]
+    },
+    {
+      "case_dir": "Resume_2",
+      "doc_id": "Resume_2",
+      "region_id": "p0_list_011",
+      "label": "list",
+      "page": 0,
+      "score": 0.16050080972727288,
+      "aligned_score": 0.6394059615481803,
+      "method": "ssim",
+      "drift": [
+        -62,
+        -56
+      ]
+    },
+    {
+      "case_dir": "Microsoft_Resume_2",
+      "doc_id": "Microsoft_Resume_2",
+      "region_id": "p0_title_003",
+      "label": "title",
+      "page": 0,
+      "score": 0.1664797989634348,
+      "aligned_score": 0.3117934145046101,
+      "method": "ssim",
+      "drift": [
+        -64,
+        -48
+      ]
+    },
+    {
+      "case_dir": "Custom_Resume",
+      "doc_id": "Custom_Resume",
+      "region_id": "p0_title_003",
+      "label": "title",
+      "page": 0,
+      "score": 0.23724733141467264,
+      "aligned_score": 0.5196193592970664,
+      "method": "ssim",
+      "drift": [
+        -62,
+        51
+      ]
+    },
+    {
+      "case_dir": "Custom_Resume",
+      "doc_id": "Custom_Resume",
+      "region_id": "p0_title_005",
+      "label": "title",
+      "page": 0,
+      "score": 0.23912263278987878,
+      "aligned_score": 0.5821788945998786,
+      "method": "ssim",
+      "drift": [
+        -12,
+        -64
+      ]
+    },
+    {
+      "case_dir": "Resume_1",
+      "doc_id": "Resume_1",
+      "region_id": "p0_title_006",
+      "label": "title",
+      "page": 0,
+      "score": 0.2476198352429876,
+      "aligned_score": 0.5460715653690775,
+      "method": "ssim",
+      "drift": [
+        -41,
+        -25
+      ]
+    },
+    {
+      "case_dir": "Resume_1",
+      "doc_id": "Resume_1",
+      "region_id": "p0_figure_003",
+      "label": "figure",
+      "page": 0,
+      "score": 0.2592386022358024,
+      "aligned_score": 0.31097387147155486,
+      "method": "ssim",
+      "drift": [
+        -40,
+        -56
+      ]
+    },
+    {
+      "case_dir": "Microsoft_Resume1",
+      "doc_id": "Microsoft_Resume1",
+      "region_id": "p0_figure_002",
+      "label": "figure",
+      "page": 0,
+      "score": 0.30898098871864704,
+      "aligned_score": 0.5152449887747469,
+      "method": "ssim",
+      "drift": [
+        64,
+        -64
+      ]
+    },
+    {
+      "case_dir": "Microsoft_Resume1",
+      "doc_id": "Microsoft_Resume1",
+      "region_id": "p0_figure_000",
+      "label": "figure",
+      "page": 0,
+      "score": 0.4320530032162289,
+      "aligned_score": 0.5811844814970689,
+      "method": "ssim",
+      "drift": [
+        -40,
+        48
+      ]
+    }
+  ]
+}

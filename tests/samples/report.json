@@ -1,0 +1,23 @@
+{
+  "input_file": "tests/samples/resume.docx",
+  "output_file": "tests/samples/resume_v2.tex",
+  "timestamp": "2025-12-20T12:31:46.714360",
+  "total_blocks": 29,
+  "semantic_blocks": 29,
+  "fallback_blocks": 0,
+  "headings": 4,
+  "paragraphs": 19,
+  "lists": 6,
+  "tables": 0,
+  "figures": 0,
+  "list_items": 17,
+  "simple_tables": 0,
+  "medium_tables": 0,
+  "complex_tables": 0,
+  "bold_spans": 56,
+  "italic_spans": 15,
+  "underline_spans": 0,
+  "images_extracted": 0,
+  "warnings": [],
+  "fallbacks": []
+}

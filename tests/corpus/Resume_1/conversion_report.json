@@ -1,0 +1,42 @@
+{
+  "doc_metadata": {},
+  "policy_stats": {
+    "OOXML_TRUTHS_TABLE": 2
+  },
+  "policy_trace": [
+    {
+      "block_id": "b0",
+      "type": "table",
+      "decision": "semantic",
+      "reason": "OOXML_TRUTHS_TABLE",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.0,
+          1.0,
+          0.02
+        ],
+        "overlaps": 9
+      }
+    },
+    {
+      "block_id": "b1",
+      "type": "table",
+      "decision": "semantic",
+      "reason": "OOXML_TRUTHS_TABLE",
+      "layout_context": {
+        "page": 0,
+        "columns": 1,
+        "bbox": [
+          0.0,
+          0.02,
+          1.0,
+          0.04
+        ],
+        "overlaps": 9
+      }
+    }
+  ]
+}

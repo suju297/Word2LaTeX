@@ -1,0 +1,455 @@
+{
+  "doc_id": "Microsoft_Resume_2",
+  "case_dir": "Microsoft_Resume_2",
+  "ref_pages": 5,
+  "gen_pages": 6,
+  "page_count_match": false,
+  "page_boxes": [
+    {
+      "page": 0,
+      "ref": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      },
+      "gen": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      }
+    },
+    {
+      "page": 1,
+      "ref": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      },
+      "gen": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      }
+    },
+    {
+      "page": 2,
+      "ref": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      },
+      "gen": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      }
+    },
+    {
+      "page": 3,
+      "ref": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      },
+      "gen": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      }
+    },
+    {
+      "page": 4,
+      "ref": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      },
+      "gen": {
+        "rect": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "rotation": 0
+      }
+    }
+  ],
+  "by_label": {
+    "title": {
+      "count_scored": 2,
+      "avg": 0.16046142578125,
+      "p50": 0.16046142578125,
+      "p10": 0.15564672648906708,
+      "min": 0.15444305539131165,
+      "coverage_strict": 1.0,
+      "coverage_effective": 1.0,
+      "stats": {
+        "total": 2,
+        "missing": 0,
+        "tiny": 0,
+        "blank_both": 0
+      },
+      "drift": {
+        "median_dx": -64.0,
+        "median_dy": -56.0,
+        "p25_dx": -64.0,
+        "p75_dx": -64.0,
+        "p25_dy": -60.0,
+        "p75_dy": -52.0,
+        "iqr_dx": 0.0,
+        "iqr_dy": 8.0,
+        "count": 2
+      }
+    },
+    "figure": {
+      "count_scored": 3,
+      "avg": 0.7670947909355164,
+      "p50": 0.7758938074111938,
+      "p10": 0.7417581081390381,
+      "min": 0.7332241535186768,
+      "coverage_strict": 1.0,
+      "coverage_effective": 1.0,
+      "stats": {
+        "total": 3,
+        "missing": 0,
+        "tiny": 0,
+        "blank_both": 0
+      },
+      "drift": {
+        "median_dx": -4.0,
+        "median_dy": -1.0,
+        "p25_dx": -28.0,
+        "p75_dx": 2.0,
+        "p25_dy": -11.5,
+        "p75_dy": 18.0,
+        "iqr_dx": 30.0,
+        "iqr_dy": 29.5,
+        "count": 3
+      }
+    }
+  },
+  "regions": [
+    {
+      "region_id": "p0_title_000",
+      "doc_id": "Microsoft_Resume_2",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.7221402525901794,
+      "bbox_norm": [
+        0.4388634535845588,
+        0.47709716796875,
+        0.6259268727022059,
+        0.5048743785511364
+      ],
+      "status": "SCORED",
+      "score": 0.1544430563128622,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": true,
+      "aligned_score": 0.2699168165012612,
+      "drift_x": -64,
+      "drift_y": -64,
+      "search_pad_px": 64,
+      "hit_boundary": true,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_figure_001",
+      "doc_id": "Microsoft_Resume_2",
+      "page": 0,
+      "label": "figure",
+      "source": "ml",
+      "confidence": 0.6943963766098022,
+      "bbox_norm": [
+        0.08882652133118872,
+        0.0735559775612571,
+        0.9038410500919117,
+        0.2398987001361269
+      ],
+      "status": "SCORED",
+      "score": 0.7921662337877511,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.8452274881671725,
+      "drift_x": -52,
+      "drift_y": -1,
+      "search_pad_px": 64,
+      "hit_boundary": false,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_figure_002",
+      "doc_id": "Microsoft_Resume_2",
+      "page": 0,
+      "label": "figure",
+      "source": "ml",
+      "confidence": 0.6771851778030396,
+      "bbox_norm": [
+        0.2945504700903799,
+        0.7185674863873106,
+        0.8940440219056373,
+        0.8477952621922349
+      ],
+      "status": "SCORED",
+      "score": 0.7758938345983594,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.8461977998895416,
+      "drift_x": 8,
+      "drift_y": 37,
+      "search_pad_px": 64,
+      "hit_boundary": false,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_title_003",
+      "doc_id": "Microsoft_Resume_2",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.6248525977134705,
+      "bbox_norm": [
+        0.4386667049632353,
+        0.391474609375,
+        0.6320675838694852,
+        0.4204668634588068
+      ],
+      "status": "SCORED",
+      "score": 0.1664797989634348,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": true,
+      "aligned_score": 0.3117934145046101,
+      "drift_x": -64,
+      "drift_y": -48,
+      "search_pad_px": 64,
+      "hit_boundary": true,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    },
+    {
+      "region_id": "p0_figure_004",
+      "doc_id": "Microsoft_Resume_2",
+      "page": 0,
+      "label": "figure",
+      "source": "ml",
+      "confidence": 0.607435405254364,
+      "bbox_norm": [
+        0.07717296525543811,
+        0.014091365698612097,
+        0.926349666819853,
+        0.7731527432528409
+      ],
+      "status": "SCORED",
+      "score": 0.7332241652144593,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.8040963125373937,
+      "drift_x": -4,
+      "drift_y": -22,
+      "search_pad_px": 64,
+      "hit_boundary": false,
+      "ref_raster_dims": [
+        1650,
+        1275
+      ],
+      "gen_raster_dims": [
+        1650,
+        1275
+      ]
+    }
+  ]
+}

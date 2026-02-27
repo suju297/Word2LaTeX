@@ -1,0 +1,150 @@
+{
+  "ref_pdf": "examples/Sujendra_Jayant_Gharat_Resume.pdf",
+  "gen_pdf": "examples/wordtolatex_output.pdf",
+  "ref_pages": 1,
+  "gen_pages": 2,
+  "extra_pages": [
+    2
+  ],
+  "extra_page_lines": [
+    {
+      "page": 2,
+      "text": "Moving and Storage Rental Services",
+      "bbox": [
+        36.0,
+        37.371219635009766,
+        225.45748901367188,
+        48.33012008666992
+      ],
+      "bbox_norm": [
+        0.060473711974138235,
+        0.04438914188299142,
+        0.378729201472923,
+        0.05740600865323202
+      ],
+      "best_ref_page": 1,
+      "best_ref_text": "Moving and Storage Rental Services",
+      "best_ref_similarity": 1.0,
+      "block_match": {
+        "id": "b27",
+        "type": "paragraph",
+        "scope": "body",
+        "score": 0.95
+      }
+    },
+    {
+      "page": 2,
+      "text": "Sep 2023 \u2013 Dec 2023",
+      "bbox": [
+        453.29400634765625,
+        37.371219635009766,
+        559.29931640625,
+        48.33012008666992
+      ],
+      "bbox_norm": [
+        0.7614547549853153,
+        0.04438914188299142,
+        0.9395251602134437,
+        0.05740600865323202
+      ],
+      "best_ref_page": 1,
+      "best_ref_text": "Sep 2023 \u2013 Dec 2023",
+      "best_ref_similarity": 1.0,
+      "block_match": {
+        "id": "b27",
+        "type": "paragraph",
+        "scope": "body",
+        "score": 0.95
+      }
+    },
+    {
+      "page": 2,
+      "text": "\u2022 Introduced a unique reward system to balance supply and demand by incentivizing customers to drop off",
+      "bbox": [
+        36.0,
+        51.31822204589844,
+        559.2919921875,
+        62.277122497558594
+      ],
+      "bbox_norm": [
+        0.060473711974138235,
+        0.06095524475321687,
+        0.9395128568052458,
+        0.07397211152345746
+      ],
+      "best_ref_page": 1,
+      "best_ref_text": "\u2022 Introduced a unique reward system to balance supply and demand by incentivizing customers to drop off trucks or trailers",
+      "best_ref_similarity": 0.9155555555555556
+    },
+    {
+      "page": 2,
+      "text": "trucks or trailers at high-demand locations, solving a problem faced by UHAUL",
+      "bbox": [
+        44.816986083984375,
+        62.277217864990234,
+        424.1593322753906,
+        73.23611450195312
+      ],
+      "bbox_norm": [
+        0.07528470855532868,
+        0.07397222479989038,
+        0.7125135914212436,
+        0.08698908703907367
+      ],
+      "best_ref_page": 1,
+      "best_ref_text": "at high-demand locations, solving a problem faced by UHAUL",
+      "best_ref_similarity": 0.8592592592592593,
+      "block_match": {
+        "id": "b28",
+        "type": "list",
+        "scope": "body",
+        "score": 0.95
+      }
+    },
+    {
+      "page": 2,
+      "text": "\u2022 Utilized Flask\u2019s Server-Side Rendering (SSR) to enable e\ufb00icient CRUD operations on the MS SQL",
+      "bbox": [
+        35.99998474121094,
+        73.23622131347656,
+        559.2951049804688,
+        84.19511413574219
+      ],
+      "bbox_norm": [
+        0.06047368634203782,
+        0.08698921390867853,
+        0.9395180857537299,
+        0.1000060716168045
+      ],
+      "best_ref_page": 1,
+      "best_ref_text": "\u2022 Utilized Flask\u2019s Server-Side Rendering (SSR) to enable efficient CRUD operations on the MS SQL database",
+      "best_ref_similarity": 0.94
+    },
+    {
+      "page": 2,
+      "text": "database",
+      "bbox": [
+        44.816986083984375,
+        84.19522094726562,
+        89.90190124511719,
+        95.15412902832031
+      ],
+      "bbox_norm": [
+        0.07528470855532868,
+        0.10000619848640936,
+        0.15101949116179544,
+        0.1130230743187646
+      ],
+      "best_ref_page": 1,
+      "best_ref_text": "EDUCATION",
+      "best_ref_similarity": 0.35294117647058826,
+      "block_match": {
+        "id": "b3",
+        "type": "paragraph",
+        "scope": "body",
+        "score": 0.95
+      }
+    }
+  ],
+  "extra_page_images": []
+}

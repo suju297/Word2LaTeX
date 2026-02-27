@@ -1,0 +1,180 @@
+{
+  "docs": {
+    "ACM_SUBMISSION_TEMPLATE": {
+      "mode": "advisory",
+      "status": "FAIL",
+      "labels": {
+        "title": {
+          "status": "SKIP",
+          "violations": [
+            "regions=0 < min=3"
+          ]
+        }
+      },
+      "failures": [
+        "PAGE_COUNT: gen=12 != ref=13"
+      ],
+      "warnings": [],
+      "warn_class": "WARN_PAGE_COUNT",
+      "object_counts": {
+        "textboxes": 0,
+        "shapes": 0,
+        "images": 6,
+        "v_images": 0
+      }
+    },
+    "Custom_Resume": {
+      "mode": "advisory",
+      "status": "PASS",
+      "labels": {
+        "title": {
+          "status": "SKIP",
+          "violations": [
+            "regions=2 < min=3"
+          ]
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "warn_class": null,
+      "object_counts": {
+        "textboxes": 0,
+        "shapes": 0,
+        "images": 0,
+        "v_images": 0
+      }
+    },
+    "IEEE_TEMPLATE": {
+      "mode": "advisory",
+      "status": "PASS",
+      "labels": {
+        "title": {
+          "status": "SKIP",
+          "violations": [
+            "regions=2 < min=3"
+          ]
+        },
+        "list": {
+          "status": "SKIP",
+          "violations": [
+            "regions=1 < min=3"
+          ]
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "warn_class": null,
+      "object_counts": {
+        "textboxes": 0,
+        "shapes": 2,
+        "images": 2,
+        "v_images": 2
+      }
+    },
+    "Microsoft_Resume1": {
+      "mode": "advisory",
+      "status": "FAIL",
+      "labels": {
+        "figure": {
+          "status": "FAIL",
+          "violations": [
+            "hit_boundary=3 > 2"
+          ]
+        }
+      },
+      "failures": [
+        "figure: hit_boundary=3 > 2"
+      ],
+      "warnings": [],
+      "warn_class": "WARN_STRUCTURE_DRIFT",
+      "object_counts": {
+        "textboxes": 0,
+        "shapes": 8,
+        "images": 3,
+        "v_images": 0
+      }
+    },
+    "Microsoft_Resume_2": {
+      "mode": "advisory",
+      "status": "FAIL",
+      "labels": {
+        "title": {
+          "status": "SKIP",
+          "violations": [
+            "regions=2 < min=3"
+          ]
+        },
+        "figure": {
+          "status": "PASS",
+          "violations": []
+        }
+      },
+      "failures": [
+        "PAGE_COUNT: gen=6 != ref=5"
+      ],
+      "warnings": [],
+      "warn_class": "WARN_PAGE_COUNT",
+      "object_counts": {
+        "textboxes": 0,
+        "shapes": 0,
+        "images": 0,
+        "v_images": 0
+      }
+    },
+    "Resume_1": {
+      "mode": "enforce",
+      "status": "PASS",
+      "labels": {
+        "title": {
+          "status": "PASS",
+          "violations": []
+        },
+        "figure": {
+          "status": "PASS",
+          "violations": []
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "warn_class": null,
+      "object_counts": {
+        "textboxes": 0,
+        "shapes": 2,
+        "images": 1,
+        "v_images": 1
+      }
+    },
+    "Resume_2": {
+      "mode": "advisory",
+      "status": "PASS",
+      "labels": {
+        "title": {
+          "status": "PASS",
+          "violations": []
+        },
+        "list": {
+          "status": "SKIP",
+          "violations": [
+            "regions=1 < min=3"
+          ]
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "warn_class": null,
+      "object_counts": {
+        "textboxes": 0,
+        "shapes": 0,
+        "images": 0,
+        "v_images": 0
+      }
+    }
+  },
+  "enforced_pass": true,
+  "enforced_failures": [],
+  "advisory_failures": [
+    "ACM_SUBMISSION_TEMPLATE",
+    "Microsoft_Resume1",
+    "Microsoft_Resume_2"
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "doc_id": "Custom_Resume",
+  "case_dir": "Custom_Resume",
+  "ref_pages": 2,
+  "gen_pages": 2,
+  "page_count_match": true,
+  "page_boxes": [
+    {
+      "page": 0,
+      "ref": {
+        "rect": [
+          0.0,
+          0.0,
+          595.303955078125,
+          841.8897705078125
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          595.303955078125,
+          841.8897705078125
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          595.303955078125,
+          841.8897705078125
+        ],
+        "rotation": 0
+      },
+      "gen": {
+        "rect": [
+          0.0,
+          0.0,
+          595.2999877929688,
+          841.9000244140625
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          595.2999877929688,
+          841.9000244140625
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          595.2999877929688,
+          841.9000244140625
+        ],
+        "rotation": 0
+      }
+    },
+    {
+      "page": 1,
+      "ref": {
+        "rect": [
+          0.0,
+          0.0,
+          595.303955078125,
+          841.8897705078125
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          595.303955078125,
+          841.8897705078125
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          595.303955078125,
+          841.8897705078125
+        ],
+        "rotation": 0
+      },
+      "gen": {
+        "rect": [
+          0.0,
+          0.0,
+          595.2999877929688,
+          841.9000244140625
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          595.2999877929688,
+          841.9000244140625
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          595.2999877929688,
+          841.9000244140625
+        ],
+        "rotation": 0
+      }
+    }
+  ],
+  "by_label": {
+    "title": {
+      "count_scored": 2,
+      "avg": 0.23818498849868774,
+      "p50": 0.23818498849868774,
+      "p10": 0.23743486404418945,
+      "min": 0.23724733293056488,
+      "coverage_strict": 0.25,
+      "coverage_effective": 1.0,
+      "stats": {
+        "total": 8,
+        "missing": 0,
+        "tiny": 6,
+        "blank_both": 0
+      },
+      "drift": {
+        "median_dx": -37.0,
+        "median_dy": -6.5,
+        "p25_dx": -49.5,
+        "p75_dx": -24.5,
+        "p25_dy": -35.25,
+        "p75_dy": 22.25,
+        "iqr_dx": 25.0,
+        "iqr_dy": 57.5,
+        "count": 2
+      }
+    }
+  },
+  "regions": [
+    {
+      "region_id": "p0_title_000",
+      "doc_id": "Custom_Resume",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.8091763257980347,
+      "bbox_norm": [
+        0.04228422240227293,
+        0.17939981006026404,
+        0.14018416731324915,
+        0.19499582358069947
+      ],
+      "status": "SKIPPED_TINY_REGION",
+      "score": null,
+      "method": null,
+      "detail": null,
+      "blank_ref": null,
+      "blank_gen": null
+    },
+    {
+      "region_id": "p0_title_001",
+      "doc_id": "Custom_Resume",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.666905403137207,
+      "bbox_norm": [
+        0.04353138864472641,
+        0.06390261677271149,
+        0.18732406284230838,
+        0.0792827627949731
+      ],
+      "status": "SKIPPED_TINY_REGION",
+      "score": null,
+      "method": null,
+      "detail": null,
+      "blank_ref": null,
+      "blank_gen": null
+    },
+    {
+      "region_id": "p0_title_002",
+      "doc_id": "Custom_Resume",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.6057791113853455,
+      "bbox_norm": [
+        0.04415729408971155,
+        0.8397049767941135,
+        0.31917988226165894,
+        0.8558883406009479
+      ],
+      "status": "SKIPPED_TINY_REGION",
+      "score": null,
+      "method": null,
+      "detail": null,
+      "blank_ref": null,
+      "blank_gen": null
+    },
+    {
+      "region_id": "p0_title_003",
+      "doc_id": "Custom_Resume",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.595184326171875,
+      "bbox_norm": [
+        0.03672294708915913,
+        0.5684727806865557,
+        0.9568889166058119,
+        0.6210810140437928
+      ],
+      "status": "SCORED",
+      "score": 0.23724733141467264,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.5196193592970664,
+      "drift_x": -62,
+      "drift_y": 51,
+      "search_pad_px": 64,
+      "hit_boundary": true,
+      "ref_raster_dims": [
+        1754,
+        1241
+      ],
+      "gen_raster_dims": [
+        1754,
+        1241
+      ]
+    },
+    {
+      "region_id": "p0_title_004",
+      "doc_id": "Custom_Resume",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.5567888617515564,
+      "bbox_norm": [
+        0.04631159595670861,
+        0.3554868100034742,
+        0.3583098111087329,
+        0.37095936130362744
+      ],
+      "status": "SKIPPED_TINY_REGION",
+      "score": null,
+      "method": null,
+      "detail": null,
+      "blank_ref": null,
+      "blank_gen": null
+    },
+    {
+      "region_id": "p0_title_005",
+      "doc_id": "Custom_Resume",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.5536478757858276,
+      "bbox_norm": [
+        0.04882038187154544,
+        0.7622362613134265,
+        0.9585505876687147,
+        0.8363997525744726
+      ],
+      "status": "SCORED",
+      "score": 0.23912263278987878,
+      "method": "ssim",
+      "detail": "win_size=11",
+      "blank_ref": false,
+      "blank_gen": false,
+      "aligned_score": 0.5821788945998786,
+      "drift_x": -12,
+      "drift_y": -64,
+      "search_pad_px": 64,
+      "hit_boundary": true,
+      "ref_raster_dims": [
+        1754,
+        1241
+      ],
+      "gen_raster_dims": [
+        1754,
+        1241
+      ]
+    },
+    {
+      "region_id": "p0_title_006",
+      "doc_id": "Custom_Resume",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.5271574854850769,
+      "bbox_norm": [
+        0.04267463714820929,
+        0.19789572425416013,
+        0.2938092006588059,
+        0.21331112034100627
+      ],
+      "status": "SKIPPED_TINY_REGION",
+      "score": null,
+      "method": null,
+      "detail": null,
+      "blank_ref": null,
+      "blank_gen": null
+    },
+    {
+      "region_id": "p0_title_007",
+      "doc_id": "Custom_Resume",
+      "page": 0,
+      "label": "title",
+      "source": "ml",
+      "confidence": 0.5094684362411499,
+      "bbox_norm": [
+        0.09889730227560309,
+        0.04362819675980571,
+        0.7095753979433169,
+        0.057981471515164
+      ],
+      "status": "SKIPPED_TINY_REGION",
+      "score": null,
+      "method": null,
+      "detail": null,
+      "blank_ref": null,
+      "blank_gen": null
+    }
+  ]
+}

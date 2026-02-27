@@ -1,0 +1,2938 @@
+{
+  "ref_path": "tests/corpus/Microsoft_Resume_2/ref.pdf",
+  "gen_path": "tests/corpus/Microsoft_Resume_2/gen.pdf",
+  "match_rate": 0.7307692307692307,
+  "ref_page_count": 5,
+  "gen_page_count": 6,
+  "detected_ref_columns": 2,
+  "detected_gen_columns": 2,
+  "missing_count": 21,
+  "extra_count": 43,
+  "shifted_count": 51,
+  "changed_count": 0,
+  "diffs": [
+    {
+      "ref_text": "List relevant awards, fellowships, honors, grants, and academic distinctions in reverse\nchronological order. Include a short description if necessary.",
+      "gen_text": "List relevant awards, fellowships, honors, grants, and academic distinctions in reverse\nchronological order. Include a short description if necessary.",
+      "ref_bbox": {
+        "x0": 0.3009744322533701,
+        "y0": 0.6882922733191288,
+        "x1": 0.8588284122242648,
+        "y1": 0.7131577000473485
+      },
+      "gen_bbox": {
+        "x0": 0.2899724504059436,
+        "y0": 0.09876744125828599,
+        "x1": 0.8757493681066176,
+        "y1": 0.1259034035422585
+      },
+      "ref_page": 0,
+      "gen_page": 1,
+      "diff_type": "shifted",
+      "confidence": 0.5,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.011001981847426512,
+        -0.5895248320608428
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Thesis: \u201cSparking curiosity in the minds of young engineers\u201d\nAdvisor: Dr. Cristina Echevarr\u00eda",
+      "gen_text": "Thesis: \u201cSparking curiosity in the minds of young engineers\u201d\nAdvisor: Dr. Cristina Echevarr\u00eda",
+      "ref_bbox": {
+        "x0": 0.43776525160845586,
+        "y0": 0.5164395788944128,
+        "x1": 0.8333442478553922,
+        "y1": 0.5430522017045455
+      },
+      "gen_bbox": {
+        "x0": 0.4363448797487745,
+        "y0": 0.7004788115530303,
+        "x1": 0.8400824333639706,
+        "y1": 0.7288831676136364
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0014203718596813575,
+        0.18403923265861744
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Dissertation: \u201cCurrent trends in electrical engineering\u201d\nCommittee: Undergraduate research (chair)",
+      "gen_text": "Dissertation: \u201cCurrent trends in electrical engineering\u201d\nCommittee: Undergraduate research (chair)",
+      "ref_bbox": {
+        "x0": 0.43929845473345586,
+        "y0": 0.43048665364583333,
+        "x1": 0.7876792279411765,
+        "y1": 0.45760723691998106
+      },
+      "gen_bbox": {
+        "x0": 0.43706834980085785,
+        "y0": 0.5640166681463068,
+        "x1": 0.7940445484834558,
+        "y1": 0.5930974786931819
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0022301049325980093,
+        0.13353001450047347
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Jasper University\nPhD Electrical Engineering",
+      "gen_text": "Jasper University\nPhD Electrical Engineering",
+      "ref_bbox": {
+        "x0": 0.4402706609987745,
+        "y0": 0.3915228086529356,
+        "x1": 0.630516907935049,
+        "y1": 0.42044296727035985
+      },
+      "gen_bbox": {
+        "x0": 0.4349060776654412,
+        "y0": 0.5268766276041666,
+        "x1": 0.6290133846507353,
+        "y1": 0.5563432173295455
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.005364583333333284,
+        0.13535381895123105
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Honors and \nawards",
+      "gen_text": "Honors and awards",
+      "ref_bbox": {
+        "x0": 0.11770334281173407,
+        "y0": 0.6869179095643939,
+        "x1": 0.22867132448682598,
+        "y1": 0.7228769383285985
+      },
+      "gen_bbox": {
+        "x0": 0.11096727558210784,
+        "y0": 0.09818308512369792,
+        "x1": 0.250800111060049,
+        "y1": 0.11177621552438446
+      },
+      "ref_page": 0,
+      "gen_page": 1,
+      "diff_type": "shifted",
+      "confidence": 0.5,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.006736067229626233,
+        -0.588734824440696
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Education",
+      "gen_text": "Education",
+      "ref_bbox": {
+        "x0": 0.11727136948529411,
+        "y0": 0.3917969859730114,
+        "x1": 0.21418969247855393,
+        "y1": 0.41041489109848484
+      },
+      "gen_bbox": {
+        "x0": 0.11282538918887867,
+        "y0": 0.5263003077651515,
+        "x1": 0.18450949276194853,
+        "y1": 0.5399365604285038
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.004445980296415436,
+        0.13450332179214008
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Jasper University\nMS Electrical Engineering",
+      "gen_text": "Jasper University\nMS Electrical Engineering",
+      "ref_bbox": {
+        "x0": 0.4392098460477941,
+        "y0": 0.4766482821377841,
+        "x1": 0.6238438265931373,
+        "y1": 0.5054147801254735
+      },
+      "gen_bbox": {
+        "x0": 0.43572160309436275,
+        "y0": 0.6683114346590909,
+        "x1": 0.6234709137561274,
+        "y1": 0.6919625207149621
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.003488242953431364,
+        0.19166315252130683
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Bellows College\nBS Electrical Engineering",
+      "gen_text": "Bellows College\nBS Electrical Engineering",
+      "ref_bbox": {
+        "x0": 0.4419476677389706,
+        "y0": 0.5553920676491477,
+        "x1": 0.6242239679074755,
+        "y1": 0.5849794330018939
+      },
+      "gen_bbox": {
+        "x0": 0.43595841950061276,
+        "y0": 0.8285067471590909,
+        "x1": 0.6233990598192402,
+        "y1": 0.8591257546164772
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.005989248238357836,
+        0.27311467950994317
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "\uf0b7\nTaught Name of Course, an undergraduate course \naveraging 120 students per semester, covering the follow\ntopics: topic, topic, topic, topic\n\uf0b7\nDeveloped quizzes, exams, and homework\n\uf0b7\nRevised the syllabus to meet accreditation standards\n\uf0b7\nCoordinated grading and labs with a team of 4 teaching \nassistants",
+      "gen_text": "Associate Professor, Department\nTaught Name of Course, an undergraduate course averaging 120\nstudents per semester, covering the following topics: topic, topic,\ntopic, topic\nDeveloped quizzes, exams, and homework\nRevised the syllabus to meet accreditation standards\nCoordinated grading and labs with a team of 4 teaching\nassistants",
+      "ref_bbox": {
+        "x0": 0.4486925551470588,
+        "y0": 0.5581231504498106,
+        "x1": 0.8565014169730392,
+        "y1": 0.6639513790246212
+      },
+      "gen_bbox": {
+        "x0": 0.440919739966299,
+        "y0": 0.07439225630326704,
+        "x1": 0.8787382238051471,
+        "y1": 0.18361868193655304
+      },
+      "ref_page": 1,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.4162790697674419,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0077728151807597845,
+        -0.4837308941465436
+      ],
+      "ref_block_type": "List",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "If you are applying for a teaching position, you might want to list the teaching experienc\nsection before the research experience section. Highlight important accomplishments, \nskills, and projects using concise sentences, beginning with an action verb. Complete \nsentences are not necessary. Be consistent in your grammatical style.",
+      "gen_text": "If you are applying for a teaching position, you might want to list the teaching experience\nsection before the research experience section. Highlight important accomplishments,\nskills, and projects using concise sentences, beginning with an action verb. Complete\nsentences are not necessary. Be consistent in your grammatical style.",
+      "ref_bbox": {
+        "x0": 0.3027664483762255,
+        "y0": 0.07422831679835463,
+        "x1": 0.8629422296262255,
+        "y1": 0.12773947051077178
+      },
+      "gen_bbox": {
+        "x0": 0.29411185470281864,
+        "y0": 0.3391329678622159,
+        "x1": 0.8819023820465687,
+        "y1": 0.4020719401041667
+      },
+      "ref_page": 1,
+      "gen_page": 1,
+      "diff_type": "shifted",
+      "confidence": 0.5860465116279069,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.008654593673406874,
+        0.2649046510638613
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "When you list courses, include a brief description so that the course can be compared\na similar course at another university. You might want to include the typical number of \nstudents in the course as well as list your responsibilities such as developing course \nmaterials, lecturing, grading, developing the syllabus, etc. How you decide to list or gro\nyour courses, skills, teaching methods, roles, and responsibilities will depend on your \namount of experience. The examples below are just a few ideas.",
+      "gen_text": "When you list courses, include a brief description so that the course can be compared\nto a similar course at another university. You might want to include the typical number\nof students in the course as well as list your responsibilities such as developing course\nmaterials, lecturing, grading, developing the syllabus, etc. How you decide to list or\ngroup your courses, skills, teaching methods, roles, and responsibilities will depend on\nyour amount of experience. The examples below are just a few ideas.",
+      "ref_bbox": {
+        "x0": 0.30463007908241424,
+        "y0": 0.4102746951941288,
+        "x1": 0.8576252297794118,
+        "y1": 0.488702392578125
+      },
+      "gen_bbox": {
+        "x0": 0.29673447552849264,
+        "y0": 0.7945269590435606,
+        "x1": 0.8806341911764706,
+        "y1": 0.8822927763967803
+      },
+      "ref_page": 1,
+      "gen_page": 1,
+      "diff_type": "shifted",
+      "confidence": 0.5796610169491525,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.007895603553921604,
+        0.38425226384943184
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Teaching \nexperience",
+      "gen_text": "Teaching experience",
+      "ref_bbox": {
+        "x0": 0.11709667729396446,
+        "y0": 0.4093330522017046,
+        "x1": 0.2199761603860294,
+        "y1": 0.44618330522017047
+      },
+      "gen_bbox": {
+        "x0": 0.11293296664368872,
+        "y0": 0.7942131273674242,
+        "x1": 0.25502032111672795,
+        "y1": 0.8090548798532197
+      },
+      "ref_page": 1,
+      "gen_page": 1,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.004163710650275737,
+        0.38488007516571965
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "\uf0b7\nHighlight important projects, duties, skills, and \nresponsibilities following a consistent grammatical style",
+      "gen_text": "Highlight important projects, duties, skills, and responsibilities\nfollowing a consistent grammatical style",
+      "ref_bbox": {
+        "x0": 0.4677661611519608,
+        "y0": 0.8486453894412879,
+        "x1": 0.8443447457107843,
+        "y1": 0.8778597005208333
+      },
+      "gen_bbox": {
+        "x0": 0.43371237362132353,
+        "y0": 0.34968483664772726,
+        "x1": 0.8773531326593137,
+        "y1": 0.3795224091500947
+      },
+      "ref_page": 1,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.4538461538461539,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.03405378753063726,
+        -0.4989605527935606
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Research \nexperience",
+      "gen_text": "Research experience",
+      "ref_bbox": {
+        "x0": 0.11663976332720588,
+        "y0": 0.07555943806966146,
+        "x1": 0.22092352175245097,
+        "y1": 0.1094920302882339
+      },
+      "gen_bbox": {
+        "x0": 0.11258987725949755,
+        "y0": 0.3377704042376894,
+        "x1": 0.2566015146292892,
+        "y1": 0.3531103515625
+      },
+      "ref_page": 1,
+      "gen_page": 1,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.004049886067708328,
+        0.2622109661680279
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "20XX-20XX",
+      "gen_text": "20XX-20XX",
+      "ref_bbox": {
+        "x0": 0.29992929496017157,
+        "y0": 0.1387777987393466,
+        "x1": 0.37926334156709557,
+        "y1": 0.15337357954545455
+      },
+      "gen_bbox": {
+        "x0": 0.29576866000306373,
+        "y0": 0.5372451689749053,
+        "x1": 0.3829043638939951,
+        "y1": 0.5527337091619318
+      },
+      "ref_page": 1,
+      "gen_page": 1,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.004160634957107834,
+        0.39846737023555867
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Name of University, Location\nTeaching Assistant, Departmen",
+      "gen_text": "Name of University, Location\nTeaching Assistant, Department",
+      "ref_bbox": {
+        "x0": 0.4437658930759804,
+        "y0": 0.8219864908854166,
+        "x1": 0.6520215801164215,
+        "y1": 0.8495572916666667
+      },
+      "gen_bbox": {
+        "x0": 0.4345560470281863,
+        "y0": 0.3198451556581439,
+        "x1": 0.6411648380055147,
+        "y1": 0.34804062352035986
+      },
+      "ref_page": 1,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.4898305084745763,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.009209846047794124,
+        -0.5021413352272728
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Name, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated",
+      "gen_text": "Name, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated",
+      "ref_bbox": {
+        "x0": 0.4925937308517157,
+        "y0": 0.7543337920217803,
+        "x1": 0.7374006682751225,
+        "y1": 0.7942366536458333
+      },
+      "gen_bbox": {
+        "x0": 0.48505050359987745,
+        "y0": 0.1996599786931818,
+        "x1": 0.7426226926317402,
+        "y1": 0.2453118711529356
+      },
+      "ref_page": 1,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.5,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.007543227251838258,
+        -0.5546738133285984
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Doctoral students advised",
+      "gen_text": "Doctoral students advised",
+      "ref_bbox": {
+        "x0": 0.49469970703125,
+        "y0": 0.6749881628787879,
+        "x1": 0.6793462297028187,
+        "y1": 0.6897242690577652
+      },
+      "gen_bbox": {
+        "x0": 0.4832685163909314,
+        "y0": 0.1852069091796875,
+        "x1": 0.6670200482536764,
+        "y1": 0.1986581883285985
+      },
+      "ref_page": 1,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.5,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.011431190640318611,
+        -0.4897812536991004
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "20XX-20XX\nDissertation Jasper University, Frankfort, KY\nAdvisor: Name\n\uf0b7\nSkill/Accomplishment/Project\n\uf0b7\nSkill/Accomplishment/Project\n20XX-20XX\nInstitution/Company/Organization, Location\nPosition, Lab or Advisor Name\n\uf0b7\nSkill/Accomplishment/Project\n\uf0b7\nSkill/Accomplishment/Project\n20XX-20XX\nCompany/Organization, Location\nPosition Lab or Advisor Name\n\uf0b7\nSkill/Accomplishment/Project\n\uf0b7\nSkill/Accomplishment/Project",
+      "gen_text": "Dissertation Jasper University, Frankfort, KY\nAdvisor: Name\nSkill/Accomplishment/Project\nSkill/Accomplishment/Project\nInstitution/Company/Organization, Location\nPosition, Lab or Advisor Name\nSkill/Accomplishment/Project\nSkill/Accomplishment/Project\nCompany/Organization, Location\nPosition Lab or Advisor Name\nSkill/Accomplishment/Project\nSkill/Accomplishment/Project",
+      "ref_bbox": {
+        "x0": 0.3050677370557598,
+        "y0": 0.1345547762784091,
+        "x1": 0.784662415747549,
+        "y1": 0.3689009972774621
+      },
+      "gen_bbox": {
+        "x0": 0.43176863128063725,
+        "y0": 0.4039576674952651,
+        "x1": 0.7241604434742647,
+        "y1": 0.604390869140625
+      },
+      "ref_page": 1,
+      "gen_page": 1,
+      "diff_type": "shifted",
+      "confidence": 0.5333333333333333,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        0.12670089422487746,
+        0.269402891216856
+      ],
+      "ref_block_type": "Figure",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "Name, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated",
+      "gen_text": "Name, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated",
+      "ref_bbox": {
+        "x0": 0.48784227558210785,
+        "y0": 0.6880111416903409,
+        "x1": 0.7394721296721813,
+        "y1": 0.729150390625
+      },
+      "gen_bbox": {
+        "x0": 0.4846303423713235,
+        "y0": 0.1976058867483428,
+        "x1": 0.7386781460631128,
+        "y1": 0.24934609153053977
+      },
+      "ref_page": 1,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.5,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0032119332107843346,
+        -0.49040525494199816
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "Lastname, F.M., Lastname, F.M., and Lastname, F.M., \u201cArticle\nTitle,\u201d To be published in: Journal Name.",
+      "gen_text": "Lastname, F.M., Lastname, F.M., and Lastname, F.M., \u201cArticle\nTitle,\u201d To be published in: Journal Name.",
+      "ref_bbox": {
+        "x0": 0.4424356617647059,
+        "y0": 0.3492434969815341,
+        "x1": 0.8448829082414215,
+        "y1": 0.3744268983783144
+      },
+      "gen_bbox": {
+        "x0": 0.43404852175245096,
+        "y0": 0.6350495679450757,
+        "x1": 0.8784461167279412,
+        "y1": 0.663492616595644
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.008387140012254934,
+        0.2858060709635416
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Lastname, F.M., Lastname, F.M., and Lastname, F.M., \u201cArticle \nTitle,\u201d Submitted to: Name of Journal.",
+      "gen_text": "Lastname, F.M., Lastname, F.M., and Lastname, F.M., \u201cArticle\nTitle,\u201d Submitted to: Name of Journal.",
+      "ref_bbox": {
+        "x0": 0.4348583984375,
+        "y0": 0.45369791666666665,
+        "x1": 0.8483306525735295,
+        "y1": 0.48007461085464015
+      },
+      "gen_bbox": {
+        "x0": 0.4352481138939951,
+        "y0": 0.7340042021780303,
+        "x1": 0.877859987745098,
+        "y1": 0.7620476000236742
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        0.00038971545649507666,
+        0.28030628551136366
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Conference papers",
+      "gen_text": "Conference papers",
+      "ref_bbox": {
+        "x0": 0.44194115732230393,
+        "y0": 0.4926463364109849,
+        "x1": 0.5734073414522058,
+        "y1": 0.5069783898555871
+      },
+      "gen_bbox": {
+        "x0": 0.43648298674938724,
+        "y0": 0.054703813032670454,
+        "x1": 0.5681887637867648,
+        "y1": 0.067984531286991
+      },
+      "ref_page": 2,
+      "gen_page": 3,
+      "diff_type": "shifted",
+      "confidence": 0.5,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0054581705729166985,
+        -0.4379425233783144
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Lastname, F.M., Lastname, F.M., and Lastname, F.M., \u201cArticle \nTitle,\u201d Journal Name, vol. 1, no. 3, 2008, pp. 503-509.",
+      "gen_text": "Lastname, F.M., Lastname, F.M., and Lastname, F.M., \u201cArticle\nTitle,\u201d Journal Name, vol. 1, no. 3, 2008, pp. 503-509.",
+      "ref_bbox": {
+        "x0": 0.4411140950520833,
+        "y0": 0.20649878299597538,
+        "x1": 0.8466614008884804,
+        "y1": 0.2325748512961648
+      },
+      "gen_bbox": {
+        "x0": 0.43495193780637254,
+        "y0": 0.545623964251894,
+        "x1": 0.8738116574754902,
+        "y1": 0.5735619377367425
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0061621572457107865,
+        0.3391251812559186
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Conference papers in review",
+      "gen_text": "Conference papers in review",
+      "ref_bbox": {
+        "x0": 0.43976792279411764,
+        "y0": 0.7541356682054924,
+        "x1": 0.64308349609375,
+        "y1": 0.7676707504734849
+      },
+      "gen_bbox": {
+        "x0": 0.44480913947610295,
+        "y0": 0.30199242794152464,
+        "x1": 0.632169309129902,
+        "y1": 0.3149929717092803
+      },
+      "ref_page": 2,
+      "gen_page": 3,
+      "diff_type": "shifted",
+      "confidence": 0.5,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        0.005041216681985317,
+        -0.45214324026396774
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Lastname, F.M., Lastname, F.M., and Lastname, F.M., \u201cArticle \nTitle,\u201d Submitted to: Name of Journal.",
+      "gen_text": "Lastname, F.M., Lastname, F.M., and Lastname, F.M., \u201cArticle\nTitle,\u201d Submitted to: Name of Journal.",
+      "ref_bbox": {
+        "x0": 0.43809015012254904,
+        "y0": 0.41434281782670457,
+        "x1": 0.8466968252144608,
+        "y1": 0.4411383241595644
+      },
+      "gen_bbox": {
+        "x0": 0.4280710497089461,
+        "y0": 0.7718710789535985,
+        "x1": 0.8795783547794118,
+        "y1": 0.8004336825284091
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.010019100413602933,
+        0.35752826112689395
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Lastname, F.M., Lastname, F.M., and Lastname, F.M., \u201cArticle \nTitle,\u201d To be published in: Journal Name.",
+      "gen_text": "Lastname, F.M., Lastname, F.M., and Lastname, F.M., \u201cArticle\nTitle,\u201d To be published in: Journal Name.",
+      "ref_bbox": {
+        "x0": 0.4399108647365196,
+        "y0": 0.30975963245738636,
+        "x1": 0.8460646446078431,
+        "y1": 0.3361380282315341
+      },
+      "gen_bbox": {
+        "x0": 0.4341125248927696,
+        "y0": 0.6733533824573864,
+        "x1": 0.8786400888480392,
+        "y1": 0.701478974313447
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.00579833984375,
+        0.36359375000000005
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Journal papers in review",
+      "gen_text": "Journal papers in review",
+      "ref_bbox": {
+        "x0": 0.44051456227022057,
+        "y0": 0.38826893199573864,
+        "x1": 0.6134099264705882,
+        "y1": 0.40231896602746214
+      },
+      "gen_bbox": {
+        "x0": 0.4355405081954657,
+        "y0": 0.7106995738636364,
+        "x1": 0.6088473690257353,
+        "y1": 0.7240441524621212
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0049740540747548745,
+        0.3224306418678977
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Publications",
+      "gen_text": "Publications",
+      "ref_bbox": {
+        "x0": 0.11776666379442402,
+        "y0": 0.08715308911872632,
+        "x1": 0.23419699276194852,
+        "y1": 0.10564641779119319
+      },
+      "gen_bbox": {
+        "x0": 0.11256126254212623,
+        "y0": 0.43543375651041666,
+        "x1": 0.20019913018918506,
+        "y1": 0.44962424538352275
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.005205401252297792,
+        0.34828066739169034
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Journal publications",
+      "gen_text": "Journal publications",
+      "ref_bbox": {
+        "x0": 0.4410889150582108,
+        "y0": 0.17917068019057766,
+        "x1": 0.5840642233455883,
+        "y1": 0.19328731652462122
+      },
+      "gen_bbox": {
+        "x0": 0.43591782513786764,
+        "y0": 0.5219821999289773,
+        "x1": 0.579887025122549,
+        "y1": 0.5357287227746212
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.005171089920343153,
+        0.34281151973839963
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Lastname, F.M., Book Title, Location: Publisher",
+      "gen_text": "Lastname, F.M., Book Title, Location: Publisher",
+      "ref_bbox": {
+        "x0": 0.4306254787071078,
+        "y0": 0.15251427852746213,
+        "x1": 0.7501978496476716,
+        "y1": 0.1667672821969697
+      },
+      "gen_bbox": {
+        "x0": 0.4343817018995098,
+        "y0": 0.5005990323153409,
+        "x1": 0.7561148609834559,
+        "y1": 0.5137882856889204
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        0.003756223192401986,
+        0.34808475378787873
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "(Abstract-Reviewed)\nLastname, F.M. and Lastname, F.M., \u201cArticle Title,\u201d Proceedings of \nConference Name, Nov. 17-18, 2008, PAPERID-000000, pp. 503-\n509.",
+      "gen_text": "of Conference Name, Nov. 17-18, 2008, PAPERID-000000, pp.\n503-509.\n(Abstract-Reviewed)\nLastname, F.M. and Lastname, F.M., \u201cArticle Title,\u201d Proceedings\nof Conference Name, Nov. 17-18, 2008, PAPERID-000000, pp.\n503-509.",
+      "ref_bbox": {
+        "x0": 0.4426318359375,
+        "y0": 0.6439885179924243,
+        "x1": 0.8771764897365196,
+        "y1": 0.6908763908617425
+      },
+      "gen_bbox": {
+        "x0": 0.43715552236519606,
+        "y0": 0.1640923887310606,
+        "x1": 0.8769675819546568,
+        "y1": 0.2477318781072443
+      },
+      "ref_page": 2,
+      "gen_page": 3,
+      "diff_type": "shifted",
+      "confidence": 0.40526315789473677,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.005476313572303937,
+        -0.4798961292613637
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "(Peer-Reviewed)",
+      "gen_text": "(Peer-Reviewed)",
+      "ref_bbox": {
+        "x0": 0.44284936044730394,
+        "y0": 0.5181257398200757,
+        "x1": 0.5529235121783088,
+        "y1": 0.5322871907552084
+      },
+      "gen_bbox": {
+        "x0": 0.4376852596507353,
+        "y0": 0.07775382302024147,
+        "x1": 0.5474585918351715,
+        "y1": 0.09073912649443655
+      },
+      "ref_page": 2,
+      "gen_page": 3,
+      "diff_type": "shifted",
+      "confidence": 0.5,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.005164100796568649,
+        -0.44037191679983423
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "20XX",
+      "gen_text": "20XX",
+      "ref_bbox": {
+        "x0": 0.30090863396139705,
+        "y0": 0.7539390980113636,
+        "x1": 0.3377670706954657,
+        "y1": 0.7672858220880682
+      },
+      "gen_bbox": {
+        "x0": 0.2961849197686887,
+        "y0": 0.5195236298532196,
+        "x1": 0.3367452703737745,
+        "y1": 0.5347027033025569
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.004723714192708339,
+        -0.23441546815814396
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "20XX",
+      "gen_text": "20XX",
+      "ref_bbox": {
+        "x0": 0.30099688361672794,
+        "y0": 0.4914562618371212,
+        "x1": 0.33781989602481616,
+        "y1": 0.5061951423413826
+      },
+      "gen_bbox": {
+        "x0": 0.29639454561121326,
+        "y0": 0.300348418264678,
+        "x1": 0.3354681276807598,
+        "y1": 0.31405047792376894
+      },
+      "ref_page": 2,
+      "gen_page": 3,
+      "diff_type": "shifted",
+      "confidence": 0.5,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.004602338005514683,
+        -0.1911078435724432
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "List your publications in reverse chronological order. Use an acceptable reference format \ncommonly used in your field. Group your publications into different categories if you have\na sufficient number to do so. \n20XX\nBooks",
+      "gen_text": "List your publications in reverse chronological order. Use an acceptable reference format\ncommonly used in your field. Group your publications into different categories if you have\na sufficient number to do so.\n20XX\nBooks",
+      "ref_bbox": {
+        "x0": 0.29515826056985295,
+        "y0": 0.0873703095407197,
+        "x1": 0.8790043849571079,
+        "y1": 0.14075169418797348
+      },
+      "gen_bbox": {
+        "x0": 0.29263384650735297,
+        "y0": 0.43501357569839016,
+        "x1": 0.8762599571078431,
+        "y1": 0.4925829338304924
+      },
+      "ref_page": 2,
+      "gen_page": 2,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.00252441406249998,
+        0.3476432661576705
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Professional \nservice",
+      "gen_text": "Professional service",
+      "ref_bbox": {
+        "x0": 0.11744390749463848,
+        "y0": 0.7716438062263258,
+        "x1": 0.23617395737591912,
+        "y1": 0.8079012044270834
+      },
+      "gen_bbox": {
+        "x0": 0.11146651922487745,
+        "y0": 0.41998061671401515,
+        "x1": 0.2518899835324755,
+        "y1": 0.43463863488399623
+      },
+      "ref_page": 3,
+      "gen_page": 4,
+      "diff_type": "shifted",
+      "confidence": 0.5,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.005977388269761033,
+        -0.3516631895123106
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "\u201cTitle of Presentation,\u201d Name of Workshop",
+      "gen_text": "\u201cTitle of Presentation,\u201d Name of Workshop",
+      "ref_bbox": {
+        "x0": 0.4380678902420343,
+        "y0": 0.32054395271070074,
+        "x1": 0.7161091643688725,
+        "y1": 0.33400808623342804
+      },
+      "gen_bbox": {
+        "x0": 0.4384504729626226,
+        "y0": 0.7457859848484848,
+        "x1": 0.7180129346660539,
+        "y1": 0.7596720377604167
+      },
+      "ref_page": 3,
+      "gen_page": 3,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        0.0003825827205882759,
+        0.42524203213778405
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Patents",
+      "gen_text": "Patents",
+      "ref_bbox": {
+        "x0": 0.11747091854319854,
+        "y0": 0.09199030095880682,
+        "x1": 0.18876998602175246,
+        "y1": 0.10913193211410985
+      },
+      "gen_bbox": {
+        "x0": 0.11206277286305147,
+        "y0": 0.5066118829900568,
+        "x1": 0.16455681295955882,
+        "y1": 0.5206102405894887
+      },
+      "ref_page": 3,
+      "gen_page": 3,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.005408145680147067,
+        0.41462158203124994
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "InventorLastName, F.M., InventorLastName, F.M., \u201cTitle of \nInvention,\u201d Unites States Patent, No. 0000000",
+      "gen_text": "InventorLastName,\nF.M.,\nInventorLastName,\nF.M.,\n\u201cTitle of\nInvention,\u201d Unites States Patent, No. 0000000\nInventorLastName,\nF.M.,\nInventorLastName,\nF.M.,\n\u201cTitle of\nInvention,\u201d Unites States Patent, No. 0000000",
+      "ref_bbox": {
+        "x0": 0.437802064185049,
+        "y0": 0.12997128573330965,
+        "x1": 0.823868527879902,
+        "y1": 0.15654196999289774
+      },
+      "gen_bbox": {
+        "x0": 0.4348384363511029,
+        "y0": 0.5078841515743371,
+        "x1": 0.880693359375,
+        "y1": 0.5680821274266098
+      },
+      "ref_page": 3,
+      "gen_page": 3,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.002963627833946103,
+        0.37791286584102746
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "g\n,\nDescription of role or responsibilities, if applicable.",
+      "gen_text": "g\n,\nDescription of role or responsibilities, if applicable.",
+      "ref_bbox": {
+        "x0": 0.44010885799632354,
+        "y0": 0.6735129616477272,
+        "x1": 0.7663404756433824,
+        "y1": 0.68914306640625
+      },
+      "gen_bbox": {
+        "x0": 0.4352951708026961,
+        "y0": 0.29104658647017045,
+        "x1": 0.7754457720588235,
+        "y1": 0.30853541518702654
+      },
+      "ref_page": 3,
+      "gen_page": 4,
+      "diff_type": "shifted",
+      "confidence": 0.5,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.004813687193627458,
+        -0.38246637517755677
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Name of Organization,\nDescription of role or responsibilities, if applicable",
+      "gen_text": "Name of Organization,\nDescription of role or responsibilities, if applicable.",
+      "ref_bbox": {
+        "x0": 0.4418728458180147,
+        "y0": 0.6617297733191287,
+        "x1": 0.7620537492340687,
+        "y1": 0.690253388375947
+      },
+      "gen_bbox": {
+        "x0": 0.4363084501378676,
+        "y0": 0.3187822931463068,
+        "x1": 0.7729509899662991,
+        "y1": 0.34462635387073864
+      },
+      "ref_page": 3,
+      "gen_page": 4,
+      "diff_type": "shifted",
+      "confidence": 0.4922077922077922,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.005564395680147105,
+        -0.34294748017282195
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Keynote Address",
+      "gen_text": "Keynote Address",
+      "ref_bbox": {
+        "x0": 0.44109451593137255,
+        "y0": 0.2670352265329072,
+        "x1": 0.5603256165747549,
+        "y1": 0.28207870945785984
+      },
+      "gen_bbox": {
+        "x0": 0.43766984528186276,
+        "y0": 0.6946119643702652,
+        "x1": 0.5563785328584558,
+        "y1": 0.7078088008996212
+      },
+      "ref_page": 3,
+      "gen_page": 3,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.003424670649509798,
+        0.427576737837358
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "InventorLastName, F.M., InventorLastName, F.M., \u201cTitle of \nInvention,\u201d Unites States Patent, No. 0000000",
+      "gen_text": "InventorLastName,\nF.M.,\nInventorLastName,\nF.M.,\n\u201cTitle of\nInvention,\u201d Unites States Patent, No. 0000000",
+      "ref_bbox": {
+        "x0": 0.4391830384497549,
+        "y0": 0.09049110181403883,
+        "x1": 0.8283137063419118,
+        "y1": 0.11783561012961648
+      },
+      "gen_bbox": {
+        "x0": 0.42848455690870096,
+        "y0": 0.54322265625,
+        "x1": 0.8749499272365197,
+        "y1": 0.5726427852746212
+      },
+      "ref_page": 3,
+      "gen_page": 3,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.010698481541053961,
+        0.45273155443596114
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "References",
+      "gen_text": "References",
+      "ref_bbox": {
+        "x0": 0.1162246763939951,
+        "y0": 0.4526656457149621,
+        "x1": 0.22535778569240197,
+        "y1": 0.46963212446732955
+      },
+      "gen_bbox": {
+        "x0": 0.11251914828431372,
+        "y0": 0.1673876583214962,
+        "x1": 0.18847090178844975,
+        "y1": 0.18065511067708334
+      },
+      "ref_page": 4,
+      "gen_page": 5,
+      "diff_type": "shifted",
+      "confidence": 0.5,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0037055281096813747,
+        -0.2852779873934659
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Languages",
+      "gen_text": "Languages",
+      "ref_bbox": {
+        "x0": 0.11874404009650735,
+        "y0": 0.21838789506392045,
+        "x1": 0.22115464154411765,
+        "y1": 0.23603354714133523
+      },
+      "gen_bbox": {
+        "x0": 0.11250297995174632,
+        "y0": 0.7336927379261363,
+        "x1": 0.18839815027573528,
+        "y1": 0.7470394620028409
+      },
+      "ref_page": 4,
+      "gen_page": 4,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.006241060144761029,
+        0.5153048428622159
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "[Title], [Department Name], [University Name]\n[Mailing Address], Phone: [Phone #], Email: [email addres",
+      "gen_text": "[Title], [Department Name], [University Name]\n[Mailing Address], Phone: [Phone #], Email: [email addre",
+      "ref_bbox": {
+        "x0": 0.43933790019914215,
+        "y0": 0.4916141024502841,
+        "x1": 0.8163874846813726,
+        "y1": 0.5190602805397727
+      },
+      "gen_bbox": {
+        "x0": 0.4354733455882353,
+        "y0": 0.20341660008285986,
+        "x1": 0.8178474456188726,
+        "y1": 0.23222563772490531
+      },
+      "ref_page": 4,
+      "gen_page": 5,
+      "diff_type": "shifted",
+      "confidence": 0.49417475728155336,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.003864554610906845,
+        -0.28819750236742425
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Intermediate Listener, Novice Speaker, Advanced Reading and \nWriting",
+      "gen_text": "Intermediate Listener, Novice Speaker, Advanced Reading and\nWriting",
+      "ref_bbox": {
+        "x0": 0.4370130112591912,
+        "y0": 0.2429046815814394,
+        "x1": 0.8550438495710785,
+        "y1": 0.2690116743607954
+      },
+      "gen_bbox": {
+        "x0": 0.43275337967218136,
+        "y0": 0.7548806670217802,
+        "x1": 0.8851073261335785,
+        "y1": 0.783769013375947
+      },
+      "ref_page": 4,
+      "gen_page": 4,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.004259631587009816,
+        0.5119759854403408
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Computer skills",
+      "gen_text": "Computer skills",
+      "ref_bbox": {
+        "x0": 0.11856372309666054,
+        "y0": 0.3282786606297349,
+        "x1": 0.2652395211014093,
+        "y1": 0.34677941524621214
+      },
+      "gen_bbox": {
+        "x0": 0.1123211669921875,
+        "y0": 0.8670885120738636,
+        "x1": 0.2237877939261642,
+        "y1": 0.8815744111032197
+      },
+      "ref_page": 4,
+      "gen_page": 4,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.006242556104473038,
+        0.5388098514441287
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "skill 1, skill 2, skill 3, skill 4",
+      "gen_text": "skill 1, skill 2, skill 3, skill 4",
+      "ref_bbox": {
+        "x0": 0.4386966720281863,
+        "y0": 0.5424148837002841,
+        "x1": 0.6153246112898284,
+        "y1": 0.5571228767163826
+      },
+      "gen_bbox": {
+        "x0": 0.4346249808517157,
+        "y0": 0.8652743252840909,
+        "x1": 0.6223724724264705,
+        "y1": 0.8816940400094697
+      },
+      "ref_page": 4,
+      "gen_page": 4,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.004071691176470604,
+        0.32285944158380675
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Community \nservice",
+      "gen_text": "Community service",
+      "ref_bbox": {
+        "x0": 0.11868026434206495,
+        "y0": 0.09061815666429925,
+        "x1": 0.23065879672181372,
+        "y1": 0.12594949433297822
+      },
+      "gen_bbox": {
+        "x0": 0.11318047018612132,
+        "y0": 0.5870765269886363,
+        "x1": 0.2507431449142157,
+        "y1": 0.6013958925189394
+      },
+      "ref_page": 4,
+      "gen_page": 4,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.005499794155943635,
+        0.4964583703243371
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "May 20XX\nAP Scholar Award\nBrief description\nMay 20XX\nNational Merit Award\nBrief description\nMay 20XX\nHonor Roll\nBrief description",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.3019277295879289,
+        "y0": 0.7157152580492424,
+        "x1": 0.8896036305147059,
+        "y1": 0.8443886126893939
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Table",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Master\u2019s students advised",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.4945547066482843,
+        "y0": 0.7407942708333334,
+        "x1": 0.6814472273284313,
+        "y1": 0.7549617513020833
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Dissertation Jasper University, Frankfort, KY",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.43807741651348037,
+        "y0": 0.13969987349076704,
+        "x1": 0.7436048081341912,
+        "y1": 0.15350977117365056
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Name of University, Location\nAssociate Professor, Department",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.4391812193627451,
+        "y0": 0.5282548384232955,
+        "x1": 0.6692331590839461,
+        "y1": 0.5559258848248106
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "When you list courses, include a brief description so that the course can be compared to \na similar course at another university. You might want to include the typical number of \nstudents in the course as well as list your responsibilities such as developing course \nmaterials, lecturing, grading, developing the syllabus, etc. How you decide to list or group\nyour courses, skills, teaching methods, roles, and responsibilities will depend on your \namount of experience. The examples below are just a few ideas.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.29595569087009804,
+        "y0": 0.4072680294152462,
+        "x1": 0.8798532284007353,
+        "y1": 0.4878348055752841
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": ",\np\n\uf0b7\nTaught Name of Course, an undergraduate course \naveraging 120 students per semester, covering the fo\ntopics: topic, topic, topic, topic\n\uf0b7\nDeveloped quizzes, exams, and homework\n\uf0b7\nRevised the syllabus to meet accreditation standards\n\uf0b7\nCoordinated grading and labs with a team of 4 teachin\nassistants\nDoctoral students advised\nName, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated\nMaster\u2019s students advised\nName \u201cThesis Title\u201d Date Graduated",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.45568407245710785,
+        "y0": 0.5532293146306818,
+        "x1": 0.8350828163296569,
+        "y1": 0.758970244436553
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Lastname, F.M. and Lastname, F.M., \u201cArticle Title,\u201d Proceedings of \nConference Name, Nov. 17-18, 2008, PAPERID-000000, pp. 503-\n509.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.4354430434283088,
+        "y0": 0.702056699810606,
+        "x1": 0.8773965035232844,
+        "y1": 0.7383291163589015
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Journal papers accepted",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.4407795266544118,
+        "y0": 0.2836416903409091,
+        "x1": 0.6163260186887255,
+        "y1": 0.2980806662819602
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Lastname, F.M., Lastname, F.M., and Lastname, F.M., \u201cArticle\nTitle,\u201d Journal Name, vol. 1, no. 3, 2008, pp. 503-509.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.43602926815257353,
+        "y0": 0.24371720747514206,
+        "x1": 0.845059263939951,
+        "y1": 0.2718048280658144
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Lastname, F.M. and Lastname, F.M., \u201cArticle Title,\u201d Proceedings of \nConference Name, Nov. 17-18, 2008, PAPERID-000000, pp. 503-\n509.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.4416112323835784,
+        "y0": 0.7797381036931819,
+        "x1": 0.8785567938112745,
+        "y1": 0.8192058031486742
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Lastname, F.M. and Lastname, F.M., \u201cArticle Title,\u201d Proceedings of \nConference Name, Nov. 17-18, 2008, PAPERID-000000, pp. 503-\n509.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.4389163028492647,
+        "y0": 0.8324363014914773,
+        "x1": 0.8784643075980392,
+        "y1": 0.8733961440577651
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "(Peer Reviewed)\nLastname, F.M. and Lastname, F.M., \u201cArticle Title,\u201d Proceedings of \nConference Name, Nov. 17-18, 2008, PAPERID-000000, pp. 503-\n509.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.4398752489276961,
+        "y0": 0.5287451171875,
+        "x1": 0.8769359872855392,
+        "y1": 0.5682921253551136
+      },
+      "gen_bbox": null,
+      "ref_page": 2,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Professional\ntraining",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.11719192804074754,
+        "y0": 0.408347685842803,
+        "x1": 0.23464585248161765,
+        "y1": 0.44651448567708335
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Presentations \nand invited \nlectures",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.11607225605085784,
+        "y0": 0.21451244007457387,
+        "x1": 0.24924517463235293,
+        "y1": 0.26869369969223483
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "\u201cTitle of Presentation,\u201d Name of Conference",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.4367428768382353,
+        "y0": 0.28060681892163825,
+        "x1": 0.7248385799632353,
+        "y1": 0.2938999245383523
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Professiona\naffiliations",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.1180474853515625,
+        "y0": 0.6216934481534091,
+        "x1": 0.23022635665594363,
+        "y1": 0.6604751864346591
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Name of Organization,\nD\ni\ni\nf\nl",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.44107958026960786,
+        "y0": 0.6622110262784091,
+        "x1": 0.599800235523897,
+        "y1": 0.6775045129024622
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Patents\n20XX-20XX\nInventorLastName, F.M., InventorLastName, F.M., \u201cTitle of \nInvention,\u201d Unites States Patent, No. 0000000\n20XX-20XX\nInventorLastName, F.M., InventorLastName, F.M., \u201cTitle of \nInvention,\u201d Unites States Patent, No. 0000000\nPresentations \nand invited \nlectures\n20XX-20XX\nPaper Presentation\n\u201cTitle of Paper,\u201d Name of Conference\n20XX-20XX\nKeynote Address\n\u201cTitle of Presentation,\u201d Name of Conference\n20XX\nWorkshop\n\u201cTitle of Presentation,\u201d Name of Workshop\nProfessional \ntraining\n20XX-20XX\nSeminar or Workshop\nName of Institution, Location\nDescription: Include a brief description, if necessary.\n20XX-20XX\nABC Certification, Name of Organization]\nDescription: Include a brief description, if necessary.\n20XX\nCompany/Organization, [Position], [Department], Dates\n\uf0b7\nSkill/Accomplishment/Award/Certification\n\uf0b7\nSkill/Accomplishment/Award/Certification\n \nProfessional \naffiliations\n20XX-Present\nName of Organization,\nDescription of role or responsibilities, if applicable.\n20XX-Present\nName of Organization,\nDescription of role or responsibilities, if applicable.\n \nProfessional \nservice\n20XX\nSymposium Co-Organizer\nName of Conference, Symposium\n20XX-Present\nPeer-Reviewed Articles for:\nName of Journal\nName of Journal",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.09042758717256434,
+        "y0": 0.024013648755622632,
+        "x1": 0.8975285309436275,
+        "y1": 0.9259802616003788
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Figure",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "ABC Certification, Name of Organization]",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.4434222292432598,
+        "y0": 0.46154093424479165,
+        "x1": 0.7370213407628676,
+        "y1": 0.47692756421638255
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Name of Organization,\nDescription of role or responsibilities, if applicable.",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.44330796185661764,
+        "y0": 0.6315926846590909,
+        "x1": 0.7650119676776961,
+        "y1": 0.6501392341382576
+      },
+      "gen_bbox": null,
+      "ref_page": 3,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "mmunity \nice\n20XX\nOrganization\n[Title/Position/Duty], [Location], Dates\n20XX-Present\nOrganization\n[Title/Position/Duty], [Location], Dates\n \nguages\nEnglish\nNative language\nSpanish\nIntermediate Listener, Novice Speaker, Advanced Reading and \nWriting \nmputer skills\nProgramming\nskill 1, skill 2, skill 3, skill 4\nApplications\nskill 1, skill 2, skill 3, skill 4\n \nPlatforms\nskill 1, skill 2, skill 3, skill 4\n \nrences\nDr. Albert Jones\n[Title], [Department Name], [University Name]\n[Mailing Address], Phone: [Phone #], Email: [email address]\nDr. Anne Smith\n[Title], [Department Name], [University Name]\n[Mailing Address], Phone: [Phone #], Email: [email address]\nPlatforms\nskill 1, skill 2, skill 3, skill 4",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.1597979736328125,
+        "y0": 0.06971391157670455,
+        "x1": 0.8843125765931372,
+        "y1": 0.588812440814394
+      },
+      "gen_bbox": null,
+      "ref_page": 4,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Figure",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Jasper University",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.43816387101715687,
+        "y0": 0.5260046756628788,
+        "x1": 0.5617232977175245,
+        "y1": 0.5419327799479167
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "20XX-20XX",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.2962765203737745,
+        "y0": 0.6606536310369319,
+        "x1": 0.3825750612745098,
+        "y1": 0.6746329752604167
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Graduated Summa Cum Laude\nMinored in Mathematics",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.43714556525735293,
+        "y0": 0.8643260239109849,
+        "x1": 0.637199276194853,
+        "y1": 0.8966518702651515
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Company/Organization, Location\nPosition Lab or Advisor Name\nSkill/Accomplishment/Project\nSkill/Accomplishment/Project",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.4358004461550245,
+        "y0": 0.5363375946969697,
+        "x1": 0.6502977079503677,
+        "y1": 0.598839629202178
+      },
+      "ref_page": 0,
+      "gen_page": 1,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Institution/Company/Organization, Location\nPosition, Lab or Advisor Name\nSkill/Accomplishment/Project\nSkill/Accomplishment/Project",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.4307058536305147,
+        "y0": 0.46612319483901515,
+        "x1": 0.7286349666819852,
+        "y1": 0.5364059540719697
+      },
+      "ref_page": 0,
+      "gen_page": 1,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Brief description",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.4375776941636029,
+        "y0": 0.16505753950639204,
+        "x1": 0.5528043141084559,
+        "y1": 0.17968422629616476
+      },
+      "ref_page": 0,
+      "gen_page": 1,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "20XX-20XX",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.2960842237285539,
+        "y0": 0.3188083348129735,
+        "x1": 0.38310166302849263,
+        "y1": 0.3339645478219697
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Doctoral students advised\nName, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated\nMaster\u2019s students advised\nName, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.482053892846201,
+        "y0": 0.1941515558416193,
+        "x1": 0.7344992723651961,
+        "y1": 0.31351307262073863
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Master\u2019s students advised\nName, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated\nName, \u201cThesis Title\u201d, Date Graduated",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.47711799172794117,
+        "y0": 0.25696128151633524,
+        "x1": 0.738113463158701,
+        "y1": 0.31364453864820074
+      },
+      "ref_page": 0,
+      "gen_page": 2,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Lastname, F.M. and Lastname, F.M., \u201cArticle Title,\u201d Proceedings\nof Conference Name, Nov. 17-18, 2008, PAPERID-000000, pp.\n503-509.",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.42929055606617644,
+        "y0": 0.32435410008285986,
+        "x1": 0.8802216413909314,
+        "y1": 0.368380644827178
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Lastname, F.M. and Lastname, F.M., \u201cArticle Title,\u201d Proceeding\nof Conference Name, Nov. 17-18, 2008, PAPERID-000000, pp\n503-509.",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.43650290096507355,
+        "y0": 0.37672966234611743,
+        "x1": 0.8714055798100491,
+        "y1": 0.4216914876302083
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Lastname, F.M. and Lastname, F.M., \u201cArticle Title,\u201d Proceedings\nof Conference Name, Nov. 17-18, 2008, PAPERID-000000, pp.\n503-509.",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.4284470741421569,
+        "y0": 0.09001760771780302,
+        "x1": 0.8800403071384804,
+        "y1": 0.1356707393761837
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Lastname, F.M. and Lastname, F.M., \u201cArticle Title,\u201d Proceedings\nof Conference Name, Nov. 17-18, 2008, PAPERID-000000, pp.\n503 509",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.41102280560661764,
+        "y0": 0.25978474934895834,
+        "x1": 0.8783404181985294,
+        "y1": 0.2921691339666193
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "20XX-20XX",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.29588374119178923,
+        "y0": 0.5417317708333333,
+        "x1": 0.3839349006204044,
+        "y1": 0.5570120146780303
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Paper Presentation",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.43664445465686275,
+        "y0": 0.6575391364820076,
+        "x1": 0.5699744370404412,
+        "y1": 0.6722432824337121
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Paper Presentation\n\u201cTitle of Paper,\u201d Name of Conference\nKeynote Address\n\u201cTitle of Presentation,\u201d Name of Conference\nWorkshop",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.4309021235447304,
+        "y0": 0.6616348544034091,
+        "x1": 0.723798157935049,
+        "y1": 0.742621552438447
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Lastname, F.M. and Lastname, F.M., \u201cArticle Title,\u201d Proceedings\nof Conference Name, Nov. 17-18, 2008, PAPERID-000000, pp.\n503 509",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.42674057904411766,
+        "y0": 0.14518872810132577,
+        "x1": 0.8806101600796569,
+        "y1": 0.17831032492897728
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "20XX-20XX",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.2956782801011029,
+        "y0": 0.5059275864109849,
+        "x1": 0.3821947763480392,
+        "y1": 0.5208441347064394
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "20XX-20XX",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.29578656364889705,
+        "y0": 0.6927033025568182,
+        "x1": 0.3817520440793505,
+        "y1": 0.7072568211410984
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "InventorLastName,\nF.M.,\nInventorLastName,\nF.M.,\n\u201cTitle of\nInvention,\u201d Unites States Patent, No. 0000000",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.4326421281403186,
+        "y0": 0.5081836677320076,
+        "x1": 0.8867798330269608,
+        "y1": 0.5382472922585227
+      },
+      "ref_page": 0,
+      "gen_page": 3,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Professional\naffiliations",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.11206150428921569,
+        "y0": 0.2778433874881629,
+        "x1": 0.19560321882659315,
+        "y1": 0.30744449499881626
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Native language",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.4339691521139706,
+        "y0": 0.7331656901041667,
+        "x1": 0.542725279564951,
+        "y1": 0.7474184718276515
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "20XX-20XX",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.2966422286688113,
+        "y0": 0.10462066650390625,
+        "x1": 0.38128250421262255,
+        "y1": 0.11941768761837121
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Name of Institution, Location\nDescription: Include a brief description, if necessary.\nABC Certification, Name of Organization]\nDescription: Include a brief description, if necessary.\nCompany/Organization, [Position], [Department], Dates\nSkill/Accomplishment/Award/Certification\nSkill/Accomplishment/Award/Certification",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.435538880591299,
+        "y0": 0.07331915190725616,
+        "x1": 0.8202021101409314,
+        "y1": 0.18626882842092804
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Name of Organization,",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.4366345454197304,
+        "y0": 0.2779770914713542,
+        "x1": 0.5961936561734069,
+        "y1": 0.29321871670809657
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "20XX",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.29714736040900736,
+        "y0": 0.14027264219341856,
+        "x1": 0.3364355947457108,
+        "y1": 0.15538598262902462
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Peer-Reviewed Articles for:",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.4355089613970588,
+        "y0": 0.45699695933948864,
+        "x1": 0.6368332088694852,
+        "y1": 0.4717284786339962
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "20XX-Present",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.2961623726639093,
+        "y0": 0.6229159268465909,
+        "x1": 0.38927104875153185,
+        "y1": 0.6377525005918561
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Symposium Co-Organizer\nName of Conference, Symposium",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.43582002527573527,
+        "y0": 0.4218808445785985,
+        "x1": 0.6584415211397059,
+        "y1": 0.449434814453125
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Seminar or Workshop",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.4358868527879902,
+        "y0": 0.054036462957208806,
+        "x1": 0.6008782839307598,
+        "y1": 0.06753421205462831
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Name of Conference, Symposium",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.4393176508884804,
+        "y0": 0.4359377219460227,
+        "x1": 0.658715150122549,
+        "y1": 0.449678955078125
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "N\ne o O g\no ,\nDescription of role or responsibilities, if applicable.\nName of Organization,\nDescription of role or responsibilities, if applicable.",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.4349550972732843,
+        "y0": 0.28906745679450757,
+        "x1": 0.7781275850183823,
+        "y1": 0.34663193211410986
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "20XX-Present",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.29587261125153186,
+        "y0": 0.4569126198508523,
+        "x1": 0.3896416877297794,
+        "y1": 0.4719143584280303
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "ABC Certification, Name of Organization]\nDescription: Include a brief description, if necessary",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.43514045266544116,
+        "y0": 0.10569586551550662,
+        "x1": 0.7776766907935049,
+        "y1": 0.13568194765033145
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Company/Organization, [Position], [Department], Dates\nSkill/Accomplishment/Award/Certification\nSkill/Accomplishment/Award/Certification",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.43741263595281865,
+        "y0": 0.14154638117009943,
+        "x1": 0.8325591681985294,
+        "y1": 0.1862060361919981
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Seminar or Workshop\nName of Institution, Location",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.43506242340686274,
+        "y0": 0.05437431104255445,
+        "x1": 0.6456882372089461,
+        "y1": 0.0816992002544981
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Symposium Co-Organizer\nName of Conference, Symposium\nPeer-Reviewed Articles for:\nName of Journal\nName of Journal",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.4359323299632353,
+        "y0": 0.418944091796875,
+        "x1": 0.6521705058976716,
+        "y1": 0.505638945608428
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Spanish",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.2966476141237745,
+        "y0": 0.7558328154592803,
+        "x1": 0.3480110437729779,
+        "y1": 0.7686888908617424
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "p\np\n,\ny\nABC Certification, Name of Organization]\nDescription: Include a brief description, if necessary.",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.43776046453737744,
+        "y0": 0.09484424937855114,
+        "x1": 0.7977008176317402,
+        "y1": 0.13917658025568183
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "20XX-Present",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.2963616584329044,
+        "y0": 0.3141481711647727,
+        "x1": 0.39069323969822306,
+        "y1": 0.3293734093868371
+      },
+      "ref_page": 0,
+      "gen_page": 4,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "skill 1, skill 2, skill 3, skill 4",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.43426623774509804,
+        "y0": 0.24753151633522727,
+        "x1": 0.6224593577665442,
+        "y1": 0.26236855246803975
+      },
+      "ref_page": 0,
+      "gen_page": 5,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "[Title], [Department Name], [University Name]\n[Mailing Address], Phone: [Phone #], Email: [email address]\n[Title], [Department Name], [University Name]\n[Mailing Address], Phone: [Phone #], Email: [email address]",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.43711296530330884,
+        "y0": 0.16567194158380683,
+        "x1": 0.8357308900122549,
+        "y1": 0.2337075898141572
+      },
+      "ref_page": 0,
+      "gen_page": 5,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Dr. Anne Smith",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.2959286199831495,
+        "y0": 0.20272066983309658,
+        "x1": 0.40091275084252453,
+        "y1": 0.21687823671283143
+      },
+      "ref_page": 0,
+      "gen_page": 5,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    }
+  ]
+}

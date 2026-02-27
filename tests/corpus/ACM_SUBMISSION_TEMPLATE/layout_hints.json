@@ -1,0 +1,108 @@
+{
+  "regions": [
+    {
+      "label": "title",
+      "bbox": [
+        0.11700914569929534,
+        0.11631328235973011,
+        0.448960631127451,
+        0.1349003739790483
+      ],
+      "confidence": 0.9624085426330566,
+      "page": 0,
+      "source": "ml"
+    },
+    {
+      "label": "title",
+      "bbox": [
+        0.11784265854779412,
+        0.5498771528764205,
+        0.26016153971354167,
+        0.5614666563091856
+      ],
+      "confidence": 0.5432131886482239,
+      "page": 0,
+      "source": "ml"
+    }
+  ],
+  "columns": [
+    {
+      "page": 0,
+      "count": 1,
+      "boundaries": []
+    },
+    {
+      "page": 1,
+      "count": 1,
+      "boundaries": []
+    },
+    {
+      "page": 2,
+      "count": 1,
+      "boundaries": []
+    },
+    {
+      "page": 3,
+      "count": 1,
+      "boundaries": []
+    },
+    {
+      "page": 4,
+      "count": 1,
+      "boundaries": []
+    },
+    {
+      "page": 5,
+      "count": 1,
+      "boundaries": []
+    },
+    {
+      "page": 6,
+      "count": 1,
+      "boundaries": []
+    },
+    {
+      "page": 7,
+      "count": 1,
+      "boundaries": []
+    },
+    {
+      "page": 8,
+      "count": 1,
+      "boundaries": []
+    },
+    {
+      "page": 9,
+      "count": 1,
+      "boundaries": []
+    },
+    {
+      "page": 10,
+      "count": 1,
+      "boundaries": []
+    },
+    {
+      "page": 11,
+      "count": 1,
+      "boundaries": []
+    },
+    {
+      "page": 12,
+      "count": 1,
+      "boundaries": []
+    }
+  ],
+  "right_margin": 513.9500122070312,
+  "line_spacing": 0,
+  "section_positions": [
+    [
+      "Submission Template for ACM Papers",
+      92.20802307128906
+    ],
+    [
+      "6",
+      306.4989929199219
+    ]
+  ],
+  "body_font_family": "LiberationSerif"
+}

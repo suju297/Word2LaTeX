@@ -1,0 +1,918 @@
+{
+  "ref_path": "tests/corpus/Resume_2/ref.pdf",
+  "gen_path": "tests/corpus/Resume_2/gen.pdf",
+  "match_rate": 0.4838709677419355,
+  "ref_page_count": 1,
+  "gen_page_count": 1,
+  "detected_ref_columns": 2,
+  "detected_gen_columns": 2,
+  "missing_count": 16,
+  "extra_count": 11,
+  "shifted_count": 11,
+  "changed_count": 0,
+  "diffs": [
+    {
+      "ref_text": "g\ny,\ny\n\u2022\nStudied the OSI and Hybrid Model, which depict how software and hardware interconnect and communicate with each other\n\u2022\nExplored the different types of modern networks in use today, and how IPV4 and IPV6 addressing functions as an integral \npart of network communication",
+      "gen_text": "\u2022 Studied the OSI and Hybrid Model, which depict how\nsoftware and hardware interconnect and communicate with\neach other\n\u2022 Explored the different types of modern networks in use today,\nand how IPV4 and IPV6 addressing functions as an integral\npart of network communication",
+      "ref_bbox": {
+        "x0": 0.08873802035462623,
+        "y0": 0.40494384765625,
+        "x1": 0.9309487017463235,
+        "y1": 0.45313099254261363
+      },
+      "gen_bbox": {
+        "x0": 0.05055538401884191,
+        "y0": 0.4819558623342803,
+        "x1": 0.4650332701439951,
+        "y1": 0.5739332164417613
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.5538461538461539,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.03818263633578432,
+        0.07701201467803026
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "Big Brother/Big Sister Program, Pennsauken NJ          \nHabitat for Humanity of Camden County, Cherry Hill N",
+      "gen_text": "May 2024\nBig Brother/Big Sister Program, Pennsauken NJ\nHabitat for Humanity of Camden County, Cherry Hill NJ",
+      "ref_bbox": {
+        "x0": 0.054795053519454656,
+        "y0": 0.9056340258049242,
+        "x1": 0.4137770948223039,
+        "y1": 0.9345491536458334
+      },
+      "gen_bbox": {
+        "x0": 0.5231313668045343,
+        "y0": 0.14357518976384942,
+        "x1": 0.9315326286764706,
+        "y1": 0.1736480712890625
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.4941176470588235,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        0.46833631328507963,
+        -0.7620588360410748
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "VOLUNTEER EXPERIENCE",
+      "gen_text": "VOLUNTEER EXPERIENCE",
+      "ref_bbox": {
+        "x0": 0.05725870169845282,
+        "y0": 0.8891092566287879,
+        "x1": 0.27443402458639704,
+        "y1": 0.9042098721590909
+      },
+      "gen_bbox": {
+        "x0": 0.5248481541053922,
+        "y0": 0.12388424960049715,
+        "x1": 0.7852389705882353,
+        "y1": 0.1403307735558712
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": [
+        0.4675894524069394,
+        -0.7652250070282908
+      ],
+      "ref_block_type": "Title",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Data Communications",
+      "gen_text": "Data Communications",
+      "ref_bbox": {
+        "x0": 0.05553979611864277,
+        "y0": 0.3794449129971591,
+        "x1": 0.2524199362362132,
+        "y1": 0.3922737260298296
+      },
+      "gen_bbox": {
+        "x0": 0.052013998592601106,
+        "y0": 0.4381106474905303,
+        "x1": 0.22190319584865195,
+        "y1": 0.4525679524739583
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.0035257975260416657,
+        0.0586657344933712
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "almart Somerdale, NJ   \n\u2022\nPrioritized restocking order according to customer demand \n\u2022\nAssisted 50+ customers daily in locating products \n\u2022\nReconciled cash drawers with an average of $2000 per shift",
+      "gen_text": "Walmart-Somerdale, NJ\n\u2022 Prioritized restocking order according to customer demand\n\u2022 Assisted 50+ customers daily in locating products\n\u2022 Reconciled cash drawers with an average of $2000 per shift\nVOLUNTEER EXPERIENCE",
+      "ref_bbox": {
+        "x0": 0.07825675814759497,
+        "y0": 0.8205941495028409,
+        "x1": 0.5097041111366422,
+        "y1": 0.8751671253551137
+      },
+      "gen_bbox": {
+        "x0": 0.5217653760723039,
+        "y0": 0.05971235795454546,
+        "x1": 0.9284283088235294,
+        "y1": 0.13642626213304923
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.5032258064516129,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        0.4435086179247089,
+        -0.7608817915482955
+      ],
+      "ref_block_type": "List",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "Rutgers University Computer Lab, Camden NJ\n\u2022\nMonitored computer lab of 55 computers \n\u2022\nProvided technical assistance on a daily basis to 35+ students \n\u2022\nCoordinated and facilitated technical instruction sessions for students as needed",
+      "gen_text": "\u2022 Monitored computer lab of 55 computers\n\u2022 Provided technical assistance on a daily basis to 35+ students\n\u2022 Coordinated and facilitated technical instruction sessions for\nstudents as needed",
+      "ref_bbox": {
+        "x0": 0.06178703158509498,
+        "y0": 0.5943692294034091,
+        "x1": 0.6350319776348039,
+        "y1": 0.6590400834517045
+      },
+      "gen_bbox": {
+        "x0": 0.05221185422411152,
+        "y0": 0.7415661991003788,
+        "x1": 0.4707858455882353,
+        "y1": 0.790716367779356
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.5,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.009575177360983456,
+        0.14719696969696972
+      ],
+      "ref_block_type": "List",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "amden Aquarium, Camden, NJ \n\u2022\nDesigned and maintained aquarium web page using Java \n\u2022\nAssisted with computer installation and configuration of various operating systems\n\u2022\nResolved technical problems for 9 professional staff members",
+      "gen_text": "Camden Aquarium, Camden, NJ\n\u2022 Designed and maintained aquarium web page using Java\n\u2022 Assisted with computer installation and configuration of\nvarious operating systems\n\u2022 Resolved technical problems for 9 professional staff members",
+      "ref_bbox": {
+        "x0": 0.06897296980315563,
+        "y0": 0.5099611224550189,
+        "x1": 0.6593542241115196,
+        "y1": 0.565628477154356
+      },
+      "gen_bbox": {
+        "x0": 0.04771318323471967,
+        "y0": 0.6191941509824811,
+        "x1": 0.465175111060049,
+        "y1": 0.6870929509943182
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.5612903225806452,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.021259786568435968,
+        0.1092330285274622
+      ],
+      "ref_block_type": "List",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "(856) 555-1225\u2502creese12@gmail.com | Cynthia-reese@linkedin.com | https://github.com/CRgit",
+      "gen_text": "(856) 555-1225\u2502creese12@gmail.com |\nCynthia-reese@linkedin.com | https://github.com/CRgit",
+      "ref_bbox": {
+        "x0": 0.18310126809512867,
+        "y0": 0.08136060310132576,
+        "x1": 0.8246687346813726,
+        "y1": 0.09893544514973958
+      },
+      "gen_bbox": {
+        "x0": 0.06864187203201594,
+        "y0": 0.09093738902698864,
+        "x1": 0.4426724303002451,
+        "y1": 0.12264602198745266
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6394325898976149,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.11445939606311273,
+        0.009576785925662884
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "utgers University-Camden, Camden NJ\n\u2022\nPlanned and conducted weekly meetings for 85 members \n\u2022\nRecruited 30 new members for the 20XX-20XX school year \n\u2022\nOrganized 5 volunteer events to support local non-profit organizations",
+      "gen_text": "Rutgers University-Camden, Camden NJ\n\u2022 Planned and conducted weekly meetings for 85 members\n\u2022 Recruited 30 new members for the 20XX-20XX school year\n\u2022 Organized 5 volunteer events to support local non-profit\norganizations",
+      "ref_bbox": {
+        "x0": 0.06922923966950062,
+        "y0": 0.707401825875947,
+        "x1": 0.5740493355545343,
+        "y1": 0.7668629409327652
+      },
+      "gen_bbox": {
+        "x0": 0.05250041886871936,
+        "y0": 0.8656599195075757,
+        "x1": 0.4643444584865196,
+        "y1": 0.9371359345407198
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.5599999999999999,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.01672882080078126,
+        0.15825809363162868
+      ],
+      "ref_block_type": "List",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Sales Associate",
+      "gen_text": "Sales Associate",
+      "ref_bbox": {
+        "x0": 0.05709498985140932,
+        "y0": 0.7972812352035985,
+        "x1": 0.20530153760723038,
+        "y1": 0.8111027018229167
+      },
+      "gen_bbox": {
+        "x0": 0.5253656843596813,
+        "y0": 0.04360858801639441,
+        "x1": 0.6350260895373775,
+        "y1": 0.055271292021780306
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        0.468270694508272,
+        -0.7536726471872041
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "Summer 2024",
+      "gen_text": "Summer 2024",
+      "ref_bbox": {
+        "x0": 0.8487128523284314,
+        "y0": 0.4861993223248106,
+        "x1": 0.9412456916360294,
+        "y1": 0.4999656723484848
+      },
+      "gen_bbox": {
+        "x0": 0.8402262369791667,
+        "y0": 0.5999939704663826,
+        "x1": 0.9313103170955882,
+        "y1": 0.6141287878787879
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        -0.008486615349264759,
+        0.11379464814157197
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "EDUCATION",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.058167431401271445,
+        "y0": 0.11484430486505681,
+        "x1": 0.1576828421798407,
+        "y1": 0.12943943832859847
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "WORK EXPERIENCE",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.05858717974494485,
+        "y0": 0.7806238902698863,
+        "x1": 0.2217007506127451,
+        "y1": 0.7951202207623106
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Camden Aquarium, Camden, NJ",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.06150565353094363,
+        "y0": 0.501616025982481,
+        "x1": 0.2733110495174632,
+        "y1": 0.5157292406486742
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "PROFESSIONAL EXPERIENCE\nTechnology Intern",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.05798291374655331,
+        "y0": 0.46841404770359846,
+        "x1": 0.2929074754901961,
+        "y1": 0.5018128921046402
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Walmart-Somerdale, NJ",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.05919732187308517,
+        "y0": 0.8107129646070076,
+        "x1": 0.21968544155943628,
+        "y1": 0.8258560458096591
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "CLASS PROJECT EXPERIENCE \nSoftware Design and Development",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.057535591873468135,
+        "y0": 0.2849343039772727,
+        "x1": 0.30704613779105394,
+        "y1": 0.31644601532907196
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "May 2024",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.8749693627450981,
+        "y0": 0.1296423524798769,
+        "x1": 0.9417247817095589,
+        "y1": 0.14515810879794033
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Computer Lab Assistant",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.05845393162147672,
+        "y0": 0.5797432824337121,
+        "x1": 0.22933129404105393,
+        "y1": 0.5928728693181818
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Sept 2023-present",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.8218279909620098,
+        "y0": 0.6874367453835227,
+        "x1": 0.9411134727328432,
+        "y1": 0.7031169359611742
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Rutgers University Camden, Camden NJ\n\u2022\nPlanned and conducted weekly meetings for 85 members \n\u2022\nRecruited 30 new members for the 20XX-20XX school year \n\u2022\nOrganized 5 volunteer events to support local non-profit organizations",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.06719837263518688,
+        "y0": 0.7137718986742424,
+        "x1": 0.573589968213848,
+        "y1": 0.7666400331439394
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Aug. 2023",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.8737580422794118,
+        "y0": 0.3007269841974432,
+        "x1": 0.9405330882352941,
+        "y1": 0.3153271484375
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": ",\n(856) 555-1225\u2502creese12@gmail.com | Cynthia-reese@linkedin.com | https://github.com/CRgit",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.18538135004978554,
+        "y0": 0.07965366247928504,
+        "x1": 0.8252271943933823,
+        "y1": 0.10056423302852746
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Sales Associate",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.0601333678002451,
+        "y0": 0.7957334576231061,
+        "x1": 0.20523968864889705,
+        "y1": 0.8104876154119318
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Rutgers University-Camden, Camden, NJ\nBachelor of Science in Computer Science\nMinor in Mathematics\nGPA 3.2",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.05530963972503064,
+        "y0": 0.13383744673295456,
+        "x1": 0.3416054639629289,
+        "y1": 0.18919703628077653
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Computer Lab Assistant",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.05972526400696997,
+        "y0": 0.5795906205610796,
+        "x1": 0.22810101677389705,
+        "y1": 0.5931140876538826
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "May 2022-Aug 2023",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.8037875306372549,
+        "y0": 0.7953017726089016,
+        "x1": 0.9426847809436274,
+        "y1": 0.8115297999526515
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Software Design and Development Aug. 2023",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05187064974915748,
+        "y0": 0.3277735484730114,
+        "x1": 0.44584123200061276,
+        "y1": 0.34321969696969695
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "May",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.43549201516544117,
+        "y0": 0.45355583422111745,
+        "x1": 0.46611739813112746,
+        "y1": 0.4681891054095644
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "LEADERSHIP EXPERIENCE\nVice-President,\nAssociation\nfor\nComputing\nMachinery Club Sept 2023-present",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05404336966720282,
+        "y0": 0.8007887961647727,
+        "x1": 0.46538713043811275,
+        "y1": 0.8614440548058712
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Rutgers University-Camden, Camden NJ\n\u2022 Learned HTML5, CSS and JavaScript basics for webpage\ncreation and design\n\u2022 Utilized GitHub and GitBash Lennox command window\nemulator to understand how to track our work through local\nand remote repositories\nData Communications\nRutgers University, Camden NJ\nMay\n2023\n\u2022 Studied the OSI and Hybrid Model, which depict how\nsoftware and hardware interconnect and communicate with\neach other\n\u2022 Explored the different types of modern networks in use today,",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.04741352156096814,
+        "y0": 0.34305227568655305,
+        "x1": 0.47034620098039215,
+        "y1": 0.5423891749526515
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "PROFESSIONAL EXPERIENCE",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.050619309369255516,
+        "y0": 0.5806142726089015,
+        "x1": 0.3402993116191789,
+        "y1": 0.5989256702769886
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "PROFESSIONAL EXPERIENCE\nTechnology Intern\nCamden Aquarium, Camden, NJ\n\u2022 Designed and maintained aquarium web page using Java\n\u2022 Assisted with computer installation and configuration of\nvarious operating systems\n\u2022 Resolved technical problems for 9 professional staff members\nComputer Lab Assistant Jan 2022-present\nRutgers University Computer Lab, Camden NJ\n\u2022 Monitored computer lab of 55 computers\n\u2022 Provided technical assistance on a daily basis to 35+ students\n\u2022 Coordinated and facilitated technical instruction sessions for\nstudents as needed",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05297647513595282,
+        "y0": 0.5797310754024622,
+        "x1": 0.464295103783701,
+        "y1": 0.8009824810606061
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Software Design and Development Aug. 2023",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05381170534620098,
+        "y0": 0.3266972212357955,
+        "x1": 0.43059374042585785,
+        "y1": 0.3428862230705492
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Rutgers University, Camden NJ",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05113636091643689,
+        "y0": 0.45020456025094696,
+        "x1": 0.26081904392616423,
+        "y1": 0.469622284860322
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Rutgers University Computer Lab, Camden NJ",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.04755970076018689,
+        "y0": 0.7182896839488636,
+        "x1": 0.46094855813419117,
+        "y1": 0.7358664772727272
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "CLASS PROJECT EXPERIENCE",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05428095798866422,
+        "y0": 0.30467275908499053,
+        "x1": 0.2996208879059436,
+        "y1": 0.3192995383522727
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Software Design and Development Aug. 2023\nRutgers University-Camden, Camden NJ\n\u2022 Learned HTML5, CSS and JavaScript basics for webpag\ncreation and design\n\u2022 Utilized GitHub and GitBash Lennox command window\nemulator to understand how to track our work through loca\nand remote repositories\nData Communications\nRutgers University, Camden NJ\nMay\n2023\n\u2022 Studied the OSI and Hybrid Model, which depict how\nsoftware and hardware interconnect and communicate with\neach other\n\u2022 Explored the different types of modern networks in use today\nand how IPV4 and IPV6 addressing functions as an integra\npart of network communication\nPROFESSIONAL EXPERIENCE\nTechnology Intern\nCamden Aquarium, Camden, NJ\n\u2022 Designed and maintained aquarium web page using Java\n\u2022 Assisted with computer installation and configuration o\nvarious operating systems\n\u2022 Resolved technical problems for 9 professional staff member\nComputer Lab Assistant Jan 2022-present\nRutgers University Computer Lab, Camden NJ",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.050956193512561275,
+        "y0": 0.3367444587476326,
+        "x1": 0.45832801968443626,
+        "y1": 0.7285601621685606
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    }
+  ]
+}

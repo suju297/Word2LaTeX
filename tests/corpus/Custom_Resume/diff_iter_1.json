@@ -1,0 +1,931 @@
+{
+  "ref_path": "tests/corpus/Custom_Resume/ref.pdf",
+  "gen_path": "tests/corpus/Custom_Resume/gen.pdf",
+  "match_rate": 0.68,
+  "ref_page_count": 2,
+  "gen_page_count": 2,
+  "detected_ref_columns": 2,
+  "detected_gen_columns": 2,
+  "missing_count": 8,
+  "extra_count": 28,
+  "shifted_count": 2,
+  "changed_count": 0,
+  "diffs": [
+    {
+      "ref_text": "\uf0b7Provisioned and deployed a cloud-native web app using pre-configured machine images with Packer and Terraform, \nachieving a 75% faster setup and integrating a serverless user verification system with Cloud Functions and Cloud",
+      "gen_text": "\u2022 Provisioned and deployed a cloud-native web app using pre-configured machine images with Packer and Terraform, achieving a\n75% faster setup and integrating a serverless user verification system with Cloud Functions and Cloud SQL",
+      "ref_bbox": {
+        "x0": 0.04836132101816674,
+        "y0": 0.08911098014805445,
+        "x1": 0.9567195329812147,
+        "y1": 0.11939309097342235
+      },
+      "gen_bbox": {
+        "x0": 0.052859340916709685,
+        "y0": 0.9113823815653507,
+        "x1": 0.931560359589041,
+        "y1": 0.9389035998075826
+      },
+      "ref_page": 1,
+      "gen_page": 0,
+      "diff_type": "shifted",
+      "confidence": 0.41428571428571426,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        0.004498019898542947,
+        0.8222714014172963
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Bachelor of Engineering, Electronics Engineering",
+      "gen_text": "Bachelor of Engineering, Electronics Engineering",
+      "ref_bbox": {
+        "x0": 0.051674958873813334,
+        "y0": 0.2592741423621009,
+        "x1": 0.39611914770724216,
+        "y1": 0.273183146251648
+      },
+      "gen_bbox": {
+        "x0": 0.0525811784791908,
+        "y0": 0.11755955695018529,
+        "x1": 0.38498999436568293,
+        "y1": 0.1314475691304919
+      },
+      "ref_page": 1,
+      "gen_page": 1,
+      "diff_type": "shifted",
+      "confidence": 0.6,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": [
+        0.0009062196053774632,
+        -0.14171458541191562
+      ],
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "Languages:  Python, JavaScript, TypeScript, Bash\nBackend & Frameworks: FastAPI, Flask, Node.js, gRPC, asyncio\nML & AI: PyTorch, TensorFlow, scikit-learn, Transformers (Hugging Face), LangChain, Autogen\nGenAI & LLMs: Prompt Engineering, RAG Pipelines, Agentic Workflows, Pinecone, OpenAI SDK (GPT-4o, GPT-5), L\nCloud & DevOps: AWS, Docker, Kubernetes, Git, GitHub Actions\nDatabases: MySQL, PostgreSQL, SQLite, MongoDB, Redis",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.053387754872189136,
+        "y0": 0.08703561084708167,
+        "x1": 0.853853408604452,
+        "y1": 0.1710875281722135
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "TECHNICAL SKILLS",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.04249099067485112,
+        "y0": 0.06424882773526581,
+        "x1": 0.18298409928437878,
+        "y1": 0.07864494715204533
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Mumbai,",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.8860619704056708,
+        "y0": 0.5416520052380274,
+        "x1": 0.9499033667405318,
+        "y1": 0.5552239412592646
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "\uf0b7Architected and optimized a FastAPI microservice with Redis-backed caching to convert and persist 16-bit images on first load\nenabling a median response time of < 0.4 s for repeat requests\n\uf0b7\nAutomated high-throughput S3 ingestion using  boto3 with concurrent upload orchestration, retry logic, and conflic\nresolution policy (overwrite, rename, skip) for terabyte-scale datasets\n\uf0b7Standardized raw microscopy data into a canonical S3 structure and auto-generated a per-file manifest used by the FastAP\nservice for Redis lookups and reliable retrieval\nGraduate Research Assistant \u2013 AI-CARING\nFeb 2024 \u2013 Au",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.053509480909029385,
+        "y0": 0.2623339210431959,
+        "x1": 0.9454666371310939,
+        "y1": 0.3630810936609179
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Software Engineer",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.047279385575164624,
+        "y0": 0.6237369132830316,
+        "x1": 0.1829727504831663,
+        "y1": 0.636557010315707
+      },
+      "gen_bbox": null,
+      "ref_page": 0,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Expected Dec",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.8508481771882555,
+        "y0": 0.16399019039071408,
+        "x1": 0.9512574520925665,
+        "y1": 0.1770120792541156
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Boston, MA | (857) 930-1933 | gharat.su@northeastern.edu | linkedin.com/in/sujendra-gharat\n \n     | github.com/suju297\nd Native Web App\n      Jan 2024  \u2013 Apr",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.07957195371125227,
+        "y0": 0.04365272043504356,
+        "x1": 0.9538660779487309,
+        "y1": 0.07163547789900986
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Title",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "Northeastern University, Boston, MA\n2025\nMaster of Science in Information Systems\n3.72/4.0 \nUniversity of Mumbai Mumbai India",
+      "gen_text": null,
+      "ref_bbox": {
+        "x0": 0.0488921541249339,
+        "y0": 0.16205794400744727,
+        "x1": 0.3444758560463462,
+        "y1": 0.23604193136112991
+      },
+      "gen_bbox": null,
+      "ref_page": 1,
+      "gen_page": null,
+      "diff_type": "missing",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "List",
+      "gen_block_type": null
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Databases: MySQL, PostgreSQL, SQLite, MongoDB, Redis",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05362159796629482,
+        "y0": 0.19098549367628456,
+        "x1": 0.4499605656822875,
+        "y1": 0.20353103689891855
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Time-Series Forecasting with Market Indicators (TSLA)",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05449159485404286,
+        "y0": 0.7158088292607967,
+        "x1": 0.42308158782295024,
+        "y1": 0.7278821677683153
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "\u2022 Developed FinRobot, a generative AI chat assistant for quantitative finance using AutoGen with RAG, delivering context-aware\nanswers with approximately 85% response accuracy\n\u2022 Engineered a scalable knowledge layer with a daily Python scraping pipeline that ingests Quant Stack Exchange into Neo4j\n(knowledge graph) and Pinecone (vector index) to enable fast, entity-aware retrieval",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.048929901491913654,
+        "y0": 0.82485805324437,
+        "x1": 0.9393497439376007,
+        "y1": 0.8847716797988526
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Software Engineer Intern (Co-op)",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.054865828643970965,
+        "y0": 0.2332161149793775,
+        "x1": 0.28386315062197826,
+        "y1": 0.24521700468683189
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Cloud & DevOps: AWS, Docker, Kubernetes, Git, GitHub Actions",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05248582641699927,
+        "y0": 0.168929583942061,
+        "x1": 0.4886305422479351,
+        "y1": 0.18088996913305302
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Aug 2018 \u2013 Feb 2022",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.7904408813771656,
+        "y0": 0.6027007325889039,
+        "x1": 0.9353590972187248,
+        "y1": 0.61638464759122
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Cloud Native Web App",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05565843728163087,
+        "y0": 0.8883524321639823,
+        "x1": 0.21328371403007906,
+        "y1": 0.9028174858136759
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Sep 2024 \u2013 Oct 2024",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.7914679540346746,
+        "y0": 0.801421179602872,
+        "x1": 0.9344466683559126,
+        "y1": 0.8152307142825328
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Graduate Research Assistant \u2013 AI-CARING",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05298414084336913,
+        "y0": 0.3701290187161488,
+        "x1": 0.34674856722306857,
+        "y1": 0.3829506816450791
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Backend & Frameworks: FastAPI, Flask, Node.js, gRPC, asyncio",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05432964389502858,
+        "y0": 0.10179973328263077,
+        "x1": 0.4856286552238618,
+        "y1": 0.11366518166345228
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Northeastern University \u2013 Khoury College of Computer Sciences",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05337835491712203,
+        "y0": 0.3933500074606257,
+        "x1": 0.49077523206146756,
+        "y1": 0.40555460287200684
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Capgemini",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05670316636226141,
+        "y0": 0.5316050060798532,
+        "x1": 0.1282553107963273,
+        "y1": 0.5440850948390287
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "ML & AI: PyTorch, TensorFlow, scikit-learn, Transformers (Hugging Face), LangChain, Autogen",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.057562601364590675,
+        "y0": 0.12340127212019847,
+        "x1": 0.7062234317555147,
+        "y1": 0.13600907711781554
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "EXPERIENCE",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05691110271297089,
+        "y0": 0.21282901568178983,
+        "x1": 0.15864318306651642,
+        "y1": 0.22866247127102338
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "\u2022 Deployed a multi-stage pipeline that extracts reminder intent from caregiver conversations and compiles it into AST-vali\nPython functions\n\u2022 Designed a feasibility checker using the OpenAI o4 mini reasoning model that validates reminders against available sensor\na home layout graph before generation, preventing non-feasible reminders\n\u2022 Orchestrated a low-latency AWS IoT Core to gRPC middleware streaming data from over 120 sensors (about 3,000 even\nsecond) and achieved a 50% reduction in end-to-end latency",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.048465765646443455,
+        "y0": 0.4171998253434115,
+        "x1": 0.8941839250415492,
+        "y1": 0.49883615630790334
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Mumbai, India",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.8335706540214545,
+        "y0": 0.6257227481159137,
+        "x1": 0.9346434956688154,
+        "y1": 0.6402759791236103
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Graduate Research Assistant \u2013 AI-CARING",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05344662601000642,
+        "y0": 0.3703288618759799,
+        "x1": 0.3463801922671359,
+        "y1": 0.3825555190257091
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Backend & Frameworks: FastAPI, Flask, Node.js, gRPC, asyncio",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05644981021558345,
+        "y0": 0.10079603728030127,
+        "x1": 0.48093273522486907,
+        "y1": 0.11335874446577465
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Jan 2024 \u2013 Apr 2024",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.7940240532616086,
+        "y0": 0.8888826098382269,
+        "x1": 0.934949802641519,
+        "y1": 0.9022117971422463
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "\u2022 Developed FinRobot, a generative AI chat assistant for quantitative finance using AutoGen with RAG, delivering context-aware\nanswers with approximately 85% response accuracy\n\u2022 Engineered a scalable knowledge layer with a daily Python scraping pipeline that ingests Quant Stack Exchange into Neo4j\n(knowledge graph) and Pinecone (vector index) to enable fast, entity-aware retrieval",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.04554798024782339,
+        "y0": 0.8261506484063212,
+        "x1": 0.9397706455227639,
+        "y1": 0.88226631538626
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "List"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Languages: Python, JavaScript, TypeScript, Bash",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.059890058518993,
+        "y0": 0.07768647945321408,
+        "x1": 0.38379538241746824,
+        "y1": 0.09210067627231507
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "LTIMindtree",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.053862867578203695,
+        "y0": 0.62679897121312,
+        "x1": 0.1378659133849655,
+        "y1": 0.6399800595291121
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "ntegrated 30+ REST/SOA APIs in Node.js with async patterns and MongoDB caching, improving performance by 15% and cutting",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.08241225864308963,
+        "y0": 0.649270626403043,
+        "x1": 0.9392619044621273,
+        "y1": 0.6621064519936574
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Text"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Jan 2024 \u2013 Apr 2024",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.7963277984299456,
+        "y0": 0.8882102487840293,
+        "x1": 0.9345085396101934,
+        "y1": 0.9023603832979974
+      },
+      "ref_page": 0,
+      "gen_page": 0,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "GPA : 3.72/4.0",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.8342807471608078,
+        "y0": 0.0643129729354667,
+        "x1": 0.9347023176243956,
+        "y1": 0.07857197638656285
+      },
+      "ref_page": 0,
+      "gen_page": 1,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": true,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "May 2018",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.8664648162079472,
+        "y0": 0.09074840306420147,
+        "x1": 0.9337225090967466,
+        "y1": 0.10501904199441456
+      },
+      "ref_page": 0,
+      "gen_page": 1,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "Master of Science in Information Systems",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05505877670792204,
+        "y0": 0.06463673068560924,
+        "x1": 0.33541125006295325,
+        "y1": 0.07850293776056513
+      },
+      "ref_page": 0,
+      "gen_page": 1,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    },
+    {
+      "ref_text": "",
+      "gen_text": "University of Mumbai, Mumbai, India",
+      "ref_bbox": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      "gen_bbox": {
+        "x0": 0.05266384767198832,
+        "y0": 0.09065953845173086,
+        "x1": 0.3164504894222779,
+        "y1": 0.10451042149194698
+      },
+      "ref_page": 0,
+      "gen_page": 1,
+      "diff_type": "extra",
+      "confidence": 1.0,
+      "is_heading_like": false,
+      "has_numbering": false,
+      "position_drift": null,
+      "ref_block_type": "Text",
+      "gen_block_type": "Title"
+    }
+  ]
+}
