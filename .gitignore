@@ -28,3 +28,7 @@ kaggle_export/**/*.zip
 # Local agent/memory caches
 .config-mempack-*/
 .mempack_data_*/
+
+# Keep only the repo-scoped mempack policy file
+.mempack/*
+!.mempack/MEMORY.md
