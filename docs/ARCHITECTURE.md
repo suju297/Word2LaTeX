@@ -7,21 +7,27 @@ All diagrams use color/styling so responsibilities and trust boundaries are easy
 
 ```mermaid
 flowchart LR
-    user["User<br/>(Uploads DOCX, downloads ZIP)"]
-    maintainer["Maintainer / Developer<br/>(Operates services)"]
+    user["User<br/>Uploads DOCX and downloads ZIP"]
+    maintainer["Maintainer<br/>Operates services"]
 
-    system["Word-to-LaTeX Platform<br/>DOCX -> LaTeX conversion service"]
+    system["Word-to-LaTeX Platform<br/>DOCX to LaTeX conversion service"]
 
-    office["LibreOffice / soffice<br/>(Reference PDF generation)"]
-    gemini["Gemini API<br/>(Optional enhancement)"]
-    localLlm["Local GGUF Model<br/>(Optional routing/classification)"]
+    office["LibreOffice / soffice<br/>Reference PDF generation"]
+    gemini["Gemini API<br/>Optional enhancement"]
+    localLlm["Local GGUF Model<br/>Optional routing and classification"]
 
-    user -->|Upload DOCX, get ZIP/JSON| system
-    maintainer -->|Configure + deploy| system
+    user -->|Request flow| system
+    maintainer -->|Operations flow| system
 
-    system -->|Convert DOCX to PDF (optional)| office
-    system -->|LLM prompt/response (optional)| gemini
-    system -->|Inference (optional)| localLlm
+    system -->|Reference PDF flow| office
+    system -->|AI enhancement flow| gemini
+    system -->|LLM routing flow| localLlm
+
+    linkStyle 0 stroke:#F59E0B,stroke-width:3px;
+    linkStyle 1 stroke:#64748B,stroke-width:3px;
+    linkStyle 2 stroke:#0EA5A6,stroke-width:3px;
+    linkStyle 3 stroke:#8B5CF6,stroke-width:3px;
+    linkStyle 4 stroke:#0284C7,stroke-width:3px;
 
     classDef actor fill:#FFE6C9,stroke:#D97706,color:#7C2D12,stroke-width:2px;
     classDef system fill:#DBEAFE,stroke:#2563EB,color:#1E3A8A,stroke-width:2.5px;
@@ -64,8 +70,8 @@ flowchart TB
       gemini["Gemini API"]
     end
 
-    nextUi --> app
-    browserUi --> app
+    nextUi --> convApi
+    browserUi --> webApi
 
     app --> convApi
     app --> webApi
@@ -80,6 +86,19 @@ flowchart TB
     svc -."ref PDF generation".-> soffice
     svc -."LLM routing".-> local
     svc -."AI enhancement".-> gemini
+
+    linkStyle 0 stroke:#F59E0B,stroke-width:3px;
+    linkStyle 1 stroke:#F59E0B,stroke-width:3px;
+    linkStyle 2 stroke:#2563EB,stroke-width:3px;
+    linkStyle 3 stroke:#2563EB,stroke-width:3px;
+    linkStyle 4 stroke:#2563EB,stroke-width:3px;
+    linkStyle 5 stroke:#D97706,stroke-width:3px;
+    linkStyle 6 stroke:#D97706,stroke-width:3px;
+    linkStyle 7 stroke:#16A34A,stroke-width:3px;
+    linkStyle 8 stroke:#9333EA,stroke-width:3px;
+    linkStyle 9 stroke:#0EA5A6,stroke-width:3px,stroke-dasharray:6 4;
+    linkStyle 10 stroke:#0284C7,stroke-width:3px,stroke-dasharray:6 4;
+    linkStyle 11 stroke:#8B5CF6,stroke-width:3px,stroke-dasharray:6 4;
 
     classDef client fill:#FEF3C7,stroke:#D97706,color:#78350F,stroke-width:2px;
     classDef api fill:#DBEAFE,stroke:#2563EB,color:#1E3A8A,stroke-width:2px;
@@ -96,28 +115,41 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    request["POST /v1/convert<br/>(docx, ref_pdf?, options_json?)"]
+    request["POST /v1/convert<br/>docx, ref_pdf, options_json"]
 
-    options["parse_options()<br/>(guarded by ALLOW_USER_OPTIONS)"]
+    options["parse_options()<br/>guarded by ALLOW_USER_OPTIONS"]
     limiter["enforce_rate_limit()"]
 
-    convertSvc["convert_document()<br/>(orchestration)"]
+    convertSvc["convert_document()<br/>orchestration"]
 
     parseDocx["parse_docx()"]
-    refPdf["generate_reference_pdf()<br/>(if ref_pdf missing)"]
-    analyze["analyze_document()<br/>(layout metrics)"]
-    applyProfile["apply_profile()<br/>(auto/manual/calibrated)"]
+    refPdf["generate_reference_pdf()<br/>if ref_pdf missing"]
+    analyze["analyze_document()<br/>layout metrics"]
+    applyProfile["apply_profile()<br/>auto, manual, calibrated"]
     headerFallback["apply_header_image_fallback()"]
     assignPolicy["decide_policy() per block"]
     render["dynamic_generate() or generate_latex()"]
-    package["zip_directory(output/)<br/>-> wordtolatex_output.zip"]
+    package["zip_directory(output)<br/>to wordtolatex_output.zip"]
 
-    response["FileResponse (ZIP)<br/>or ConversionResponse (JSON)"]
+    response["ZIP or JSON response"]
 
     request --> options --> limiter --> convertSvc
     convertSvc --> parseDocx
     parseDocx --> refPdf
     refPdf --> analyze --> applyProfile --> headerFallback --> assignPolicy --> render --> package --> response
+
+    linkStyle 0 stroke:#F59E0B,stroke-width:3px;
+    linkStyle 1 stroke:#D97706,stroke-width:3px;
+    linkStyle 2 stroke:#2563EB,stroke-width:3px;
+    linkStyle 3 stroke:#16A34A,stroke-width:3px;
+    linkStyle 4 stroke:#16A34A,stroke-width:3px;
+    linkStyle 5 stroke:#16A34A,stroke-width:3px;
+    linkStyle 6 stroke:#16A34A,stroke-width:3px;
+    linkStyle 7 stroke:#16A34A,stroke-width:3px;
+    linkStyle 8 stroke:#16A34A,stroke-width:3px;
+    linkStyle 9 stroke:#16A34A,stroke-width:3px;
+    linkStyle 10 stroke:#16A34A,stroke-width:3px;
+    linkStyle 11 stroke:#4F46E5,stroke-width:3px;
 
     classDef ingress fill:#FFEDD5,stroke:#EA580C,color:#7C2D12,stroke-width:2px;
     classDef guard fill:#FDE68A,stroke:#CA8A04,color:#713F12,stroke-width:2px;
